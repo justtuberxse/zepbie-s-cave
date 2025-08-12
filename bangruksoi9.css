@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Sarabun:wght@400;700&display=swap');
+
+#justz { position: relative; }
+#justz * { box-sizing: border-box; }
+
+#justz a[href="https://discord.com/users/982510965335683134/"] {
+    height: 12px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#justz a[href="https://discord.com/users/982510965335683134/"] ~ div:first-child { position: relative; }
+  
+#justz::after {
+    display: block;
+    content: "tuberose";
+    font-family: 'Josefin Sans';
+    font-size: x-small;
+    color: #313131 !important;
+    width: fit-content;
+    margin: auto;
+}
+  
+#justz:hover::after { content: "justtuberose"; }
+
+#brk {
+    width:var(--container-width);
+    height:auto;
+    background: var(--background);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    margin: auto;
+    font-family: var(--body-font);
+    color: var(--text);
+
+}
+
+#brk .btopbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: var(--accent-font);
+}
+#brk .btopbar .acc{
+    font-size: medium;
+    letter-spacing: 1;
+}
+#brk .thpb{
+    width: 420px;
+    height: 150px;
+    background: var(--bgaac);
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    margin: auto;
+    display:flex ;
+    gap: 10px;
+    padding: 10px;
+}
+#brk .thp{
+    width: 130px;
+    height: 130px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+#brk .name{
+    margin: 20px;
+    font-size: small;
+    text-transform: lowercase;
+    font-weight: bold;
+
+}
+#brk .tagb{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0 20px;
+}
+#brk .tagb .tag{
+    width: fit-content;
+    padding: 2px 20px 5px;
+    color: var(--text);
+    box-shadow: 0 0 6px #d8d8d8;
+    border-radius: 25px;
+    text-align: center;
+    font-size: x-small;
+}
+#brk .tagb .tag:hover{
+    color: #f0f0f0;
+    box-shadow: 0 0 6px #d8d8d8;
+    border-radius: 25px;
+    text-align: center;
+    font-size: x-small;
+    background: var(--accent);
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+#brk .bbottom{
+    border-top: 1px solid var(--border);
+    padding-top: 10px;
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+#brk .bbottom span{
+    margin-left: 20px;
+    font-size: x-small;
+    font-family: var(--accent-font);
+    color: var(--accent-text);
+}
+#brk .icon{
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+}
+#brk i{
+    color: rgb(153 153 153);
+}
+#brk i:hover{
+    color:var(--accent);
+    transition: all 0.3s ease;
+}
+#brk .brole{
+   padding: 20px;
+    background: var(--bgrole);
+    margin: 20px;
+    color: var(--text);
+    text-align: justify;
+    font-family: 'Sarabun';
+    line-height: 1.5;
+        border-radius: 5px;
+}
