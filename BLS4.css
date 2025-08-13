@@ -1,0 +1,153 @@
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Sarabun:wght@400;700&display=swap');
+
+#bls4 {
+    margin: 1vw 3vw;
+    height: auto;
+    background: var(--blbg);
+    position: relative;
+    color: var(--text);
+    font-family: 'Sarabun', 'Josefin Sans';
+}
+.b4body{
+    width: 90%;
+background: var(--bd);
+margin: auto;
+    padding-bottom: 2vw;}
+
+
+.b4t { 
+    height: 50px;
+    background: var(--tbbg);
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 4px #3333332b;
+    margin: auto;
+}  
+ .b4t  .icont {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.b4t  .blrt {
+    font-family: var(--accent-font);
+    text-transform: uppercase;
+    font-size: small;
+}
+#bls4 header {
+    display: flex;
+    position: relative;
+    background:var(--blgd), var(--bl4hd);
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#bls4 nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    gap: 2vw;
+    font-size: 3vw;
+}
+#bls4 nav li {
+    font-size: calc(10% + 10px);
+    font-weight: 500;
+    color: var(--accent-nav);
+    list-style: none;
+    text-decoration: none;
+}
+#bls4 nav a {
+    text-decoration: none;
+    color: var(--nav-links);
+    position: relative;
+}
+#bls4 nav a:hover {
+    color: var(--linkshover);
+    transition: all .3s ease-in-out;
+
+} 
+#bls4 nav span {
+    font-size: 1vw;
+    font-weight: 700;
+    color: var(--accent-clr1);
+    font-family: "DM Serif Display", serif;
+    font-style: normal;
+    text-decoration: underline solid 0.2vw var(--span);
+    text-transform: uppercase;
+}
+#bls4 section {
+    display: flex;
+    gap: 1.3vw;
+    width: 90%;
+    margin: 3vw auto;
+}
+.blin{
+        width: 40%;
+        padding: 2vw;
+        text-align: justify;
+}
+.blin h1{
+text-transform: uppercase;
+font-family: "DM Serif Display", serif;
+border-bottom: 1px solid var(--text);
+padding-bottom: 1vw;
+}
+.blin h4{
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: normal;
+    font-size: small;
+}
+.blilus{
+    width: 60%;
+        position: relative;
+}
+.blp1 {
+    width: 350px;
+    height: 474px;
+    background: var(--blp1);
+    padding: 10px 30px;
+    box-shadow: -9px 6px 16px 0px #0000005c;
+    position: absolute;
+    z-index: 2;
+}
+.blp1 .img {
+    width: 100%;
+    height: 100%;
+    background: var(--blimg);
+}
+.blp2 {
+    box-shadow: -9px 6px 16px 0px #0000005c;
+    position: absolute;
+    z-index: 1;
+    width: 360px;
+    height: 450px;
+    background: var(--blp2);
+    left: 300px;
+    top: 50px;
+}
+.bldec {
+    position: absolute;
+    z-index: 0;
+    width: 350;
+    height: 400px;
+    background: var(--bldec);
+    right: -100px;
+    bottom: 0;
+}
+/*----mobie-----*/
+
+@media screen and (max-width: 1050px) {
+#bls4 header {height: 10rem;}
+.b4t .icont,.b4t .blrt , #bls4 nav a ,.blin h1,.blin h4 ,.blin {font-size: xx-small;}
+.blp1{width: 150px;height: 174px;padding: 10px 15px;box-shadow: -6px 4px 16px 0px #0000005c;top: 50px;}
+.blp2{width: 160px;height: 200px;left: 100px;top: 70px;box-shadow: -6px 6px 8px 0px #0000005c;}
+.bldec { width: 150;height: 280px;right: -70; bottom: 0;}
+}
+
+
