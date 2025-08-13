@@ -14,8 +14,7 @@ margin: auto;
     padding-bottom: 2vw;}
 
 
-.b4t { 
-    height: 50px;
+.b4t {
     background: var(--tbbg);
     display: flex;
     padding: 20px 40px;
@@ -23,7 +22,7 @@ margin: auto;
     align-items: center;
     box-shadow: 0 5px 4px #3333332b;
     margin: auto;
-}  
+}
  .b4t  .icont {
     display: flex;
     gap: 10px;
@@ -107,10 +106,10 @@ padding-bottom: 1vw;
         position: relative;
 }
 .blp1 {
-    width: 350px;
-    height: 474px;
+    width: 250px;
+    height: 374px;
     background: var(--blp1);
-    padding: 10px 30px;
+    padding: 15px 30px;
     box-shadow: -9px 6px 16px 0px #0000005c;
     position: absolute;
     z-index: 2;
@@ -127,16 +126,16 @@ padding-bottom: 1vw;
     width: 360px;
     height: 450px;
     background: var(--blp2);
-    left: 300px;
-    top: 50px;
+    left: 200px;
+    top: 100px;
 }
 .bldec {
     position: absolute;
     z-index: 0;
-    width: 350;
-    height: 400px;
+    width: var(--decw);
+    height: var(--dech);
     background: var(--bldec);
-    right: -100px;
+    left: 0;
     bottom: 0;
 }
 /*----mobie-----*/
@@ -148,5 +147,3 @@ padding-bottom: 1vw;
 .blp2{width: 160px;height: 200px;left: 100px;top: 70px;box-shadow: -6px 6px 8px 0px #0000005c;}
 .bldec { width: 150;height: 280px;right: -70; bottom: 0;}
 }
-
-
