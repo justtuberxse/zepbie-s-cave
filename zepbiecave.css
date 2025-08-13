@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kirang+Haerang&family=Spicy+Rice&display=swap');
+@font-face {
+  font-family: "lemon";
+  src: url("https://dl.dropbox.com/scl/fi/1p0cp7mvzht6w1wsd4u5n/lemon.ttf?rlkey=ef0e6qc9fa77x96uyde1onguy&st=66hpt6tg&dl=0");
+}
+
+#zbc{
+    background: #D2DBEC;
+    border: 2px solid #447bba26;
+    padding: 1rem;
+    position: relative;
+    margin: 20px auto;
+        font-family: "lemon";
+        cursor: url(http://www.rw-designer.com/cursor-view/136554.png), default!important;
+        color: #48678E;
+}
+#zbc::selection {
+  background-color: #FBECD1;
+  color: #48678E;
+}
+.hbar {
+    width: auto;
+    background: var(--hbar) bottom center / cover no-repeat;
+    padding: 20px;
+    text-transform: uppercase;
+    color: #D2DBEC;
+    margin: auto;
+    font-weight: bold;
+    border: #a8bbde 5px solid;
+    border-radius: 5px;
+}
+.zbcontent {
+    width: auto;
+    background: #fafafa;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,  1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 15px;
+    padding: 20px;
+    margin: auto;
+    outline-offset: -20px;
+    outline: #326fae70 3px dashed;
+    border-radius: 5px;
+}
+
+.entrycave {
+grid-area: 1 / 1 / 3 / 2; 
+margin: 2rem;
+position: relative;
+}
+@media screen and (max-width: 1150px) {
+    .entrycave{
+            flex: 1;
+    }
+}
+.caveowner{
+    width: 300px;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.cavetab1 {
+    margin: 25px auto 15px auto;
+    background: #75beeb;
+    border-radius: 5px;
+    text-align: center;
+    color: #fafafa;
+    padding: 10px;
+    font-size: 1.3rem;
+    line-height: 2.5;
+}
+.cavetab2 {
+    margin: 25px auto 15px auto;
+    background: #FBECD1;
+    border-radius: 5px;
+    text-align: center;
+    color: #48678E;
+    padding: 10px;
+    font-size: 1.3rem;
+    line-height: 2.5;
+}
+#zbc h1 {
+color: #3980bb;
+text-transform: uppercase;
+text-decoration: wavy;
+}
+#zbc h2 {
+font-size: medium;
+color: #3980bb;
+text-transform: uppercase;
+text-decoration: wavy;
+}
+.zbcontent img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+
+.meetingcave { grid-area: 1 / 2 / 2 / 3;
+    padding: 20px;
+color: #3777B7;}
+#zbc h3 {
+    font-family: "Kirang Haerang", "lemon";
+    font-size: 5rem;
+    text-align: center;
+    color: #75beeb;
+    letter-spacing: 10px;
+    margin-block-end: 0.2rem
+}
+   
+@media screen and (max-width: 1150px) {
+    #zbc h3{
+           margin-block-start: 0.2em;
+    }
+}
+#zbc a{
+    text-decoration: none;
+    color: #fc2e8e;
+    cursor: url(http://www.rw-designer.com/cursor-view/136556.png),  pointer!important;
+}
+#zbc a:hover{
+    transition:all 0.8s ease;
+    color: #5293C3;
+}
+.ratecave {
+    grid-area: 2 / 2 / 3 / 3;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.5rem;
+}
+@media screen and (max-width: 1150px) {
+    .ratecave{
+           grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+           margin: 20px;
+    }
+}
+    
+.donate {
+    font-size: small;
+    text-align: justify;
+}
+
+.donate_icon{
+    width: 40px;
+    aspect-ratio: 1/1;
+    background: url(https://64.media.tumblr.com/b735d7ce2e6caf25bb4418a7a0a394e8/437132e9ef530ad8-be/s1280x1920/357808502cefe9de3d37380dc08cdf1f75ee549e.pnj) center/cover no-repeat;
+}
+.donate_name {
+    color: #5293C3;
+    padding: 8px 10px 8px 26px;
+    margin: -2px 0px 0px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.donate_item{
+    width: 150px;
+    aspect-ratio: 1/1;
+    margin: auto;
+}
+@media screen and (max-width: 1150px) {
+    .donate_item{width: 80px;}
+    .donate_icon{width: 20px;}
+    .donate_name {font-size: x-small;;}
+}
+#zbc:after{
+    content: "\ec41";
+    font-family: 'cappuccicons','Josefin Sans';
+    font-size: x-small;
+    color: #82cde5 !important;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: -25px;
+    left: 0;
+  }
+  
+  .zbcontent_code {
+    width: auto;
+    background: #fafafa;
+    margin: auto;
+    outline-offset: -20px;
+    outline: #326fae70 3px dashed;
+    border-radius: 5px;
+    padding: 50px 0;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows:500px 1fr 0.5fr ;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+  }
+.doll { grid-area: 1 / 1 / 2 / 3;     
+    margin: auto;text-align: center;}
+.div3 { grid-area: 2 / 2 / 3 / 3; }
+
+
+.codepv{ grid-area: 2 / 1 / 3 / 2;  max-width: 70%;margin: auto;}
+.zcodein{width: 80%;margin:20px auto;text-align: left;filter: invert(1) brightness(1.2);}
+.zcodedis {
+    padding: 20px;
+    color: #3777B7;
+    grid-area: 3 / 1 / 4 / 3;
+    width: 80%;
+    margin: 0 auto;
+    height: fit-content;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1150px) {
+    .zbcontent,.zbcontent_code{
+            display: flex;
+        flex-direction: column;
+    }
+}
+#zbc:hover::after { content: "justtuberose"; }
