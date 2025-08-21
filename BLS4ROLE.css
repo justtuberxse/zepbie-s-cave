@@ -88,6 +88,11 @@ font-style: italic;
     margin: 40px 0;
     line-height: 2;
 }
+.brrb span {
+        border-left: none;
+    padding-left: 0;
+    margin:0;
+}
 .brrsec span {
     border-left: 1px solid var(--bordernote);
     padding-left: 5%;
