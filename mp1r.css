@@ -1,0 +1,393 @@
+
+#mp1r{
+    font-family: 'DM Sans', 'IBM Plex Sans Thai';
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--text-clr);
+    background-color: var(--background-clr);
+    margin: 0 auto;
+}
+#mp1r #container {
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#mp1r h1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#mp1r h2 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#mp1r h3 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#mp1r * {
+    box-sizing: border-box;
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+#mp1r nav span {
+    font-size: 1vw;
+    font-weight: 700;
+    color: var(--accent-clr1);
+    font-family: "DM Serif Display", serif;
+    font-style: normal;  
+    text-decoration: underline solid 0.2vw var(--accent-clr4); 
+}
+
+
+#mp1r nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    list-style-type: none;
+}
+
+#mp1r nav li {
+    font-size: calc(10% + 10px);
+    font-weight: 500;
+    color: var(--accent-clr1);
+    list-style: none;
+    text-decoration: none;
+}
+
+#mp1r nav a {
+	text-decoration: none;
+	color: var(--nav-links);
+  position: relative;
+}
+
+#mp1r nav a::before {
+  content: '';
+  background-color: var(--accent-clr4);
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  width: 100%;
+  height: 4px;
+  z-index: -1;
+  transition: all .3s ease-in-out;
+}
+
+#mp1r nav a:hover {
+    color: var(--accent-clr1);
+    transition: all .3s ease-in-out;
+}
+
+#mp1r nav a:hover::before {
+  bottom: 0;
+  height: 100%;
+}
+
+#mp1r header {
+    display: flex;
+    position: relative;
+    background-image: var(--header-image);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+}
+
+#mp1r  header h1 {
+    color: var(--header-titles);
+    font-size: 4rem;
+}
+
+#mp1r header h1 span {
+    font-style: italic;
+    font-weight: 400;
+}
+
+#mp1r header h2 {
+    position: relative;
+    color: var(--header-titles);
+    font-size: 2rem;
+    font-style: italic;
+    letter-spacing: 5px;
+}
+
+#mp1r header h2::after {
+    content: "";
+    display: inline-block;
+    width: 200px;
+    height: 2px;
+    background-color: var(--accent-clr1);
+    margin: .5rem;
+}
+
+#mp1r .header-titles {
+    position: absolute;
+    padding: 1rem;
+    margin-left: 10%;
+    margin-top: 20%;
+    border-left: 8px solid var(--accent-clr1);
+}
+#mp1r #container ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    border-radius: 6px
+}
+
+#mp1r #container ::-webkit-scrollbar-track {
+    background-color: var(--background-clr)
+}
+
+#mp1r #container ::-webkit-scrollbar-thumb {
+    background: var(--accent-clr1);
+    border-radius: 10px
+}
+#mp1r .h-btn {
+    position: absolute;
+    background-color: var(--accent-clr1);
+    color: var(--header-titles);
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    transition: all .3s ease-in-out;
+    top:70%;
+    left:40%;
+}
+
+#mp1r .h-btn:hover {
+    background-color: var(--accent-clr4);
+    transition: all .3s ease-in-out;
+}
+
+#mp1r .h-subtitle {
+    position: absolute;
+    color: var(--header-titles);
+    font-size: .9rem;
+    font-style: italic;
+    bottom: calc(0px + 90px);
+    margin-left: 13%;
+    max-width: 350px;
+    word-break: break-all;
+    text-align: justify;
+    text-shadow: 0 0 4px black;
+}
+
+#mp1r .main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#mp1r section {
+    padding: 1rem;
+    margin: 1rem;
+
+}
+
+#mp1r section:nth-child(even) {
+    background-color: var(--accent-clr1);
+}
+#mp1r .about {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#mp1r .about img {
+    padding: 1rem;
+    border: 1px solid var(--main-border-clr);
+    aspect-ratio: 1 / 0;
+    width: 200px;
+}
+
+#mp1r .aboutme {
+    font-weight: 500;
+    color: var(--text-clr);
+    max-width: 500px;
+    text-align: justify;
+    line-height: 1.6;
+    padding: 1rem;
+    border-right: 4px solid var(--accent-clr1);
+}
+
+#mp1r .btn {
+    display: inline-block;
+    background-color: var(--accent-clr2);
+    color: var(--article-clr);
+    padding: .3rem 1rem;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .7rem;
+    letter-spacing: 2px;
+    transition: all .3s ease-in-out;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+#mp1r .btn:hover {
+    background-color: var(--accent-clr4);
+    transition: all .3s ease-in-out;
+}
+
+#mp1r .pattern {
+    position: absolute;
+    background: repeating-linear-gradient(135deg, var(--accent-clr1) 0, var(--accent-clr1) 10%, transparent 0, transparent 50%);
+    background-size: 2em 2em;
+    opacity: 0.35;
+    width: 300px;
+    height: 250px;
+    margin: 1rem;
+    left: 17%;
+    z-index: -1;
+}
+
+#mp1r .about h2 {
+    font-size: 1.2rem;
+    color: var(--article-clr);
+    font-weight: 700;
+    font-style: italic;
+    margin: 1rem;
+    background-color: var(--accent-clr1);
+    border-radius: 2rem;
+    padding: .5rem 1rem;
+}
+
+#mp1r .works {
+    align-items: center;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, minmax(130px, 1fr));
+}
+
+#mp1r .workspace {
+    max-width: 560px;
+    padding: .2rem;
+}
+
+#mp1r .workspace img {
+    padding: .3rem;
+    border: 1px solid var(--main-border-clr);
+    margin: .3rem;
+    cursor: pointer;
+    width: 160px;
+    height: 90px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#mp1r .workspace:has(img:hover) img:not(:hover) {
+    opacity: .6;
+    transition: all .3s ease-in-out;
+}
+
+#mp1r .workspace h2 {
+    font-size: 1.2rem;
+    color: var(--article-clr);
+    font-weight: 700;
+    font-style: italic;
+    margin: 1rem;
+    text-transform: uppercase;
+    text-decoration: underline solid 4px var(--article-clr);
+}
+
+#mp1r .workspace h2:first-letter {
+    color: var(--accent-clr4);
+    font-size:1.5rem;
+}
+
+#mp1r .testimonial-title h2 {
+    font-size: 1.4rem;
+    margin: 0 auto;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: underline solid 4px var(--accent-clr1);
+    color: var(--accent-clr5);
+}
+
+#mp1r .testimonials {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#mp1r .testimonial {
+    position: relative;
+    max-width: 300px;
+    margin: 1rem;
+    border: 1px solid var(--main-border-clr);
+    border-radius: 1rem;
+    background-color: var(--article-clr);
+    box-shadow: 0 0 80px rgba(0,0,0,.2);
+}
+
+#mp1r .testimonial .ph {
+    font-size: 1.8rem;
+    color: var(--article-clr);
+    margin: .5rem;
+    position: absolute;
+    padding: .4rem;
+    top: -5%;
+    right: -8%;
+    background-color: var(--accent-clr1);
+    border-radius: 50%;
+}
+
+#mp1r .comment {
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+#mp1r .client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: .4rem;
+    margin-top: 1rem;
+    background-color: var(--accent-clr4);
+    color: var(--article-clr);
+    border-radius: 0 0 1rem 1rem;
+}
+
+#mp1r .client img {
+    border: 1px solid var(--main-border-clr);
+    border-radius: 50%;
+    margin: .5rem;
+}
+
+#mp1r .client a {
+    color: var(--accent-clr3);
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: underline solid 4px var(--accent-clr1);
+}
+
+#mp1r .client a:hover {
+    color: var(--article-clr);
+}
