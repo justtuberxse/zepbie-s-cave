@@ -67,7 +67,7 @@
 }
 .brtd{
     text-align: center;
-    font-family: "DM Serif Display", serif;
+    font-family: var(--namefont);
 }
 .brtd h5 {
     font-size: smaller;
@@ -77,7 +77,7 @@
     width: fit-content;
     margin: auto;
     border-radius: 5px;
-    font-family: 'Sarabun', 'Josefin Sans';
+    font-family: var(--rolefont);
     font-weight: normal;
 }
 .brtd h1{
