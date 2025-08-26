@@ -2,7 +2,7 @@
 
 #b4rl {
     width: 800px;
-    font-family: 'Sarabun', 'Josefin Sans';
+    font-family:var(--rolefont);
     background: var(--brg);
     display: flex;
     margin: auto;
