@@ -1,0 +1,92 @@
+#__drown{
+    width: 650px;
+    background: #1e1e1e;
+    padding:4px;
+    border:1px solid #161616;
+    border-radius: 5px;
+color:#bbbbbb;
+    margin: 0 auto;
+}
+#__drown .__dbg{
+    background:#161616;
+    padding:10px;
+    border:1px solid #161616;
+    border-radius: 5px;
+}
+    #__drown .__dbg2{
+        background:#1e1e1e;
+        padding:10px;
+        border:1px solid #161616;
+        border-radius: 5px;
+        padding:20px;
+    }
+    #__drown .__dkanji{
+        font-family: Noto Serif JP;
+        width: 40%;
+        font-size: 30px;
+        text-align: center;
+        letter-spacing: 1.5px;
+        margin: 0 auto;
+        margin-top:110px;
+        font-style: italic;
+        text-transform: lowercase;
+        word-spacing: 5px;
+        line-height: 125%;
+        text-shadow: 0px 0px 1px #954141;
+        color: #954141;
+    }
+    #__drown .__dqt{
+        width: 40%;
+        font-family: playfair display;
+        font-size: 9px;
+        text-align: center;
+        letter-spacing: 1.5px;
+        margin: 0 auto;
+        margin-top:80px;
+        font-weight: 700;
+        font-style: italic;
+        text-transform: lowercase;
+        word-spacing: 5px;
+        line-height: 175%;
+    }
+    #__drown .__dtext{
+        font-family: times;
+        font-size:15px;
+        text-align:justify;
+        padding: 80px;
+        line-height: 130%;
+        hyphens: auto;
+    }
+    #__drown .__dtext accent{
+        color: #d18448;
+    }
+    #__drown .__dft{
+        padding: 10px 80px 80px 80px;
+        font-family: times;
+        font-size: 14px;
+        margin: 0 auto;
+        font-style:italic;
+    }
+    #__drown .__dft b{
+        font-weight:600;
+        font-size: 18px;
+    }
+    #__drown .__dft i{
+        text-transform:lowercase;
+        font-style:normal;
+        font-size:9px;
+        letter-spacing:2px;
+        font-family: playfair display;
+    }
+    #__drown .__dplc{
+        text-transform:uppercase;
+        font-style:normal;
+        font-size:7px;
+        font-family: sans-serif;
+        background: #954141;
+        letter-spacing:1px;
+        font-weight:600;
+        border-radius:5px;
+        padding:4px 10px;
+        color:#161616;
+    }

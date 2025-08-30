@@ -1,0 +1,86 @@
+#delcodebg {
+    max-width: 600px;
+    background: url(https://i.imgur.com/aS0CoAt.png) center/50% repeat;
+    border-radius: 5px;
+    padding:20px ;
+    margin:20px auto
+}
+.shadowbg {
+    max-width: 600px;
+    height: 180px;
+    background-color:#2f3c59;
+    border-radius: 5px;
+    margin:10px auto 0px;
+    transform: rotate(2deg);
+}
+.del_header {
+    max-width: 600px;
+    height: 180px;
+    background: url(https://i.imgur.com/RANi88s.png) center/cover;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    margin: -11.5rem auto 0;
+    transform: rotate(-1deg);
+}
+.del_acce{
+    display: flex;
+    max-width: 500px;
+    height: auto;
+    margin: -20px auto 0px;
+    transform: rotate(0deg);
+}
+.del_line {
+    width: 10px;
+    height: 50px;
+    background-color: #8eabec;
+    border: 4px solid #fff;
+    border-radius: 100px;
+    margin: auto;
+    margin-right: 20px;
+
+}
+.del_line2{
+    width: 10px;
+    height: 50px;
+    background-color: #8eabec;
+    border: 4px solid #fff;
+    border-radius: 100px;
+    margin: 0px auto 0px;
+    margin-right: 280px
+}
+.del_box{
+    max-width: 590px;
+    height: auto;
+    background-color: #eaecf9;
+    border-radius: 5px;
+    padding: 5px;
+    margin: -18px auto 10px;
+}
+.del_tb {
+    max-width: 550px;
+    height: auto;
+    font-size: 14px;
+    color: #31314b;
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+    border: 2px dashed #bfc1d1;
+    padding: 15px;
+    margin: 1px auto 5px;
+}
+.del_boxheart{
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 100%;
+}
+.del_heart {
+    max-width: 100%;
+    background: #fff;
+    font-size: 14px;
+    color: #31314b;
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0px 10px;
+
+}

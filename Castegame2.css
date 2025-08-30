@@ -1,0 +1,93 @@
+#Castegame2{
+    width: 100%;
+    height: auto;
+    background: black;
+    margin: auto;
+    padding: 60px 0;
+}
+
+#Castegame2 .cbody{
+    width: calc(100% - 100px);
+    height: auto;
+    background: #dfdfdf;
+    border-radius: 15px;
+    border: 2px solid #cdcdcd;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+#Castegame2 .reg{
+    width: 100%;
+    height: auto;
+    background: #111;
+    border-radius: 5px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+#Castegame2 .record{
+    width: 80%;
+    color: #fafafa;
+    font-size: 16px;
+    font-family: 'IBM Plex Mono', monospace;
+    margin: auto;
+}
+#Castegame2 .headline {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 50px;
+}
+#Castegame2 .info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(11.25rem, 100%), 1fr));
+    margin: 50px auto;
+    width: 100%;
+    height: calc(100% + 250px);
+    gap: 20px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+#Castegame2 .FaceClaim{
+    width: 100%;
+    height: auto;
+}
+#Castegame2 .FaceClaim .headline {
+    text-align: left;
+    font-size: 1.7rem;
+    padding-bottom: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+}
+#Castegame2 .FaceClaim .pic{
+    width: 100%;
+    height: 400px;
+    margin: 20px auto;
+}
+#Castegame2 .General {
+width: 100%;
+height: auto;
+font-family: 'Bai Jamjuree', sans-serif;
+text-align: justify;
+padding: 0 20px;
+font-size: 16px;
+}
+#Castegame2 .General .headline {
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: left;
+    font-size: 1.7rem;
+    padding-bottom: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+}
+
+#Castegame2 .headline2 {
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: left;
+    font-size: 1.7rem;
+    padding-bottom: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #fafafa;
+    margin: 50px 0;
+    text-transform: uppercase;
+}

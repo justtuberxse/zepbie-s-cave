@@ -1,0 +1,202 @@
+
+/* For desktop: */
+
+#srr_profile{
+    width: 800px;
+    height: 800px;
+    background: var(--mainbg);
+    padding: 30px;
+    margin: auto;
+    position: relative;
+    color: #333333;
+}
+.trp_box{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    z-index: 5;
+    filter: var(--bs);
+}
+.trp_box img{
+    width: 150px;
+    height: 170px;
+    object-fit: cover;
+    border: 2px solid var(--trpb);
+}
+
+.mainpb{ 
+    width: 400px;
+    height: 480px;
+    z-index: 4;
+    position: absolute;
+    box-shadow: 0px 0px 18px #33333333;
+    left: 180px;
+    border-radius: 10px;
+}
+.top_box {
+    background: #f1f1f1;
+    width: auto;
+    padding: 5px 10px 5px 5px;
+    height: 30px;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top_box i{color:#bcbcbc;}
+
+.search_b {
+    background: var(--sabg);
+    width: 50%;
+    height: 25px;
+    border-radius: 8px;
+    border: 0.5px solid #33333333;
+    font-family:var(--mainfont);
+    padding: 0 10px;
+    color:var(--tpctext);
+}
+.mainpb  img{
+    width: 400px;
+    height: 440px;
+    object-fit: cover;
+    border-radius: 0 0 10px;
+}
+
+
+.secpb {
+    width: 400px;
+    height: 280px;
+    z-index: 3;
+    position: absolute;
+    box-shadow: 0px 0px 18px #33333333;
+    right: 30px;
+    top: 100px;
+    border-radius: 10px;
+}
+.secpb  img{
+    width: 400px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 0 0 10px;
+}
+
+.trdpb {
+    width: 450px;
+    height: 280px;
+    z-index: 8;
+    position: absolute;
+    box-shadow: 0px 0px 18px #33333333;
+    right: 50px;
+    bottom: 100px;
+    border-radius: 10px;
+    background: var(--sabg);
+}
+.trdpb .ttb{
+    width: auto;
+    height: 220px;
+    margin: 10px;
+    padding: 0 20px;
+    background: var(--trdbg);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.ttbhead { 
+    grid-area: 1 / 1 / 2 / 2; 
+    margin: auto;
+    
+}
+
+.ttbhead h1{
+    font-size: 48px;
+    font-family: var(--secfont);   
+}
+
+.ttbinfo {
+     grid-area: 2 / 1 / 3 / 2; 
+     width: auto;
+     line-height: 2.1;
+}
+
+
+.trdpbap { 
+    grid-area: 1 / 2 / 3 / 3; 
+    width: 150px;
+    height: 200px;
+    background: var(--trdpbap);
+    margin: auto;
+    border-radius: 50%;
+    border: var(--flaotb);
+}
+
+.ttb u {
+    width: fit-content;
+    padding: 1px 5px;
+    background: var(--flaotc);
+    border: var(--flaotb);
+    font-family:var(--mainfont);
+    text-decoration: none;
+    font-size: small;
+}
+
+.float_text{
+    width: fit-content;
+    padding: 5px;
+    background: var(--flaotc);
+    border: var(--flaotb);
+    z-index: 6;
+    position: absolute;
+    font-family:var(--mainfont);
+}
+.fg {
+    width: 300px;
+    height: 200px;
+    z-index: 6;
+    bottom: 80px;
+    left: 70;
+    position: absolute;
+}
+
+.fg .iconb{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconb img{   
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.iconb u{
+    font-weight: bold;
+    font-family: var(--mainfont);
+    color: var(--iconc);
+    font-size: x-small;
+    text-decoration: none;
+    border: none;
+    text-align: justify;
+}
+
+#srr_profile:after{
+    content: "\ec41";
+    font-family: 'cappuccicons','Josefin Sans';
+    font-size: x-small;
+    color: #bfd8af9f !important;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: -25px;
+    left: 0;
+  }
+  #srr_profile:hover::after { content: "justtuberose"; }

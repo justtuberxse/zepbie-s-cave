@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Ramitas';src:url('https://dl.dropbox.com/s/odq5n4mo8ycmagv/TT-Ramillas-Initials-Trial-Regular.woff')format('woff2'),url('https://dl.dropbox.com/s/odq5n4mo8ycmagv/TT-Ramillas-Initials-Trial-Regular.woff') format('woff'),url('https://dl.dropbox.com/s/isj3foxrnon6e9j/TT%20Ramillas%20Initials%20Trial%20Regular.otf')format('opentype');
+}
+
+#Leoric_rp{
+    width: 600px;background: #1e1e1e;
+    padding:4px;border:1px solid #161616;
+    border-radius: 5px;color:#e7e7e7;
+    margin: 0 auto;
+    position: relative;
+    }
+
+#Leoric_rp:after{
+        content: "\ec41";
+        font-family: 'cappuccicons','Josefin Sans';
+        font-size: x-small;
+        color: #7a8b6e9f !important;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        bottom: -25px;
+        left: 0;
+      }
+#Leoric_rp:hover::after { content: "justtuberose"; }
+#Leoric_rp .__dbg{
+background:#161616;
+ padding:10px;
+border:1px solid #161616;
+border-radius: 5px;
+}
+#Leoric_rp .__dbg2{
+background:#1e1e1e;
+padding:10px;
+border:1px solid #161616;
+border-radius: 5px;
+}
+#Leoric_rp .__ddlowert{
+width: 100%;
+margin:-10px;
+height: 300px;
+background-image: url("https://i.imgur.com/YoYJ93l.png");
+background-repeat: no-repeat;        background-position:left top;
+opacity:40%;
+}
+#Leoric_rp .__ddlowerb{
+width: 100%;
+margin-top:-25%;
+margin-bottom:-10px;
+height: 200px;
+background-image: url("https://i.imgur.com/5u3xD4h.png");
+background-repeat: no-repeat;
+background-position:right bottom -90px;
+opacity:80%;
+}
+#Leoric_rp .__dtitle{
+font-family:times new roman;
+font-style:italic;
+text-transform:uppercase;
+font-weight:900;
+font-size: 45px;line-height:80%;
+text-align:right;
+letter-spacing: -2px;
+width: 400px;
+margin-top: -30%;
+margin-left: 15%;}
+#Leoric_rp .__dtitle ct{
+color:var(--lraccent);
+}
+#Leoric_rp .__dsubtitle{
+font-family:times new roman;
+text-transform:uppercase;
+font-style:italic;
+font-size: 7px;
+line-height:80%;
+text-align:right;
+letter-spacing: 3px;
+margin-top:10px;
+color: var(--lraccent);
+}
+#Leoric_rp .__dbanner {
+width: 60%;
+height: 89px;
+margin: 0 auto;
+margin-top: 10%;
+overflow: hidden;
+line-height: 120%;
+text-align: justify;
+text-transform: uppercase;
+font-size: 8px;
+letter-spacing: 4px;
+font-style: italic;
+font-weight: 900;
+padding: 22px 40px;
+border-radius: 15px;
+color: #e7e7e7;
+background-blend-mode: hard-light;
+background-color: var(--lraccent);
+background-size: cover;
+background-position: center;
+}
+#Leoric_rp .__dtext{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size:medium;
+    width: 70%;
+    margin: 0 auto;
+    text-align:justify;
+    padding: 60px 0;
+    line-height: 2;
+    hyphens: auto;
+}
+#Leoric_rp .__ddt{
+    width:70%;
+    height:70px;
+    overflow:hidden;
+    text-align:right;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 14px;
+    line-height:140%;
+    margin: 0 auto;
+    font-style:italic;
+    }
+    #Leoric_rp .__ddt b{
+    font-weight:600;
+    font-size: 18px;
+    color:var(--lraccent);
+    }
+    #Leoric_rp .__ddt i{
+    text-transform:lowercase;
+    font-style:normal;
+    font-size:9px;
+    letter-spacing:2px;
+    font-family: times new roman;}
+    #Leoric_rp .__dplc{
+    text-transform:uppercase;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-style:normal;
+    font-size:7px;
+    background: var(--lraccent);
+    letter-spacing:1px;
+    font-weight:600;
+    border-radius:5px;
+    padding:4px 10px;
+    color:#161616;}
+    
+
+
+
+

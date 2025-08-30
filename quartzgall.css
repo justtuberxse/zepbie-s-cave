@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+    
+    #zg {
+        width: 100%;
+    height: 700px;
+    background-color: var(--BGcolour);
+    background-image: var(--BGimageURL);
+    background-size: var(--BGwallpaper);
+    background-attachment: fixed;
+    font-family: var(--mainfont), sans-serif;
+    position: relative;
+    }
+    
+    #zg  a { text-decoration: none; }
+    #zg p:first-child { margin-top: 0; }
+    #zg  p:last-child { margin-bottom: 0; }
+    #zg ::-webkit-scrollbar { width: 14px; }
+    #zg ::-webkit-scrollbar-track-piece { 
+        background-color: var(--contentBG);
+    }  
+    
+    #zg ::-webkit-scrollbar-thumb:vertical {
+        width: 6px;
+        border: 4px solid var(--contentBG);
+        background: var(--scrollbar);
+        border-radius: 100px;
+    }
+
+    
+    .maincon {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #main {
+        padding: 30px;
+        max-width: 820px;
+        width: 520px;
+        min-width: 320px;
+        background: #888;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: calc(50% - 300px); 
+        background-color: rgba(var(--translucent-border),0.3);
+        backdrop-filter: blur(2px);
+        border: 1px solid rgba(var(--translucent-border),0.6);
+    }
+    
+    
+
+    
+    .hd {
+        max-width: 820px;
+        width: 520px;
+        min-width: 320px;
+        height: 60px;
+        background-color: var(--contentBG);
+        overflow: hidden;
+    }
+    
+    .hd-left {
+        background-color: var(--hd-iconBG);
+        width: 90px;
+        height: 60px;
+        float: left;
+    }
+    
+    .hd-left-cov {
+        background-color: var(--contentBG);
+        width: 70px;
+        height: 70px;
+        margin: -5px 60px;
+        border-radius: 100px;
+    }
+    
+    .hd-icon {
+        position: absolute;
+        width: 30px;
+        margin: 20px;
+        line-height: 20px;
+        text-align: center;
+        font-size: 30px;
+        color: var(--hd-icon);
+    }
+    
+    .hd-icon:before {
+        content: var(--hd-icon-code);
+        font-family:'cappuccicons';
+    }
+    
+    .hd-nav {
+        display: flex;
+    }
+    
+    .hbtn {
+        font-size: 12px;
+        cursor: pointer;
+        margin: 20px 10px 20px 0;
+        line-height: 20px;
+        padding: 0 6px;
+        border-radius: 4px;
+        transition: 0.6s;
+        color: var(--nav-colour);
+    }
+    
+    .hbtn:hover {
+        color: var(--nav-hover-colour);
+        background-color: var(--nav-hover-BG);
+    }
+    
+    .hbtn-active {
+        color: var(--nav-active-colour);
+        background-color: var(--nav-active-BG);
+    }
+    
+    .hbtn-active:hover {
+        color: var(--nav-active-colour);
+        background-color: var(--nav-active-BG);
+    }
+    
+    .hpfp {
+        position: absolute;
+        margin: 15px 370px;
+        border-radius: 6px;
+        width: 30px;
+    }
+    
+
+    
+    .zgcontent {
+        border: 20px solid var(--windowBG);
+        background-color: var(--windowBG);
+        height: 300px;
+        overflow: hidden;
+    }
+    
+    .allviews {
+        transition: 0.6s ease-in-out;
+        width: 2000px;
+        overflow-y: auto;
+        overflow: hidden;
+    }
+    
+    .view {
+        float: left;
+        width: 500px;
+        height: 300px;
+        overflow: hidden;
+    }
+    
+
+    
+    .abt-layout {height: 300px;}
+    
+    .abt-basic {
+        width: 150px;
+        height: 100%;
+        float: left;
+        margin-right: 20px;
+    }
+    
+    .abt-photo {
+        background-image: var(--zgabt-photoURL);
+        background-size: cover;
+        background-position: center;
+        width: 150px;
+        height: 220px;
+        border-radius: 10px 10px 0 0;
+        display: block;
+    }
+    
+    .abt-pts {
+        background-color: var(--contentBG);
+        border-radius: 0 0 10px 10px;
+    }
+    
+    .abt-ptline {
+        padding: 3px 10px;
+        text-align: right;
+        font-size: 12px;
+        border-bottom: 1px solid var(--windowBG);
+        color: var(--txtcolour);
+    }
+    
+    .abt-pttitle {
+        position: relative;
+        height: 0;
+        text-align: left;
+        line-height: 17px;
+        font-family: nunito;
+        font-size: 8px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 1000;
+        color: var(--zgabt-label);
+    }
+    
+    .abt-bio {
+        width: 300px;
+        height: 260px;
+        overflow: hidden;
+        padding: 20px 10px 20px 20px;
+        background-color: var(--contentBG);
+        border-radius: 10px;
+    }
+    
+    .bio-graphy {
+        font-size: 12px;
+        line-height: 20px;
+        height: 260px;
+        overflow-y: auto;
+        padding-right: 10px;
+        text-align: justify;
+        color: var(--txtcolour);
+    }
+    
+    .bio-graphy:first-letter {
+        font-size: 40px;
+        float: left;
+        font-family: fredoka one;
+        color: var(--zgabt-hd);
+        margin: 10px 6px 0 0;
+        text-transform: uppercase;
+    }
+    
+    .bio-graphy blockquote {
+        background-color: var(--zgabt-blockquote-BG);
+        border: 1px solid var(--zgabt-blockquote-border);
+        border-radius: 10px;
+        margin: 0;
+        font-size: 10px;
+        line-height: 18px;
+        padding: 10px 15px;
+        color: var(--txtcolour);
+    }
+    
+    .bio-graphy blockquote:before {
+        content: "\ec2b";
+        font-family: "cappuccicons";
+        width: 0;
+        height: 0;
+        position: relative;
+        color: var(--zgabt-blockquote-quotationmarks);
+        margin: 0 8px 0 0;
+        font-size: 10px;
+    }
+    
+    .bio-graphy blockquote a { 
+        padding: 0;
+        background: transparent;
+    }
+    
+    .bio-graphy b,strong, .qna-block b,strong {
+        color: var(--zgabt-bold);
+    }
+    
+    .bio-graphy a, .qna-block a {
+        font-size: 8px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 1000;
+        padding: 3px 5px;
+        border-radius: 4px;
+        margin: 0 2px 0 2px;
+        color: var(--zgabt-link-txt);
+        background-color: var(--zgabt-link-BG);
+    }
+    
+    .bio-graphy i,em, .qna-block i,em {
+        color: var(--zgabt-italic);
+        font-style: normal;
+    }
+    
+    .bio-graphy h2 {
+        font-size: 14px;
+        font-family: fredoka one;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: var(--zgabt-hd);
+        margin: 20px 0 -5px 0;
+    }

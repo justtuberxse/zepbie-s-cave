@@ -1,0 +1,174 @@
+#typf .body{
+    width: 750px;
+    height:750px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #555454;
+    margin: 50px auto;
+    padding: 20px;
+    color: #333;
+}
+#typf p{
+    font-family: 'Josefin Sans','IBM Plex Sans Thai',sans-serif;
+}
+#typf header{
+    font-family: 'Josefin Sans','IBM Plex Sans Thai',sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+#typf *::-webkit-scrollbar {
+    width: 0;
+    border-radius: 0;
+    background: transparent
+  }
+#typf .stbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+#typf .stbar header{
+    text-transform: uppercase;
+    font-size: x-large;
+}
+#typf .stbar .login{
+    background: black;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-family:'Josefin Sans', sans-serif;
+}
+#typf .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom :20px;
+    margin-left: 20px; 
+}
+#typf .info .picon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+}
+#typf .info .userbox{
+    font-family:'Josefin Sans', sans-serif;
+    font-size: small;
+}
+#typf .info .userbox .follbox{
+    display: flex; 
+    width: 250px;
+    justify-content: space-between;
+    align-items: center;
+}
+#typf .info .userbox .follbox text{
+    font-size:medium ;
+    font-weight: bold;
+    text-transform:uppercase;
+}
+#typf .info .userbox .follbox button{
+    padding: 5px 10px;
+    border-radius: 50px;
+    background: white;
+    border: none;
+    box-shadow: 1px 4px 2px #b5b5b57a;
+    font-family:'Josefin Sans', sans-serif;
+    text-transform:uppercase;
+    cursor: pointer;
+}
+#typf .info .rigthbox{
+    display: flex;
+    align-items: center;
+}
+#typf .info .rigthbox .mpic{
+    width: 250px;
+    height: 80px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+#typf .info .rigthbox .spt {
+    -webkit-writing-mode: vertical-rl;
+    font-family: 'Josefin Sans','IBM Plex Sans Thai',sans-serif;
+    margin-left: 10px;
+}
+#typf .propic{
+    display: flex;
+    align-items:center ;
+    gap: 20px;
+    margin: 20px 0 20px 20px;
+}
+#typf .propic .pic1{
+    width: 150px;
+    height: 300px;
+    border-radius: 20px;
+    filter: blur(2px);
+    background-size: cover;
+    background-position: center;
+}
+#typf .propic .pic2{
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+#typf .propic .pic3{
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    filter: blur(2px);
+    background-size: cover;
+    background-position: center;
+}
+#typf .ffbox {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40px;
+}
+#typf .ffbox header{
+    font-family: 'Josefin Sans','IBM Plex Sans Thai',sans-serif;
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: bold;
+}
+#typf .ffbox .friends {
+    display: grid;
+    width: 500px;
+    height: 140px;
+    font-family: 'Josefin Sans','IBM Plex Sans Thai',sans-serif;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    overflow:scroll ;
+}
+#typf .ffbox .friends .fbox{
+width: 100px;
+height: 100px;
+}
+#typf .ffbox .friends .fboxp{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+    margin: 10px 0;
+}
+#typf .ffbox .friends .fbox text {
+    font-family: 'Josefin Sans', 'IBM Plex Sans Thai', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#typf .ffbox .gif{
+    width: 150px;
+    height: 100px;
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+}

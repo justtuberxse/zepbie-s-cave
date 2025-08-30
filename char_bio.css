@@ -1,0 +1,130 @@
+
+[data-id="mora_template_10"] .template_infos p strong {
+    background: linear-gradient(105deg, var(--accent-1), var(--color-1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+[data-id="mora_template_10"] {
+display:grid;
+position: relative;
+text-align: justify;
+width: var(--width-template);
+border: 1px solid var(--border);
+background: var(--bg-1);
+font: 300 var(--size-text) / calc(var(--size-text) + 10px) DM Sans;
+color: var(--color-1);
+margin: auto auto 30px;
+box-sizing: border-box;
+}
+
+[data-id="mora_template_10"] .template_infos {
+padding: 40px;
+display: flex;
+flex-wrap: wrap;
+gap: 10px 20px;
+}
+
+[data-id="mora_template_10"] .template_infos span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--border);
+  flex: 30%;
+  padding-right: 10px;
+  font: 400 100% Poppins;
+}
+
+
+[data-id="mora_template_10"] .template_infos span i {
+  padding: 5px;
+  border-right: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-2);
+  font-size: 124%;
+  color: var(--accent-1);
+}
+
+[data-id="mora_template_10"] .template_infos p { margin: 0!important;}
+
+[data-id="mora_template_10"] .template_infos p br {
+display: block;
+}
+
+[data-id="mora_template_10"] .template_infos p i {
+color: var(--accent-1);
+  font-weight: 400;
+  font-family: Inconsolata;
+}
+
+[data-id="mora_template_10"] .template_infos p u {
+    text-decoration: none;
+  background: var(--accent-1);
+}
+
+[data-id="mora_template_10"] .template_links {
+display: flex;
+gap: 20px;
+position: absolute;
+top: -20px;
+right: 30px;
+}
+
+[data-id="mora_template_10"] .template_links a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: var(--accent-1);
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+  padding: 6px;
+}
+
+[data-id="mora_template_10"] .template_links a:after {
+content: attr(title);
+position: absolute;
+margin: 15px;
+z-index: 999;
+border: 1px solid var(--border);
+text-transform: uppercase;
+font: 700 10px Inconsolata;
+padding: 5px;
+background: var(--bg-1);
+display: none;
+}
+
+[data-id="mora_template_10"] .template_links a:hover:after {
+display: block;
+}
+
+[data-id="mora_template_10"] .template_header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+[data-id="mora_template_10"] .template_header img {
+  object-fit: cover;
+  border: 1px solid var(--border);
+  background: var(--bg-1);
+  padding: 10px;
+  box-sizing: border-box;
+  height: 130px;
+  width: 300px;
+  margin-left: -20px;
+}
+
+[data-id="mora_template_10"] .template_header span {
+  font: 800 215% / 1 Poppins;
+  text-align: right;
+  margin-right: -20px;
+  background: var(--accent-1);
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 15px;
+  color: var(--bg-1);
+}

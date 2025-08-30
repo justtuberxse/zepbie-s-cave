@@ -1,0 +1,96 @@
+#christmaspf {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: var(--chbg);
+    color: var(--chcolor);
+    font-family: var(--chfont);
+    padding: 50px 0;
+}
+::selection{
+    color: var(--chbg);
+    background: var(--iconbg);
+}
+.chmain {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+.chfs {
+    width: 50%;
+    height: auto;
+    border:var(--chborder);
+    aspect-ratio: 3/ 2;
+}
+
+.chsc {
+    width: 50%;
+    height: auto;
+    border: var(--chborder);
+    border-left: none;
+}
+.chfib {
+    display: grid;
+    margin: auto;
+    height: auto;
+    padding: 50px 0px;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    align-items: center;
+    justify-content: space-around;
+}
+.chfib .chicon {
+    aspect-ratio: 1 / 1;
+    width: 3vw;
+    text-align: center;
+    margin: auto;
+    font-size: 2.2vw;
+    color: var(--chcolor);
+    border-radius: 3vw;
+    transition: transform 250ms;
+}
+.chicon:hover{
+    cursor: pointer;
+    color:var(--iconbg) ;
+    background:var(--chbg) ;
+    transform: translateY(-10px);
+}
+
+.chfstxt {
+    width: 100%;
+    margin: auto;
+    padding-top: 2vw;
+    border-right: 0px;
+    text-align: center;
+    letter-spacing: 6;
+}
+.chfstxt h1 {
+    margin: auto;
+    height: auto;
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Bodoni Moda', 'IBM Plex Sans Thai', serif;
+}
+.chfsbio {
+    width: 80%;
+    font-size: 1vw;
+    margin: 3vw auto;
+    text-align: justify;
+    font-family: var(--chfont);
+    letter-spacing: normal;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    aspect-ratio: 3 / 4;
+}
+
+.chfsn{
+    width: 100%;
+    margin: auto;
+    height: auto;
+    padding: 10px 0px;
+    border-top: var(--chborder);
+    text-align: center;
+}

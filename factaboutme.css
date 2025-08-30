@@ -1,0 +1,230 @@
+@import url('https://fonts.cdnfonts.com/css/neue-reman-sans');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;500&display=swap');
+:root {
+    --zcontainer: #181818;
+    --zheader: #181818;
+    --zborder: #7e7b7b;
+    --ztext: #e7f8fd;
+    --ztext-bg: #f9f9f9;
+    --zaccent: #82cde5;
+    --zfont-size: 13px;
+    --fm-bg:#414141;
+    --fm-tx:#ADADAD;
+    --fm-bk:#333333;
+}
+
+.infame {
+    width: 550px;
+    height: 735px;
+    border-radius: 10px;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: var(--fm-bk);
+  }
+  
+  .infame-bdy {
+    border-radius: 10px;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: var(--fm-bg);
+    width: 95%;
+    height: 95%;
+  }
+  
+  .infame-b1 {
+    border-radius: 10px;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--fm-bk);
+    width: 95%;
+    height: 125px;
+    margin: 10px auto 0;
+  }
+  
+  .infame-b2 {
+    border-radius: 10px;
+    line-height: normal;
+    display: flex;
+    background-color: var(--fm-bk);
+    width: 95%;
+    height: 100px;
+    margin: 10px auto 0;
+  }
+  
+  .infame-b3 {
+    border-radius: 10px;
+    line-height: .6em;
+    display: flex;
+    background-color: var(--fm-bk);
+    width: 95%;
+    height:433px;
+    margin: 10px auto 0;
+    flex-direction: column;
+    overflow-y: scroll;
+  }
+  
+  .infame-b3::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .infame-b4 {
+    border-radius: 10px;
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--fm-bk);
+    width: 95%;
+    height: 50px;
+    margin: 10px auto 0;
+  }
+  
+  .inf-b2t {
+    font-family: 'Neue Reman Sans', 'Bai Jamjuree',sans-serif;
+    color: var(--fm-tx);
+    width: 90%;
+    height: 55%;
+    overflow-y: scroll;
+    margin: auto;
+    line-height: 1em;
+    font-size: 15px;
+    text-align: justify;
+}
+  
+  .inf-b2t::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .inf-b4b {
+    text-transform: uppercase;
+    margin: auto;
+    border-radius: 5px;
+    background-color: var(--fm-bg);
+    padding: 5px 10px;
+    font-family: 'Neue Reman Sans', 'Bai Jamjuree',sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .inf-b4b a {
+    text-decoration: none;
+    color: var(--fm-tx);
+    transition: 0.6s;
+  }
+  
+  .inf-b4b a:hover {
+    color: var(--zaccent);
+  }
+  
+  .inf-b1t {
+    font-family: 'Neue Reman Sans', 'Bai Jamjuree',sans-serif;
+    font-size: 35px;
+    color: var(--zaccent);
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin: auto auto 0 auto;
+    z-index: 1;
+    text-transform: uppercase;
+  }
+  
+  .inf-b1s {
+    font-family: 'Neue Reman Sans', 'Bai Jamjuree',sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+    margin: 0 auto auto auto;
+    color: var(--fm-tx);
+    text-transform: uppercase;
+    z-index: 1;
+  }
+  
+  .inf-bx {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: var(--fm-bg);
+    padding: 26px 10px 26px 12px;
+}
+  
+  .inf-bx1 {
+    width: 70px;
+    height: 70px;
+    border-radius: 7px;
+    margin: auto 10px auto auto;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid var(--fm-bg);
+  }
+  
+  .inf-bx2 {
+    margin: auto auto auto 0; 
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+  }
+  
+  .inf-bx2a {
+    display: flex;
+    flex-direction: row;
+    margin: auto auto 0 0;
+  }
+  
+  .inf-bx2b {
+    overflow-y: scroll;
+    height: 100px;
+    font-family: 'Neue Reman Sans', 'Bai Jamjuree',sans-serif;
+    color: var(--fm-tx);
+    font-size: 13px;
+    text-align: justify;
+    line-height: 1.5;
+    margin: 5px auto auto 0;
+}
+  
+  .inf-bx2b::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .inf-bx2a1 {
+    font-family: 'Neue Reman Sans', 'Bai Jamjuree',sans-serif;
+    font-size: 15px;
+    color: var(--zaccent);
+    text-transform: uppercase;
+    text-align: left;
+    margin: auto 10px auto 0;
+    padding-right: 5px;
+    height: 14px;
+    font-weight: bold;
+  }
+  
+  .inf-bx2a2 {
+    margin: auto auto auto 0;
+    letter-spacing: 5px;
+    font-size: 12px;
+    padding-top: 1px;
+  }
+  
+  .inf-bx2a2 .cp-star {
+    color: var(--zaccent);
+  }
+  
+  .inf-bx2a2 .cp-star-o {
+    color: var(--fm-tx);
+  }
+  
+  .inf-ic {
+    position: absolute;
+    margin: 15px 0 0 30px;
+    font-size: 100px;
+    z-index: 0;
+    color: var(--fm-tx);
+    opacity: 20%;
+  }
+
+.gnomo{text-transform: uppercase; text-decoration: none; font-size: 8px; text-align: center; color: #E86B82; font-family: verdana; margin-top: 5px; letter-spacing: 2px;}

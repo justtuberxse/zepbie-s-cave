@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Sarabun:wght@400;700&display=swap');
+
+
+
+
+#este *::-webkit-scrollbar-thumb {background-color:transparent;}
+#este *::-webkit-scrollbar {background-color:transparent; width:0px; height:10px;}
+
+#justz { position: relative; }
+#justz * { box-sizing: border-box; }
+
+#justz a[href="https://discord.com/users/982510965335683134/"] {
+    height: 12px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#justz a[href="https://discord.com/users/982510965335683134/"] ~ div:first-child { position: relative; }
+  
+#justz::after {
+    display: block;
+    content: "tuberose";
+    font-family: 'Josefin Sans';
+    font-size: x-small;
+    color: #272727 !important;
+    width: fit-content;
+    margin: auto;
+}
+  
+#justz:hover::after { content: "justtuberose"; }
+
+#este {
+    width: 80%;
+    padding: 50px 20px;
+    display: flex;
+    color: var(--text);
+    font-family: var(--body-font);
+    line-height: 160%;
+    margin: auto;
+    background: var(--background);
+}
+
+#este .leftside {width: 50%;margin: auto;}
+#este .leftside .nb {
+    width: 100%;
+    border: 10px solid;
+    border-image-slice: 0.5;
+    border-width: 0 2px 2px 0;
+    border-image-source: linear-gradient(142deg, rgba(255, 255, 255, 0) 75%, rgba(0, 0, 0, 1) 100%);
+    padding: 20px;}
+#este .leftside .name{
+    text-align: right;
+    font-size: 70px;
+    font-family: var(--accent-font);
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#este .leftside .names{
+    font-family: var(--accent-font);
+    line-height: 1;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 50px;
+    margin-top: -20px;
+    letter-spacing: 23.5px;
+}
+#este .leftside .cpb{
+    padding: 50px 20px;
+    border: 10px solid;
+    border-image-slice: 0.5;
+    border-width: 0 2px 0 0;
+    border-image-source: linear-gradient(0deg, rgba(255, 255, 255, 0) 65%, rgba(0, 0, 0, 1) 100%);
+}
+#este .leftside .cp{
+    width: 100%;
+    height: 700px ;
+    background: var(--cp);
+}
+
+#este .rightside {width: 50%;}
+
+#este .rightside .btcp {
+    width: 100%;
+    height: 239px;
+    border: 10px solid;
+    border-image-slice: 0.5;
+    border-width: 0 0 2px 0;
+    border-image-source: linear-gradient(270deg, rgba(255, 255, 255, 0) 65%, rgba(0, 0, 0, 1) 100%);
+
+}
+
+#este .rightside .tcp{
+    width: 100%;
+    height: 210px;
+    background: var(--tcp);
+    margin: 0 0 50px 20px;
+} 
+
+#este .rightside .his{
+    width: 90%;
+    padding: 20px;
+    height: 550px;
+    overflow-y: scroll;
+    text-align: justify;
+    line-height: 160%;
+    font-family: var(--body-font);
+    color: var(--text);
+    font-size:14px;
+}
+#este .rightside .tmi{
+    width: 90%;
+    padding: 20px;
+    height: 250px;
+    overflow-y: scroll;
+    text-align: justify;
+    line-height: 160%;
+    font-family: var(--body-font);
+    color: var(--text);
+    font-size: 13px;
+    border-top: 1px solid #222;
+}

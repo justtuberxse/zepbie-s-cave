@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Sarabun:wght@400;700&display=swap');
+
+#woftw-reg details[open] summary .SFU-sc-i {
+    width: 100%;
+    transition: 0.6s;
+  }
+  
+  #woftw-reg details br {
+    display: none;
+  }
+  
+  #woftw-reg summary {
+    cursor: pointer;
+  }
+  
+  #woftw-reg summary::marker {
+    content: '\e93a';
+    font-family: 'cappuccicons';
+  }
+  
+  
+  #woftw-reg summary::-webkit-details-marker {
+    display: none;
+  }
+
+
+#woftw-reg {
+    margin: 10px auto;
+    min-width: 480px;
+    max-width: 70%;
+    border: 1px solid var(--wborder);
+    padding: 20px;
+    border-radius: 10px;
+    background: var(--wbg);
+}
+.woftw{
+        border:1px solid var(--wborder);
+         border-radius:10px; 
+         overflow:hidden; 
+         background:var(--conbg);
+    } 
+.woftw-po{
+        height:120px; 
+        padding:0px 20px;
+    } 
+.woftw-co{
+        border-bottom:1px solid var(--wborder);
+        padding: 25px 40px 40px; 
+        font-size:16px; 
+        line-height:1.7; 
+        text-align:justify; 
+        color:var(--accent); 
+        font-family: "Sarabun", sans-serif; 
+        font-weight:400;
+    } 
+    .woftw-icab {
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 0px 10px;
+        background: var(--icbg);
+    }
+.woftw-po, .woftw-poim,.woftw-ic{
+                display:flex;
+                 align-items:center; 
+                 justify-content:space-between;
+                } 
+.woftw-poimg {
+    width:80px; 
+    height:80px; 
+    display:block; 
+    border:5px solid var(--accent2); 
+    border-radius:200px; 
+    padding:5px; 
+    margin-right:10px;
+    background:var(--profilepic);
+}
+
+.woftw-poimg2 {
+    border-radius: 10px;
+    margin: auto;
+    width: 470px;
+    height: 250px;
+    box-shadow: 0 0 15px var(--accent2);
+}
+
+.woftw-pofe{font-size:12px; font-family: "Sarabun", sans-serif;} 
+.woftw-poim > div > b{display:block; font-size:18px; font-family: "Sarabun", sans-serif;; font-style:italic;} 
+.woftw-poim > div{font-family: "Sarabun", sans-serif;; font-size:12px; line-height:16px; color:#aaa; max-width:260px;} 
+.woftw-pofe > span{padding:0px 6px; color:#999;} 
+.woftw-pofe > span{padding:0px 6px; color:#999;} 
+.email-pofe > i.fa-star{color:yellow;} 
+.woftw-ic{justify-content:flex-start; 
+    padding:0px 15px; 
+    font-size:9px; 
+    height:40px;
+     border-bottom:1px solid var(--wborder);
+    color:#bbb;
+     background:var(--icbg
+);
+} 
+    .woftw-ic > i{padding:0px 4px;}
+    .woftw-ic > i {padding:0px 4px;}
+    .woftw-ic > i.fa-arrow-left{margin-right:12px;} 
+    .woftw-ic > i.fa-trash,.email-ic > i.fa-check-square{padding-right:14px; border-right:2px solid var(--wborder); margin-right:12px;} 
+    .woftw-icab > i{
+        display:inline-flex; 
+        align-items:center; 
+        justify-content:center; 
+        border:1px solid var(--wborder); 
+        width:80px; height:30px; 
+        border-radius:5px; 
+        margin-right:10px; 
+        font-size:12px; 
+        background:var(--conbg);
+    }
+    .woftwlink {
+        width: 200px;
+        margin: 20px auto 10px;
+        text-align: center;
+        display: block;
+        font-size: 10px;
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        border-radius: 5px;
+        font-family: "Sarabun", sans-serif;
+        letter-spacing: 1px;
+        background: var(--wbg);
+        padding: 5px 10px;
+    }

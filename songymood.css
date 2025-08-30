@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Sarabun:wght@400;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/alice-4');
+
+:root{--sym-cl: #a3eec4;
+    --sym-bk: #222222;
+    --sym-tx: #FFFAFB;
+    --sym-md: #646464;
+    --dis-tx:#222;
+    --body-font: 'Josefin Sans', sans-serif;
+    --accent-font:'Alice','UKIJ Chiwer Kesme','Sarabun', sans-serif;
+    --joy:#FDFFB6;
+    --sadness:#A0C4FF;
+    --anger:#FFADAD;
+    --disgust:#CAFFBF;
+    --fear:#BA94D1;
+    --anxiety:#FFD6A5;
+    --envy:#83c5be;
+    --ennui:#B388EB;
+    --embarrassment:#FFC6FF;
+    --nostalgia:#FFEEDD;
+}
+#sym details[open] summary .SFU-sc-i {
+    width: 100%;
+    transition: 0.6s;
+  }
+  
+  #symdetails br {
+    display: none;
+  }
+  
+  #sym summary {
+    cursor: pointer;
+  }
+  
+  #sym summary::marker {
+    content: '';
+  }
+  
+  
+  #sym summary::-webkit-details-marker {
+    display: none;
+  }
+
+#sym{
+    width: 450px;
+  min-height: 620px;
+  background-color: var(--sym-bk);
+  border-radius: 15px;
+  margin: auto;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 7px var(--sym-md);
+}
+
+#sym .tbdc{
+    width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid var(--sym-md);
+}
+
+#sym .tbdc-o1 {
+    margin: auto auto auto 15px;
+    color: var(--sym-cl);
+    font-family: var(--body-font);
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+#sym .tbdc-o2 {
+    margin: auto 10px auto auto;
+    letter-spacing: 5px;
+}
+
+#sym  .tbdc-o2 .cp {
+    font-size: 12px;
+    color: var(--sym-tx);
+}
+
+#sym .profb {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 180px;
+    margin-top: 10px;
+    border-bottom: 1px solid var(--sym-md);
+}
+
+#sym .profb .pb {
+    display: flex;
+    flex-direction: row;
+}
+
+#sym .profb .pb .avata {
+    background-size: cover;
+    background-position: center;
+    width: 160px;
+    height: 160px;
+    margin: 5px 7px auto auto;
+    border-radius: 5px;
+}
+
+#sym .profb .pb .abio {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: auto;
+}
+
+#sym .profb .pb .abio .bioh{
+    font-size: 30px;
+    color: var(--sym-tx);
+    font-family: var(--body-font);
+    
+}
+#sym .profb .pb .abio .charbio {
+    font-size: 12px;
+    color: var(--sym-tx);
+    font-family:var(--accent-font);
+    line-height: 1em;
+    margin: 3px auto 10px 0;
+    text-align: justify;
+    max-width: 230px;
+}
+
+#sym .profb .pb .abio .t1b3 {
+    display: flex;
+    flex-direction: row;
+    color: var(--sym-bk);
+    font-family: var(--body-font);
+    font-size: 9px;
+    letter-spacing: 1px;
+    flex-wrap: wrap;
+}
+#sym .profb .pb .abio .t1b3 span {
+    background-color: var(--sym-cl);
+    border-radius: 5px;
+    margin-right: 3px;
+    padding: 5px;
+    margin-bottom: 1px;
+}
+#sym .profb .pb .abio .t2 {
+    display: flex;
+    flex-direction: row;
+    font-family: var(--body-font);
+    margin: 7px auto auto 0;
+}
+#sym .profb .pb .abio .t2 .t2a {
+    display: flex;
+    border-radius: 5px;
+    height: 23px;
+    width: 23px;
+    border: 1px solid var(--sym-md);
+    margin: auto 10px auto 0;
+    transition: 0.6s;
+}
+#sym .profb .pb .abio .t2 .t2a i{
+    text-decoration: none;
+    color: var(--sym-cl);
+    margin: auto;
+    font-size: 15px;
+    transition: 0.6s;
+}
+
+#sym .playlist {
+    width: 95%;
+    min-height: 275px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto 0;
+    line-height: 1em;
+}
+
+#sym .playlist .music {
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+    width: 90%;
+    border-bottom: 1px solid var(--sym-md);
+    padding-bottom: 9px;
+    transition: 0.6s;
+    filter: grayscale(1);
+}
+#sym .playlist .music:hover{
+    filter: grayscale(0);
+    
+}
+
+
+#sym .playlist .music .ln1 {
+    display: flex;
+    flex-direction: column;
+    margin: auto auto auto 0;
+}
+#sym .playlist .music .ln1 .names{
+    color: var(--sym-tx);
+    font-weight: bold;
+    font-family: var(--accent-font);
+}
+#sym .playlist .music .ln1 .mood {
+    font-size: 11px;
+    color: var(--sym-tx);
+    font-family:var(--accent-font);
+}
+#sym .playlist  .ans{
+    width:90%;
+    padding:10px 20px;
+    font-size:14px;
+    line-height:1.5;
+    text-align:justify;
+    color:var(--sym-tx);
+    font-family:var(--accent-font);
+    
+  }
+  #sym .playlist .music .cmood {
+    margin: auto 0 auto auto;
+    background-color: var(--sym-cl);
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    transition: 0.6s;
+}
+
+
+#sym .playlist .music .cmood .cp {
+    color: var(--sym-bk);
+    margin: auto;
+}
+
+#sym .hl {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+    width: 90%;
+    margin: auto auto 0 auto;
+    background-color: var(--sym-cl);
+    border-radius: 10px 10px 0 0;
+}
+#sym .hl .hl-b1 {
+    margin: auto auto auto 0;
+    display: flex;
+    flex-direction: row;
+}
+#sym .hl .hl-b1 .bavta{
+        background-size: cover;
+        background-position: center;
+        width: 60px;
+        height: 60px;
+        border-radius: 5px;
+}
+#sym .hl .hl-b1 .hl-b1b {
+    display: flex;
+    flex-direction: column;
+    margin: auto auto auto 10px;
+}
+#sym .hl .hl-b1 .hl-b1b .disp {
+    font-weight: bold;
+    color: var(--dis-tx);
+    font-family: var(--body-font);
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+#sym .hl .hl-b1 .hl-b1b .gr {
+    font-size: 11px;
+    color: var(--dis-tx);
+    font-family: var(--accent-font);
+}
+#sym .hl .hl-b2 {
+    margin: auto 20px auto auto;
+}

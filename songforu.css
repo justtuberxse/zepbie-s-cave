@@ -1,0 +1,198 @@
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+
+#SFU-BG {
+    width: 540px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    position: relative;
+    border: 15px solid #AF8F6F;
+    border-radius:5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Fira Sans','Bai Jamjuree', sans-serif; 
+    background: white;
+    color: #757575;
+}
+
+#SFU-ctn {
+    width: 80px;
+    height: 60px;
+    background: #AF8F6F;
+    border-radius: 100px 0 0 100px;
+    position: absolute;
+    top: 160px;
+    right: 0%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#SFU-ctn a{text-decoration: none;color:white;}
+
+#SFU-ctn i{
+  font-size:30px;
+  animation: rotating 10s linear infinite;
+}
+
+#SFU-img-bg{
+  width: 100%;
+  height: 260px;
+  position: relative;
+}
+
+#SFU-BG .SFU-img {
+  width: 100%;
+  height: 260px;
+  background:center/cover;
+  background-size:540px;
+  
+}
+
+#SFU-BG .SFU-fl{
+  width:100%;
+  height:100%;
+}
+
+#SFU-BG header{
+  width:70%;
+  height:auto;
+  margin-top:-20px;
+  padding:30px;
+  border-radius:5px;
+  font-size:14px;
+  font-family:'Bai Jamjuree', sans-serif; 
+  font-weight: bold;
+  text-align:justify;
+  z-index:1;
+  outline:1px dotted #757575;
+  background:Whitesmoke;
+
+}
+
+.SFU-ctn-tx{
+  width:75%;
+  height:auto;
+  margin-top:10px;
+  padding:14px;
+  border-bottom: 1px dotted #757575;
+  display:flex;
+  flex-direction:column;
+}
+
+.SFU-sc-i{
+  width:95%;
+  margin: 10px 0;
+  display: flex;
+  align-items:center;
+  transition: 0.3s;
+}
+
+.SFU-sc-i i{
+ padding:0 10px;
+ font-size:40px;
+ color:Mediumslateblue;
+}
+
+.SFU-sc-i nam{
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 1px;
+    color: #AF8F6F;
+}
+
+.SFU-sc-i nam tx{
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight:800;
+  font-size:25px;
+  line-height:22px;
+}
+
+.SFU-sc-i quote{
+  margin-top:2px;
+  font-family: 'Fira Sans','Bai Jamjuree', sans-serif; 
+  font-size:10px;
+  color:#AF8F6F;
+}
+
+.SFU-tx-cr{
+  width:90%;
+  padding:10px 20px;
+  font-size:14px;
+  line-height:1.5;
+  text-align:justify;
+  color:#583e25;
+}
+
+.SFU-tx-cr b {
+    padding: 0 15px;
+    font-weight: 800;
+    margin-right: 10px;
+    color: white;
+    background: #83684e;
+}
+.SFU-sc-i:hover {
+  background-color: #EAD8C0;
+  border-radius: 5px;
+  
+}
+
+#SFU-BG details[open] summary .SFU-sc-i {
+  width: 100%;
+}
+
+#SFU-BG details br {
+  display: none;
+}
+
+#SFU-BG summary {
+  cursor: pointer;
+}
+
+#SFU-BG summary::marker {
+  content: '';
+}
+
+
+#SFU-BG summary::-webkit-details-marker {
+  display: none;
+}
+
+#SFU-BG .C{
+  position:absolute;
+  bottom:10px;
+  right:0%;
+  padding: 3px 5px;
+  z-index:999!important;
+  font-family:calibri; 
+  font-size: 10px; 
+  font-weight:800;
+  letter-spacing:4px; 
+  text-decoration: none;
+  color: #757575; 
+  background:Whitesmoke;
+}
+#SFU-BG .iconpic{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+}

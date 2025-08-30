@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root{
+    --mainfont: nunito; 
+    --scrollbar: #d7e3fc;
+    --zgtext-highlight: #d7e3fc;
+    --BGcolour: #eaeaea;
+    --BGwallpaper: cover; 
+    --windowBG: #eaeaea;
+    --contentBG: #ffffff;
+    --txtcolour: #444444; 
+    --translucent-border: 255,255,255; 
+    --hd-iconBG: #82cde5; 
+    --hd-icon: #ffffff;
+    --hd-icon-code: '\ec13';
+    --nav-colour: #aaaaaa;
+    --nav-hover-BG: #e6e6e6;
+    --nav-hover-colour: #333333;
+    --nav-active-BG: #d7e3fc;
+    --nav-active-colour: #93adbd;
+    --postWidth: 850px;
+    --postBgColor: #ffffff;
+    --accentColor: #82cde5;
+    --boxShadowColor: #e1e1e1;
+}
+
+#zgb a { text-decoration: none; }
+#zgb p:first-child { margin-top: 0; }
+#zgb p:last-child { margin-bottom: 0; }
+#zgb ::-webkit-scrollbar { width: 14px; }
+#zgb ::-webkit-scrollbar-track-piece { 
+    background-color: var(--contentBG);
+}  
+
+#zgb ::-webkit-scrollbar-thumb:vertical {
+    width: 6px;
+    border: 4px solid var(--contentBG);
+    background: var(--scrollbar);
+    border-radius: 100px;
+}
+
+#zgb{
+    width: 100%;
+    height: auto;
+    background-image: var(--BG);
+    background-size: var(--BGwallpaper);
+    background-attachment: fixed;
+    font-family: var(--mainfont), sans-serif;
+    position: relative;
+}
+
+#gbmain {
+    width: 100%;
+    height: auto ;
+    margin: auto;
+    background: #888;
+    background-color: rgba(var(--translucent-border), 0.3);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(var(--translucent-border), 0.6);
+}
+
+.gd {
+    width: 100%;
+    min-width: 320px;
+    height: 60px;
+    background-color: var(--contentBG);
+    overflow: hidden;
+    position: relative;
+}
+
+.gh-left {
+    background-color: var(--hd-iconBG);
+    width: 90px;
+    height: 60px;
+    float: left;
+}
+
+.gh-left-cov {
+    background-color: var(--contentBG);
+    width: 70px;
+    height: 70px;
+    margin: -5px 60px;
+    border-radius: 100px;
+}
+
+.gh-icon {
+    position: absolute;
+    width: 30px;
+    margin: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: var(--hd-icon);
+}
+
+.gh-icon:before {
+    content: var(--hd-icon-code);
+    font-family:'cappuccicons';
+}
+
+.gh-nav {
+    display: flex;
+}
+
+.ghbtn {
+    font-size: 12px;
+    cursor: pointer;
+    margin: 20px 10px 20px 0;
+    line-height: 20px;
+    padding: 0 6px;
+    border-radius: 4px;
+    transition: 0.6s;
+    color: var(--nav-colour);
+}
+
+.ghbtn:hover {
+    color: var(--nav-hover-colour);
+    background-color: var(--nav-hover-BG);
+}
+
+.ghbtn-active {
+    color: var(--nav-active-colour);
+    background-color: var(--nav-active-BG);
+}
+
+.ghbtn-active:hover {
+    color: var(--nav-active-colour);
+    background-color: var(--nav-active-BG);
+}
+
+.gpfp {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    border-radius: 6px;
+    width: 50px;
+}
+
+.gcontent {
+    border: 20px solid transparent;
+    min-height: 300px;
+    overflow: hidden;
+    color: var(--txtcolour);
+    padding-bottom: 50px;
+}
+
+.gitem {
+    margin: 0px auto;
+    width: 80%;
+    max-width: calc(var(--postWidth) + 48px);
+}
+.gframe {position: relative;}
+@supports (position:sticky) {
+    .datetab {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 24px;
+    }
+}
+.gdatetab {
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    float: right;
+    margin: 68px -24px 24px 0;
+    width: 24px;
+    height: 60px;
+    white-space: nowrap;
+    border-radius: 0 3px 3px 0;
+    color: var(--hd-icon);
+    background: var(--accentColor);
+    transition: none;
+}
+.garticle {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    padding: 0 24px 0 52px;
+    border-radius: 5px;
+    background-color: var(--postBgColor);
+    border-bottom: 2px solid var(--accentColor);
+    box-shadow: 4px 4px 4px -3px var(--boxShadowColor);
+}
+.athd{
+    display: flex;
+    align-items: center;
+    margin: 24px 0;
+    width: 100%;
+    height: 20px;
+}
+.athd .gpostlog {
+    flex: initial;
+    display: block;
+}
+.gpostlog {
+    overflow: hidden;
+    position: relative;
+    margin: 14px 0 14px -52px;
+    padding-left: 52px;
+    width: calc(100% + 52px);
+    height: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: var(--postUsernamesColor);
+}
+.subfont, .notes .action a, a.more_notes_link, .tooltipster-content {
+    font-family: var(--mainfont);
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.gdate {
+    flex: none;
+    display: block;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 24px;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+}
+.gentry {
+    margin: 24px 0;
+    min-height: 36px;
+}
+
+.gpost_media {
+    margin: 24px auto;
+    text-align: center;
+    width: 50%;
+}
+
+text, pre {
+    padding-left: 1em;
+    border-left: 2px solid var(--accentColor);
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    unicode-bidi: isolate;
+    font-family: 'nunito' , 'Sarabun' , sans-serif;
+    font-size: medium;
+}
+.guser{
+    display: flex; 
+    align-items: center;
+     margin: 10px 0px;
+
+}
+.gavata{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 100%;
+    border: 2px solid #222;
+    background: var(--avata);
+}
+.gname{
+    color: #82cde5;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}

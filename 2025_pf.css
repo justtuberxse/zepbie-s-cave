@@ -1,0 +1,197 @@
+#mcore{
+    width: 90%;
+    display: flex;
+    gap: 2%;
+    font-family: var(--mcoremainf);
+    justify-content: space-between;
+    margin: 10vw auto;
+    padding: 20px 0;
+    color: var(--mcolor);
+}
+
+.mfs{
+    width: 50%;
+    aspect-ratio: 1 / 2;
+    position: relative;
+}
+
+.mfs .geninfo {
+    width: 100%;
+    aspect-ratio: 9 / 2;
+    background: var(--geninb);
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+.genavata {
+    width: 20%;
+    aspect-ratio: 1 / 1;
+    background: var(--genavvata);
+    border-radius: 150px;
+    margin: auto;
+}
+.gentext {
+    width: 70%;
+    line-height: 1.2;
+}
+#mcore h1 {
+    font-size: 1.3vw;
+    font-weight: bold;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.2em;
+    font-family: var(--mcoremainf);
+}
+#mcore h2 {
+    font-size: 0.8vw;
+    font-weight: normal;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+    font-family: var(--mcoremainf);
+}
+.gendec {
+    aspect-ratio: 1 / 1;
+    width: 10%;
+    background: var(--dec1);
+    border-radius: 100%;
+    position: absolute;
+    z-index: 2;
+    left: -1vw;
+    top: -0.8vw;
+}
+.gendectext {
+    width: fit-content;
+    background: var(--dec2);
+    border-radius: 5px;
+    position: absolute;
+    z-index: 2;
+    right: 1vw;
+    padding: 10px;
+    top: -0.6vw;
+    color: var(--scolor);
+    font-size: 0.8vw;
+}
+.mfs .mcnav {
+    width: 100%;
+    position: relative;
+    margin: 20px auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    font-size: 1.5vw;
+}
+.mcnav .navpush {
+    background: var(--pushb);
+    width: fit-content;
+    color: var(--mcolor);
+    padding: 5px 20px;
+    text-align: center;
+    margin: auto;
+    border-radius: 50px;
+    text-transform:lowercase;
+}
+.mcnav .navpush:hover{
+    font-weight: bold;
+    background: var(--dec3);
+    transition: 0.5s;
+    -webkit-transition: all 0.5s ;
+    color:var(--pushb);
+    text-transform: uppercase;
+    transform: translateY(-10px);
+    
+}
+#mcore a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+        color: var(--geninb);
+}
+
+.mcplayer {
+    aspect-ratio: 3 / 2;
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 1vw 0;
+}
+.mcplayer .gif {
+    aspect-ratio: 4 / 2;
+    background: var(--mplay);
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+}
+.mcplayer .mood {
+    display: inline-flex;
+    gap: 2%;
+    margin: 1.7vw auto;
+    width: 100%;
+}
+
+.mcplayer .mood  img {
+    aspect-ratio: 1 / 1;
+    width: 23.5%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.mss{
+    width: 50%;
+    aspect-ratio: 1 / 2;
+    position: relative;
+}
+.mss .prf{
+    aspect-ratio: 4 / 2;
+    position: relative;
+    margin: auto;
+}
+.prf .mcheader {
+    aspect-ratio: 6 / 2;
+    background: var(--headerb);
+    width: 80%;
+    border-radius: 10px 10px 0 0;
+    margin: auto;
+}
+.prf .profilepic {
+    position: absolute;
+    z-index: 2;
+    left: 11vw;
+    top: 5vw;
+    margin: auto;
+}
+.prf img {
+    aspect-ratio: 1 / 1;
+    width: 35%;
+    border-radius: 100px;
+    object-fit: cover;
+}
+.prftext {
+    width: 75.3%;
+    font-family: var(--mcoremainf);
+    font-size: 1vw;
+    text-align: center;
+    margin: auto;
+    padding: 3vw 1vw 1vw 1vw;
+    background: var(--geninb);
+    border-radius: 0 0 10px 10px;
+}
+
+.mst{
+    width: 80%;
+    aspect-ratio: 1 / 2;
+    position: relative;
+    margin: 2vw auto;
+}
+.antb {
+    width: 90%;
+    background: var(--geninb);
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.anttext {
+    width: fit-content;
+    line-height: 1.2;
+}

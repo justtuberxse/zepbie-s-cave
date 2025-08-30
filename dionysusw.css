@@ -1,0 +1,126 @@
+#dionysusw{
+    width: 600px;background: #FCFCFC;
+    padding:4px;border:1px solid #f3f3f3;
+    border-radius: 5px;color:#111111;
+    margin: 0 auto;
+    }
+#dionysusw .__dbg{
+background:#f3f3f3;
+ padding:10px;
+border:1px solid #f3f3f3;
+border-radius: 5px;
+}
+#dionysusw .__dbg2{
+background:#FCFCFC;
+padding:10px;
+border:1px solid #f3f3f3;
+border-radius: 5px;
+}
+#dionysusw .__ddlowert{
+width: 100%;
+margin:-10px;
+height: 300px;
+background-image: url("https://i.imgur.com/KpYDAtz.png");
+background-repeat: no-repeat;        background-position:left top;
+opacity:40%;
+}
+#dionysusw .__ddlowerb{
+width: 100%;
+margin-top:-25%;
+margin-bottom:-10px;
+height: 200px;
+background-image: url("https://i.imgur.com/NcBidKz.png");
+background-repeat: no-repeat;
+background-position:right bottom -90px;
+opacity:80%;
+}
+#dionysusw .__dtitle{
+font-family:times new roman;
+font-style:italic;
+text-transform:uppercase;
+font-weight:900;
+font-size: 45px;line-height:80%;
+text-align:right;
+letter-spacing: -2px;
+width: 400px;
+margin-top: -30%;
+margin-left: 15%;}
+#dionysusw .__dtitle ct{
+color: #aa5386;
+}
+#dionysusw .__dsubtitle{
+font-family:times new roman;
+text-transform:uppercase;
+font-style:italic;
+font-size: 7px;
+line-height:80%;
+text-align:right;
+letter-spacing: 3px;
+margin-top:10px;
+color: #aa5386;
+}
+#dionysusw .__dbanner {
+width: 60%;
+height: 89px;
+margin: 0 auto;
+margin-top: 10%;
+overflow: hidden;
+line-height: 120%;
+text-align: justify;
+text-transform: uppercase;
+font-size: 8px;
+letter-spacing: 4px;
+font-style: italic;
+font-weight: 900;
+padding: 22px 40px;
+border-radius: 15px;
+color: #111111;
+background-blend-mode: hard-light;
+background-color: #aa5386;
+background-size: cover;
+background-position: center;
+}
+#dionysusw .__dtext{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size:15px;
+    width: 70%;
+    margin: 0 auto;
+    text-align:justify;
+    padding: 60px 0;
+    line-height: 2;
+    hyphens: auto;
+}
+    #dionysusw .__ddt{
+    width:70%;
+    height:70px;
+    overflow:hidden;
+    text-align:right;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 14px;
+    line-height:140%;
+    margin: 0 auto;
+    font-style:italic;
+    }
+    #dionysusw .__ddt b{
+    font-weight:600;
+    font-size: 18px;
+    color: #aa5386;
+    }
+    #dionysusw .__ddt i{
+    text-transform:lowercase;
+    font-style:normal;
+    font-size:9px;
+    letter-spacing:2px;
+    font-family: times new roman;}
+    #dionysusw .__dplc{
+    text-transform:uppercase;
+    font-style:normal;
+    font-size:7px;
+    font-family: sans-serif;
+    background: #aa5386;
+    letter-spacing:1px;
+    font-weight:600;
+    border-radius:5px;
+    padding:4px 10px;
+    color:#f3f3f3;}
+

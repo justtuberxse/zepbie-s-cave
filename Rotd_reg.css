@@ -1,0 +1,209 @@
+#rotd_regbody {
+    line-height: 1.0;
+    min-height: var(--viewport-height);
+    min-width: 320px;
+    overflow-x: hidden;
+    word-wrap: break-word;
+    background-color: #D9D0D0;
+}
+#wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+#main {
+    --alignment: center;
+    --flex-alignment: center;
+    --indent-left: 1;
+    --indent-right: 1;
+    align-items: center;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: center;
+    width: 90%;
+    position: relative;
+    text-align: var(--alignment);
+    z-index: 1;
+    background-color: #FFFFFF;
+}
+#main > .inner {
+    --spacing: 0.75rem;
+    --width: 100%;
+    position: relative;
+    width: var(--width);
+    z-index: 1;
+    padding: 3rem 0;
+}
+#main > .inner > * > :first-child {
+    margin-top: 0 !important;
+}
+#main > .inner > * > * {
+    margin-top: var(--spacing);
+    margin-bottom: var(--spacing);
+}
+#housebanner {
+    --alignment: center;
+    --flex-alignment: center;
+    --indent-left: 1;
+    --indent-right: 1;
+}
+.container {
+    position: relative;
+}
+#housebanner > .wrapper {
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 80%;
+    border-color: #BDACAC;
+    border-style: solid;
+    border-width: 1px;
+}
+.container > .wrapper {
+    vertical-align: top;
+    position: relative;
+    max-width: 100%;
+    border-radius: inherit;
+}
+#housebanner > .wrapper > .inner {
+    --gutters: 2rem;
+    --padding-horizontal: 1.75rem;
+    --padding-vertical: 0.625rem;
+    padding: var(--padding-vertical) var(--padding-horizontal);
+}
+.container > .wrapper > .inner {
+    vertical-align: top;
+    position: relative;
+    max-width: 100%;
+    border-radius: inherit;
+    text-align: var(--alignment);
+}
+#housename {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Pacifico', cursive;
+    padding-left: 2.125rem;
+    padding-right: 0;
+    letter-spacing: 0.525rem;
+    width: calc(100% + 0.525rem);
+    font-size:2em;
+    line-height: 1;
+    font-weight: 400;
+}
+/***********info**************/
+#characterinfo {
+    --alignment: center;
+    --flex-alignment: center;
+    --indent-left: 1;
+    --indent-right: 1;
+}
+#characterinfo > .wrapper {
+    display: inline-block;
+    width: 80%;
+    background-color: transparent;
+    border-color: #E8D5D5;
+    border-style: solid;
+    border-width: 1px;
+}
+#characterinfo > .wrapper > .inner {
+    --gutters: 2rem;
+    --padding-horizontal: 1.75rem;
+    --padding-vertical: 0.625rem;
+    padding: var(--padding-vertical) var(--padding-horizontal);
+}
+#info {
+    text-align: left;
+    color: #59496c;
+    font-family: 'Bai Jamjuree', sans-serif;
+    letter-spacing: 0.025rem;
+    width: calc(100% + 0.025rem);
+    font-size: 11pt;
+    line-height: 2;
+    font-weight: 400;
+}
+#info mark {
+    color: white;
+}
+/*******************background****************/
+
+#facecard {
+    --alignment: center;
+    --flex-alignment: center;
+    --indent-left: 1;
+    --indent-right: 1;
+}
+#facecard > .wrapper {
+    display: inline-block;
+    width: 80%;
+    background-color: transparent;
+    border-color: #E8D5D5;
+    border-style: solid;
+    border-width: 1px;
+}
+#facecard > .wrapper > .inner {
+    --gutters: 2rem;
+    --padding-horizontal: 1.75rem;
+    --padding-vertical: 0.625rem;
+    padding: var(--padding-vertical) var(--padding-horizontal);
+}
+
+#facecard.default > .wrapper > .inner > *:last-child {
+    margin-bottom: 0 !important;
+}
+#facecard.default > .wrapper > .inner > *:first-child {
+    margin-top: 0 !important;
+}
+#faceimage .frame {
+    width: 100%;
+    height: 15rem;
+    transition: filter 0.875s ease;
+}
+.image .frame {
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    vertical-align: top;
+    width: 100%;
+}
+#bginfo {
+    --alignment: center;
+    --flex-alignment: center;
+    --indent-left: 1;
+    --indent-right: 1;
+}
+#bginfo > .wrapper {
+    display: inline-block;
+    width: 80%;
+    background-color: transparent;
+    border-color: #E8D5D5;
+    border-style: solid;
+    border-width: 1px;
+}
+#bginfo > .wrapper > .inner {
+    --gutters: 2rem;
+    --padding-horizontal: 1.75rem;
+    --padding-vertical: 0.625rem;
+    padding: var(--padding-vertical) var(--padding-horizontal);
+}
+#bginfotext {
+    text-align: left;
+    color: #000000;
+    font-family: 'Bai Jamjuree', sans-serif;
+    letter-spacing: 0.125rem;
+    width: calc(100% + 0.125rem);
+    font-size: 11pt;
+    line-height: 2;
+    font-weight: 400;
+}
+mark {
+    background: #cbbfe2;
+    padding: 2px 5px;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}

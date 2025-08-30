@@ -1,0 +1,196 @@
+@font-face {font-family:'Jonquilles'; src: url('https://dl.dropbox.com/s/w08qjjwfoqhgc9v/Jonquilles.ttf');}
+
+@font-face {font-family:'Elkwood'; src: url('https://dl.dropbox.com/s/ucs1x73owhv8dln/Elkwood.ttf');}
+
+#charlottedmg_bg, #Charlottedmg_bg2{
+  width:500px;
+  margin:40px auto;
+  position:relative;
+  background:#090909;
+  outline-offset:10px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+#charlottedmg_bg{outline:10px solid #141d2f}
+#charlottedmg_bg2{outline:10px solid #312b3b;}
+
+#charlottedmg_bg .charlottedmg_top, #charlottedmg_bg2 .charlottedmg_top{
+  width: 100%;
+  height: 270px;
+  position: relative;
+  display:grid;
+  place-items:center;
+}
+
+#charlottedmg_bg .charlottedmg_top::after, #charlottedmg_bg2 .charlottedmg::after{
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, transparent 60%, #090909 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#charlottedmg_bg .charlottedmg_top header, #charlottedmg_bg2 .charlottedmg_top header{
+  width:80%;
+  position:absolute;
+  bottom:0;
+  z-index:99!important;
+  display: flex;
+  align-items:center;
+  flex-direction:column;
+  justify-content:center;
+
+}
+
+#charlottedmg_bg .charlottedmg_top header ln,  #charlottedmg_bg2 .charlottedmg_top header ln{
+  width:3px;
+  height:40px;
+}
+
+#charlottedmg_bg .charlottedmg_top header ln{background:#b1caf6;}
+#charlottedmg_bg2 .charlottedmg_top header ln{background:#b1caf6;}
+
+#charlottedmg_bg .charlottedmg_top header span, #charlottedmg_bg2 .charlottedmg_top header span{
+  font-family:'Jonquilles';
+  font-size:60px;
+  line-height:42px;
+}
+
+#charlottedmg_bg .charlottedmg_top header span{ color:#b1caf6;}
+#charlottedmg_bg2 .charlottedmg_top header span{ color:#8eb6bb;}
+
+#charlottedmg_bg .charlottedmg_top header quote, #charlottedmg_bg2 .charlottedmg_top header quote{
+  font-family:'Elkwood';
+  font-size:11px;
+  letter-spacing:2px;
+  line-height:14px;
+  text-align:center;
+}
+
+#charlottedmg_bg .charlottedmg_top header quote{color:#b1caf6;}
+#charlottedmg_bg2 .charlottedmg_top header quote{color:#8eb6bb;}
+
+#charlottedmg_bg .charlottedmg_top header icon, #charlottedmg_bg2 .charlottedmg_top header icon{
+  font-size:20px;
+  padding:8px 0;
+}
+
+#charlottedmg_bg .charlottedmg_top header icon{color:#6495ED;}
+#charlottedmg_bg2 .charlottedmg_top header icon{color:#8eb6bb;}
+
+#charlottedmg_bg .B-img-bg, #charlottedmg_bg2 .B-img-bg{
+  width: 100%;
+  height: 100%;
+  background: center/cover;
+}
+
+#charlottedmg_bg .charlottedmg-Fl, #charlottedmg_bg2 .charlottedmg-Fl{
+  width:100%;
+  height:100%;
+  mix-blend-mode:multiply;
+}
+
+#charlottedmg_bg .charlottedmg-Fl{background:var(--Rbm-img);}
+#charlottedmg_bg2 .charlottedmg-Fl{background:var(--Rbm-img2);}
+
+#charlottedmg_bg section, #charlottedmg_bg2 section{
+    font-family: 'Bai Jamjuree',sans-serif !important;
+  width:75%;
+  position:relative;
+  z-index:99!important;
+  padding:20px;
+  font-size:13px;
+  line-height:1.5;
+  text-align:justify;
+  color:#b1b1b1;
+}
+
+#charlottedmg_bg section b, #charlottedmg_bg2 section b{
+  font-size:12px;
+}
+#charlottedmg_bg section b{color:#6495ED;}
+#charlottedmg_bg2 section b{color:#7adce9;}
+
+#charlottedmg_bg section i, #charlottedmg_bg2 section i{
+  font-size:12px;
+  letter-spacing:1px;
+}
+
+#charlottedmg_bg section i{color:#6495ED;}
+#charlottedmg_bg2 section i{color:#7adce9;}
+
+#charlottedmg_bg lnn, #Charlottedmg_bg2 lnn{
+  width:300px;
+  height:2px;
+  margin-bottom:20px;
+ }
+
+#charlottedmg_bg lnn{background:#b1caf6;}
+#charlottedmg_bg2 lnn{background:#8eb6bb;}
+
+#charlottedmg_bg footer, #Charlottedmg_bg2 footer{
+    font-family: 'Bai Jamjuree',sans-serif !important;
+  width:70%;
+  margin-bottom:30px;
+  text-align:center;
+  z-index:9;
+  overflow-wrap: break-word;
+}
+
+#charlottedmg_bg footer span, #Charlottedmg_bg2 footer span{
+  padding:2px 4px;
+  border-radius:3px;
+  margin-right:5px;
+  font-family:'Elkwood';
+  font-size:12px;
+  letter-spacing:2px;
+ color: #090909;
+
+}
+
+#charlottedmg_bg footer span{ background:#b1caf6}
+#charlottedmg_bg2 footer span{ background:#8eb6bb;}
+
+#charlottedmg_bg .Img-b, #Charlottedmg_bg2 .Img-b{
+  width:100%;
+  height:300px;
+  position:absolute;
+  z-index:1;
+  bottom:0;
+  background-size:400px;
+  background-position:0% 10%;
+  background-repeat: no-repeat;
+  opacity:0.1;
+  
+}
+
+ #charlottedmg_bg .charlottedmg-Fl2, #Charlottedmg_bg2 .charlottedmg-Fl2{
+  width:100%;
+  height:60%;
+  position:absolute;
+  bottom:0px;
+  z-index:1;
+}
+
+#charlottedmg_bg .charlottedmg-Fl2{background: linear-gradient(-180deg, transparent 70%, var(--Rbm-img) 200%);}
+#charlottedmg_bg2 .charlottedmg-Fl2{background: linear-gradient(-180deg, transparent 70%, var(--Rbm-img2) 200%);}
+
+#charlottedmg_bg section::selection, #charlottedmg_bg .charlottedmg_top header span::selection, #charlottedmg_bg .charlottedmg_top header quote::selection, #charlottedmg_bg section b::selection, #charlottedmg_bg section i::selection, #Charlottedmg_bg footer span::selection{background:#141d2f;}
+
+#charlottedmg_bg2 section::selection, #charlottedmg_bg2 .charlottedmg_top header span::selection, #charlottedmg_bg2 .Charlottedmg_top header quote::selection, #charlottedmg_bg2 section b::selection, #charlottedmg_bg2 section i::selection, #charlottedmg_bg2 footer span::selection{background:#312b3b;}
+
+#charlottedmg_bg .C, #charlottedmg_bg2 .C{
+  font-family:calibri;
+  font-size: 10px;
+  letter-spacing:4px;
+  text-decoration: none;
+  position:absolute;
+  bottom:-40px;
+  color: #999;}
+
+

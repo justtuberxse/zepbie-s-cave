@@ -1,0 +1,258 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+#mswed {
+position: relative;
+    width: calc(100% + 10px);
+    background-size: 60px 60px;
+    background-image: linear-gradient(to right, #efe4e2 1px, transparent 1px), linear-gradient(to bottom, #efe4e2 1px, transparent 1px);
+    background-repeat: repeat;
+    background-position: center center;
+    background-color: #f2ecec;
+}
+#mswed ::-webkit-scrollbar {
+    margin: 0px;
+    border: 0px;
+    width: 2px;
+    background: transparent;
+}
+#mswed ::-webkit-scrollbar {
+    margin: 0px;
+    border: 0px;
+    width: 0px;
+}
+#mswed ::-webkit-scrollbar-thumb {
+    margin: 0px;
+    border: 0px;
+    width: 2px;
+    background: #474747;
+}
+#mswed ::-webkit-scrollbar-thumb {
+    margin: 0px;
+    border: 0px;
+    width: 0px;
+}
+
+.wed {
+    position: relative;
+    margin: auto;
+    box-sizing: border-box;
+    width: 85%;
+padding: 30px 30px 50px 30px;
+    color: #7f6558;
+        font: 1.5vw 'Mali';
+}
+.bdeco {
+    position: relative;
+    margin: auto;
+    --s: 30px;
+    --w: 100%;
+    width: round(var(--w), 4 * var(--s));
+    aspect-ratio: 1;
+    padding: var(--s);
+    border: var(--s) solid #0000;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: calc(3.5 * var(--s));
+    mask: radial-gradient(calc(sqrt(2) * var(--s)), #000 calc(100% - 1px), #0000), conic-gradient(#000 0 0) content-box, radial-gradient(calc(sqrt(2) * var(--s)), #0000 100%, #000 calc(100% + 1px)) var(--s) var(--s) padding-box;
+    mask-size: calc(var(--s) * 4) calc(var(--s) * 4);
+    z-index: 1;
+}
+@media screen and (max-width: 1050px) {
+    .bdeco {
+        position: relative;
+        margin: auto;
+        --s: 10px;
+        --w: 100%;
+        width: round(var(--w), 4 * var(--s));
+        aspect-ratio: 1;
+        padding: var(--s);
+        border: var(--s) solid #0000;
+        background: #fff;
+        box-sizing: border-box;
+        border-radius: calc(3.5 * var(--s));
+        mask: radial-gradient(calc(sqrt(2) * var(--s)), #000 calc(100% - 1px), #0000), conic-gradient(#000 0 0) content-box, radial-gradient(calc(sqrt(2) * var(--s)), #0000 100%, #000 calc(100% + 1px)) var(--s) var(--s) padding-box;
+        mask-size: calc(var(--s) * 4) calc(var(--s) * 4);
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width: 1650px) {
+.bdeco {
+    position: relative;
+    margin: auto;
+    --s: 10px;
+    --w: 100%;
+    width: round(var(--w), 4 * var(--s));
+    aspect-ratio: 1;
+    padding: var(--s);
+    border: var(--s) solid #0000;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: calc(3.5 * var(--s));
+    mask: radial-gradient(calc(sqrt(2) * var(--s)), #000 calc(100% - 1px), #0000), conic-gradient(#000 0 0) content-box, radial-gradient(calc(sqrt(2) * var(--s)), #0000 100%, #000 calc(100% + 1px)) var(--s) var(--s) padding-box;
+    mask-size: calc(var(--s) * 4) calc(var(--s) * 4);
+    z-index: 1;
+}}
+.ap {
+    background: var(--ap);
+    aspect-ratio: 1 / 1;
+    width: 45%;
+    background-repeat: no-repeat;
+    margin: 2vw auto 1vw auto;
+    border-radius: 100% 100% 0 0;
+    border: 10px solid #f7adaf;
+}
+@media screen and (max-width: 1050px) {
+.ap {
+    background: var(--ap);
+    aspect-ratio: 1 / 1;
+    width: 45%;
+    background-repeat: no-repeat;
+    margin: 2vw auto 1vw auto;
+    border-radius: 100% 100% 0 0;
+    border: 5px solid #f7adaf;
+}
+}
+.aname {
+    max-width: 50%;
+    padding: 20px 60px;
+    background: url(https://iili.io/F3dlZFf.png), url(https://iili.io/F3dlsGs.png), url(https://iili.io/F3dlL6G.png);
+    background-size: contain;
+    background-position: 0% 50%, 100% 50%, 50% 50%;
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    margin: -120px auto 30px auto;
+    text-align: center;
+    line-height: 2.5;
+            font-weight: bold;
+}
+   @media screen and (max-width: 1650px) {
+.aname {margin: -70px auto 30px auto;}} 
+@media screen and (max-width: 1050px) {
+    .aname {
+        max-width: 50%;
+        padding: 0px 15px;
+        background: url(https://iili.io/F3dlZFf.png), url(https://iili.io/F3dlsGs.png), url(https://iili.io/F3dlL6G.png);
+        background-size: contain;
+        background-position: 0% 50%, 100% 50%, 50% 50%;
+        background-repeat: no-repeat, no-repeat, repeat-x;
+        margin: -30px auto 30px auto;
+        text-align: center;
+        line-height: 2.5;
+        font-size: 1vw;
+
+    }
+}
+.role {
+    padding: 0px 2.5vw 4vw 2.5vw;
+    text-align: justify;
+    line-height: 1.5;
+    text-indent: 5%;
+
+}
+@media screen and (max-width: 1050px) {
+.role { padding: 0px 2.5vw 2vw 2.5vw;}}
+@media screen and (max-width: 1650px) {
+.role {padding: 0px 2.5vw 1vw 2.5vw;}}
+
+.deco_one {
+    top: 2px;
+    left: -5px;
+    width: 200px;
+    z-index: 7;
+    position: absolute;
+    background: url(https://static.tumblr.com/zvesamf/xTSstt48p/bow.png) center / cover no-repeat;
+    aspect-ratio: 1 / 1;
+}
+
+@media screen and (max-width: 1650px) { .deco_one {
+    top: 23px;
+    left: 18px;
+    width: 105px;
+    z-index: 7;
+    position: absolute;
+    background: url(https://static.tumblr.com/zvesamf/xTSstt48p/bow.png) center / cover no-repeat;
+    aspect-ratio: 1 / 1;
+
+    }}
+@media screen and (max-width: 1050px) {
+    .deco_one {
+        top: 18px;
+        left: 9px;
+        z-index: 7;
+        position: absolute;
+        background: url(https://static.tumblr.com/zvesamf/xTSstt48p/bow.png) center / cover no-repeat;
+        aspect-ratio: 1 / 1;
+        width: 100px;
+    }
+}
+.deco_ten {
+    bottom: 20px;
+    right: 0;
+    width: 180px;
+    z-index: 7;
+    background: url(https://static.tumblr.com/zvesamf/qKDstt48q/heart.png) center / cover no-repeat;
+    aspect-ratio: 1 / 1;
+    position: absolute;
+}
+@media screen and (max-width: 1650px) { .deco_five {width: 100px; }}
+@media screen and (max-width: 1050px) {
+    .deco_ten {
+        bottom: 50px;
+        right: 4px;
+        width: 70px;
+        z-index: 7;
+        background: url(https://static.tumblr.com/zvesamf/qKDstt48q/heart.png) center / cover no-repeat;
+        aspect-ratio: 1 / 1;
+        position: absolute;
+    }
+}
+@media screen and (max-width: 1650px) { .deco_ten {bottom: 40px;right: 0;width: 80px;}}
+blockquote {
+    color: #f7adaf;
+    border-left: 2px solid #e69696;
+    margin-left: 0px;
+    padding-left: 10px;
+    text-align: left;
+}
+.deco_five{
+position: absolute;
+    bottom: 307px;
+    left: 20px;
+    width: 90px;
+    height: 105px;
+    z-index: 7;
+    background: url(https://static.tumblr.com/zvesamf/VNGstt48r/pressed_flower.png) center / cover no-repeat;
+}
+@media screen and (max-width: 1650px) { .deco_five {    bottom: 207px;left: -20px;}}
+@media screen and (max-width: 1050px) {
+    .deco_five {
+        left: 15px;
+        width: 40px;
+        height: 60px;
+        z-index: 7;
+        background: url(https://static.tumblr.com/zvesamf/VNGstt48r/pressed_flower.png) center / cover no-repeat;
+    }
+}
+
+.deco_three {
+        position: absolute;
+    bottom: 140px;
+    left: -110px;
+    width: 130px;
+    height: 155px;
+    z-index: 8;
+     background: url(https://static.tumblr.com/zvesamf/UQ5stt48r/quote_dream.png) center / cover no-repeat;
+}
+
+.deco_eight {
+top: 307px;
+    right: -32px;
+    width: 165px;
+    height: 300px;
+    z-index: 8;
+    position: absolute;
+    background: url(https://static.tumblr.com/zvesamf/ZnYstt48p/butterflies.png) center / cover no-repeat;
+}
+@media screen and (max-width: 1650px) { .deco_eight {top: 80px;right: 0px;width: 105px; height: 200px;}}
+@media screen and (max-width: 1050px) {.deco_eight{top: 120px;right: 20px;width: 80px;height: 150px;}}

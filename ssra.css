@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Sarabun:wght@400;700&display=swap');
+#justz { position: relative;margin-top: 10px; }
+#justz * { box-sizing: border-box; }
+
+#justz a[href="https://discord.com/users/982510965335683134/"] {
+    height: 12px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#justz a[href="https://discord.com/users/982510965335683134/"] ~ div:first-child { position: relative; }
+  
+#justz::after {
+    display: block;
+    content: "\ec41";
+    font-family: 'cappuccicons','Josefin Sans';
+    font-size: x-small;
+    color: #bfd8af57 !important;
+    width: fit-content;
+    margin: auto;
+}
+  
+#justz:hover::after { content: "justtuberose"; }
+
+#ssra {
+width: 500px ;
+height: auto;
+min-height: 300px;
+background: var(--ssrabg);
+color: var(--accent);
+border: 2px solid var(--border);
+border-radius: 30px 0 ;
+margin: auto;
+position: relative;
+font-size: medium;
+font-family: 'Sarabun', 'Josefin Sans',sans-serif;
+box-shadow: 0 0 5px var(--accent2);
+}
+
+
+#ssra .bgwave {
+    width: 500px;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 29px 0;
+    background: var(--bgwave);
+}
+
+#ssra .wave {
+    position: relative;
+    top: 80px;
+}
+
+#ssra .ssravata {
+    overflow: hidden;
+    position: absolute;
+    top: 90px;
+    right: 180px;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+    border: var(--ssrabg) 5px solid;
+    background: var(--ssravata);
+}
+.star {
+    position: absolute;
+    color: var(--accent4);
+    z-index: 2;
+    top: 150px;
+    left: 155px;
+    transform: scale(2.5) scaleY(1.5);
+    text-shadow: 0px 0 3px #fafafa;
+}
+.star2 {
+    position: absolute;
+    color: var(--accent4);
+    z-index: 2;
+    top: 280px;
+    right: -8px;
+    transform: scale(2.5) scaleY(1.5);
+    text-shadow: 0px 0 3px #fafafa;
+}
+#ssra .rloeplaybox{
+    padding: 20px 40px;
+    text-align: justify;
+}
+#ssra .rloeplaybox .ssrplace {
+    width: fit-content;
+    min-width: 120px;
+    padding: 5px 25px;
+    border-radius: 0 75px;
+    box-shadow: 0px 5px 7px #686c6b6e;
+    border: 1px solid #686c6b;
+    font-size: small;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#ssra .notic {
+    width: 80%;
+    padding: 5px 25px;
+    margin: 20px auto;
+    background: var(--accent3);
+    font-size: small;
+}

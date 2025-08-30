@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Hind:wght@300;400;500;600;700&family=Inconsolata:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Share+Tech+Mono&display=swap');
+
+
+@import url("https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css");
+
+@import url("https://unpkg.com/@phosphor-icons/web@2.1.1/src/light/style.css");
+
+@import url("https://unpkg.com/@phosphor-icons/web@2.1.1/src/duotone/style.css");
+
+[data-id="mora_template_9"] {
+    position: relative;
+    text-align: justify;
+    width: var(--width-template);
+    border: 1px solid var(--border);
+    background: var(--bg-1);
+    font: 300 var(--size-text)/calc(var(--size-text) + 10px) DM Sans;
+    color: var(--color-1);
+  margin: auto auto 30px;
+  box-sizing: border-box;
+}
+
+[data-id="mora_template_9"] .template_content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px;
+}
+
+[data-id="mora_template_9"] .templante_char {
+    width: 132px;
+    height: 132px;
+    border: 1px solid var(--border);
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: var(--bg-2);
+    background-blend-mode: overlay;
+  position:relative;
+}
+
+[data-id="mora_template_9"] .templante_char:before {
+  content:"";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #111 var(--image-character) center / cover;
+  filter:grayscale(1);
+  mix-blend-mode: multiply;
+  top: 0;
+  z-index: 0;
+}
+
+[data-id="mora_template_9"] .templante_char i {
+    font-size: 1.2rem;
+    color: var(--accent-2);
+    border-radius: 100%;
+    margin: -10px;
+    align-self: flex-start;
+   z-index: 1;
+}
+
+[data-id="mora_template_9"] .templante_char span {
+    font: 400 var(--size-text) / 1 Poppins;
+    margin-top: auto;
+    padding-bottom: 5px;
+  overflow: hidden;
+  transition: .5s all;
+  line-height: 0;
+  color: transparent;
+   z-index: 1;
+}
+
+[data-id="mora_template_9"] .templante_char:hover span {
+    color: var(--accent-2);
+    line-height: 1;
+}
+
+
+[data-id="mora_template_9"] .templante_char div {
+    font: 400 80% Inconsolata;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 5px;
+  justify-content: center;
+   overflow: hidden;
+  transition: .5s all;
+   opacity: 0;
+   z-index: 2;
+}
+
+[data-id="mora_template_9"] .templante_char:hover div {
+  opacity: 1;
+}
+
+[data-id="mora_template_9"] .templante_char div strong:not(strong:last-of-type):after {
+  content:" - ";
+  color: var(--accent-2);
+}
+
+[data-id="mora_template_9"] .template_header {
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+}
+
+[data-id="mora_template_9"] .template_header > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-right: -20px;
+  padding: 20px 0;
+}
+
+[data-id="mora_template_9"] .template_header > div i {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border: 1px solid var(--border);
+  background: var(--accent-2);
+}
+
+[data-id="mora_template_9"] .template_header .template_icon_img {
+      object-fit: cover;
+    border: 1px solid var(--border);
+    width: 70px;
+    height: 70px;
+    padding: 6px;
+    margin-left: -25px;
+    margin-right: auto;
+    background: var(--bg-1);
+}
+
+[data-id="mora_template_9"] .template_footer {
+  font: 400 80% Inconsolata;
+  border-top: 1px solid var(--border);
+  padding: 20px;
+}
+
+[data-id="mora_template_9"] .template_footer br{ display: block; }
+[data-id="mora_template_9"] br{ display: none; }
+[data-id="mora_template_9"]:after{
+    content: "moracodes - 2024";
+    text-transform: uppercase;
+    font: 700 10px Inconsolata;
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+}

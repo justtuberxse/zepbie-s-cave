@@ -1,0 +1,123 @@
+#pkrth8{
+    width: 500px;
+    height: auto;
+    margin: auto;
+    display:flex;
+    gap: 20px;
+    align-content: flex-start
+
+}
+.imgbox{
+    width: 170px;
+    height: auto
+}
+.imgbox .imgbackground{
+    width: 170px;
+    height: 350px;
+    border-radius: 70px 0 0 0;
+    border: 2px solid #CCC1AF;
+    box-shadow: 0 0 5px #ccc1af
+}
+.imgbox .star1{
+    transform: translate(69px, 245px) scale(2.0);
+}
+.imgbox .namebox{
+    width: 151px;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #CCC1AF;
+    margin: 20px auto;
+    font-size: small;
+    box-shadow: 0 0 5px #ccc1af;
+    background:#ccc1af;
+    color:#333
+}
+.roleplaybox{
+    width: 100%;
+    min-height: 400px;
+    margin: 0 auto;
+    border: 2px solid #CCC1AF;
+    background: #DEDED4;
+    color: #333;
+    padding: 20px;
+    box-shadow: 0 0 5px #ccc1af
+}
+.roleplaybox .star2 {
+transform: translate(279px, 31px) scale(1.5);
+position: absolute;color: #CCC1AF;
+}
+.roleplaybox .star3 {
+    transform: translate(-26px, 306px) scale(1.5);
+    position: absolute;color: #CCC1AF;
+}
+.roleplaybox .rptext{
+    width: 90%;
+    margin: 20px auto;
+    font-size: small;
+    text-align: justify;
+
+}
+
+/*night mode*/
+
+#pkrth8_nt{
+    width: 500px;
+    height: auto;
+    margin: auto;
+    display:flex;
+    gap: 20px;
+    align-content: flex-start
+
+}
+.imgbox_nt{
+    width: 170px;
+    height: auto
+}
+.imgbox_nt .imgbackground{
+    width: 170px;
+    height: 350px;
+    border-radius: 70px 0 0 0;
+    border: 2px solid #C3DDE7;
+    box-shadow: 0 0 5px #C3DDE7
+}
+.imgbox_nt .star1{
+    transform: translate(69px, 245px) scale(2.0);
+}
+.imgbox_nt .namebox{
+    width: 151px;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #C3DDE7;
+    margin: 20px auto;
+    font-size: small;
+    box-shadow: 0 0 5px #C3DDE7;
+    background:#C3DDE7;
+    color:#333
+}
+.roleplaybox_nt{
+    width: 100%;
+    min-height: 400px;
+    margin: 0 auto;
+    border: 2px solid #C3DDE7;
+    background: #686C6B ;
+    color: #fafafa;
+    padding: 20px;
+    box-shadow: 0 0 5px #C3DDE7
+}
+.roleplaybox_nt .star2 {
+transform: translate(279px, 31px) scale(1.5);
+position: absolute;color: #DEDED4 ;
+}
+.roleplaybox_nt .star3 {
+    transform: translate(-26px, 306px) scale(1.5);
+    position: absolute;color: #DEDED4 ;
+}
+.roleplaybox_nt .rptext{
+    width: 90%;
+    margin: 20px auto;
+    font-size: small;
+    text-align: justify;
+
+}

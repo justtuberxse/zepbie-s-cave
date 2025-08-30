@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+#chill{
+    width: var(--width_template);
+    margin: auto auto 30px;
+    text-align: justify;
+    color: var(--color_text);
+    background: var(--color_bg1);
+    padding: 30px;
+    box-sizing: border-box;
+    border: 5px solid var(--color_bg3);
+  position: relative;
+}
+
+#chill .chill_header, .chill_footer{
+    display: flex;
+  align-items: center;
+  gap: 10px;
+  text-transform: uppercase;
+  font: 900 var(--size_title) var(--font_title);
+}
+#chill .chill_header > i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--color_bg2);
+    padding: 3px;
+    font-size: 200%;
+    background: var(--color_bg3);
+    color: var(--accent1);
+  }
+
+#chill .chill_header span, .chill_footer span{
+  border: 2px solid var(--color_bg2);
+  padding: 5px 10px;
+  background: var(--color_bg3);
+  color: var(--accent1);
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-right: 25px;
+}
+#chill .chill_header img{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 2px;
+}
+#chill .chill_header span:before {
+    content: "";
+    display: block;
+    background: var(--color_bg2);
+    height: 2px;
+    position: absolute;
+    width: 20px;
+    left: calc(100% + 10px);
+  }
+
+  #chill  .chill_header:before {
+    content: "";
+    display: block;
+    background: var(--color_bg2);
+    height: 2px;
+    flex-grow: 1;
+  }
+  
+  #chill .chill_content {
+      padding: 65px 30px 50px 50px;
+      border-left: 2px solid var(--color_bg2);
+      margin-top: -18px;
+      font: 300 var(--size_text)/25px IBM Plex Sans Thai;
+  }
+  
+  #chill .chill_content strong { color: var(--accent1); font-weight: 900; }
+  
+  #chill .chill_content u {
+      background: var(--accent1);
+      text-decoration: none;
+      color: var(--accent2);
+      font-weight: 900;
+      padding: 0 5px 2px;
+  }
+  
+  #chill .chill_content i {
+      color: var(--accent1);
+      font-weight: 900;
+      letter-spacing: 2px;
+  }
+  
+  #chill .chill_content br { display: block!important; }
+  
+  #chill .chill_content img {
+      object-fit: cover;
+      width: 100%;
+      min-height: 200px;
+      max-height: 300px;
+      border: 2px solid var(--color_bg2);
+      padding: 10px;
+      box-sizing: border-box;
+      margin-bottom: 30px;
+  }
+  
+  #chill .chill_footer { margin-top: -15px; }
+  
+  #chill .chill_footer span { margin: 0!important;}
+  
+  #chill .chill_footer:before {
+    content: "";
+    display: block;
+    background: var(--color_bg2);
+    height: 2px;
+    flex-grow: 1;
+  }
+  #chill .chill_footer:after {
+    content: "";
+    display: block;
+    background: var(--color_bg2);
+    height: 2px;
+    flex-grow: 1;
+  }
+  
+  #chill:after{
+    content: "\ec41";
+    font-family: 'cappuccicons','Josefin Sans';
+    font-size: x-small;
+    color: #bfd8af9f !important;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: -25px;
+    left: 0;
+  }
+  #chill:hover::after { content: "justtuberose"; }

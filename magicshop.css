@@ -1,0 +1,92 @@
+
+/*main*/
+
+#magicshop{
+    height: auto;
+    width: 100%;
+    background: url(https://i.imgur.com/3E18nSs.png) top/cover , url(https://i.imgur.com/bVQhpbt.gif);
+    background-blend-mode: screen;
+    padding: 30px 0;
+    margin: auto;
+    font-family: 'Sarabun', sans-serif
+}
+.mgplogo{
+    height: 150px;
+    width: 90%;
+    background: url(https://i.imgur.com/LdzEk2C.png) center/90% no-repeat;
+    margin: auto
+}
+.mginfo{
+    min-height: 600px;
+    width: 80%;
+    background: #ffffff78;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    box-shadow: 0 0 15px #ae82f2;
+    padding: 20px 40px;
+    margin: auto;
+    color: #503b66;
+}
+.mgtext{
+    text-indent:50px;
+    border: 70px solid transparent;
+    border-image: url(https://i.imgur.com/LWsD1W7.png) 13% stretch;
+    border-image-outset: 10px;
+    text-align: justify
+}
+
+/*reply*/
+
+.mgreply {
+    height: auto;
+    width: 100%;
+    background: url(https://i.imgur.com/qO1K7rs.png) center/cover,url(https://i.imgur.com/bVQhpbt.gif);
+    background-blend-mode: screen;
+    padding: 40px 0;
+    margin: auto;
+    font-family: 'Sarabun', sans-serif;
+    border-radius: 5px
+}
+.mgreply .textbox {
+    width: 80%;
+    height: 200px;
+    display: flex;
+    margin: auto;
+    align-items: 
+    center;gap: 40px;
+
+}
+.mgreply .mgavata{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    outline: 5px solid #ffffffb0;
+    box-shadow: 0 0 20px #fafafa;
+    margin: auto;
+}
+.mgreply .tag{
+    width: 50%;
+    height: auto;
+
+}
+.mgreply .name{
+    background: #fff;
+    width: fit-content;
+    padding: 5px 20px;
+    border-radius: 100px;
+    font-size: large;
+    color: #491f66;
+    font-weight: bold;
+    margin: 30px auto;
+}
+.mgreply .subname{
+    background: #491f66;
+    width: fit-content;
+    padding: 5px 20px;
+    border-radius: 100px;
+    font-size: x-small;
+    color: #fafafa;
+    font-weight: bold;
+    margin-top: 10px;
+    margin: 10px auto;
+}

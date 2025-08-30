@@ -1,0 +1,132 @@
+#Zepl_invscrollbar *::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 5px;
+    background: transparent
+    
+  }
+  
+  #Zepl_invscrollbar *::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background: transparent
+  }
+  #babymemories {
+    width: 600px;
+    height: 590px;
+    margin: auto ;
+    overflow: visible;
+    display: flex;
+}
+#babyside {
+    width: 350px;
+    height: 590px;
+    margin: auto;
+    overflow: visible;
+ }
+ .bbmainbox {
+    background: #82cde5;
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    position: absolute;
+}
+.bbbasebox {
+    background: pink;
+    width: 260px;
+    height: 460px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    position: absolute;
+    background-image: linear-gradient(white 1px, transparent 1px), linear-gradient(to right, white 1px, #c0dde5 1px);
+    background-size: 55px 55px;
+    background-position: center center;
+    box-shadow: inset 0 0 20px rgb(130, 205, 229);
+}
+.bbmainphoto {
+    width:260px; height:460px;
+    left:0px; right:0px;
+    margin:auto;
+    top:20px;
+    position:absolute;
+    text-align:center;
+}
+.bbwave {
+    rotate: 180deg;
+    height: 70px;
+    width: 260px;
+    position: absolute;
+    margin-top: 410px;
+    color :#82cde5;
+}
+.bbmaintitle {
+    width: 260px;
+    height: 50px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    top: 362px;
+    position: absolute;
+    text-align: center;
+    font-family: 'Schoolbell', cursive;
+    font-size: 70px;
+    color: white;
+    rotate: -3deg;
+}
+.bbmainsticker {
+    margin-top: 10px;
+    margin-left: 210px;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: 800;
+    position: absolute;
+    z-index: 1111111;
+}
+
+.bbduoiocons {
+    margin-top: 60px;
+    margin-left: -60px;
+    text-align: center;
+    width: 100px;
+    height: 320px;
+    font-size: 12px;
+    font-weight: 800;
+    position: absolute;
+}
+.bbtextbox {
+    transform: translate(348px, 70px);
+    width: 288px;
+    min-height: 350px;
+    margin: auto;
+    padding: 0px;
+    background: #EEEEEE;
+    border: 3px solid #82cde5;
+    border-radius: 10px;
+    position: absolute;
+    color: #333;
+}
+.bbentry {
+    width: 230px;
+    height: 300px;
+    background: #FFFFFF;
+    margin: 10px;
+    padding: 20px 20px 0px 20px;
+    border: 1px solid #cccccc;
+    display: inline-block;
+    overflow: scroll;
+    font-family: 'Itim', cursive;
+    font-size: small;
+    text-align: justify;
+}
+.bbtoprole {
+    width: 194px;
+    height: 5px;
+    margin: -25px 0px 20px 9px;
+    padding: 10px;
+    background: #82cde5;
+    border-bottom: 1px solid #cccccc;
+    line-height: 10px;
+}
