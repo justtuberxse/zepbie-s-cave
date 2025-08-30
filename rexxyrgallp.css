@@ -1,0 +1,70 @@
+    .rexxyr-gp {
+        width: 500px;
+        height: 500px;
+        margin: 0 auto;
+        padding: 0 40px 20px 0;
+        box-sizing: border-box;
+        background-color: var(--fondo);
+        background-image: var(--img-gal);
+        background-size: cover;
+        background-position: center;
+        border-image: fill 0 linear-gradient(transparent, var(--degrade));
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        gap: 15px;
+        font-size: 12px;
+        font-family: 'Lato', sans-serif;
+        line-height: 15px;
+        color: var(--letra);
+    }
+
+    .rexxyr-gp::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 20px;
+        height: 100%;
+        background-color: var(--color-borde);
+    }
+
+    .rexxyr-gp > a {
+        position: absolute;
+        top: 30px;
+        right: -40px;
+        text-align: center;
+        color: var(--color-b);
+        text-decoration: none;
+        text-transform: uppercase;
+        transform: rotate(90deg);
+    }
+
+    .rexxyr-gp span[title] {
+        font-family: "Jacquard 24", system-ui,'Sarabun', sans-serif;;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .rexxyr-gp span[txt] {
+        width: 85%;
+        backdrop-filter: blur(2px);
+        height: 160px;
+        overflow-y: auto;
+        scrollbar-width: none;
+        text-align: justify;
+        opacity: 0;
+        transition: 1s;
+        font-family: 'Sarabun', sans-serif;
+    }
+
+    .rexxyr-gp:hover > span[txt] {
+        opacity: 1;
+        transition: 1s;
+    }
+
+    .rexxyr-gp:hover > span[txt] b{
+        color: var(--color-b);
+    }
