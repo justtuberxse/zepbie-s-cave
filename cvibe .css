@@ -1,0 +1,150 @@
+#cvibe {
+    width: 80%; 
+    margin: 50px auto; 
+    position: relative
+}
+
+
+#cvibe p{
+    margin: 1.5em 0;
+    text-align: justify;
+    text-indent: 15%;
+    font-size: 14px;
+}
+
+#cvibe details[open] summary .ueser {
+    width: 100%;
+  }
+  
+  #cvibe  details br {
+    display: none;
+  }
+  
+  #cvibe  summary {
+    cursor: pointer;
+  }
+  
+  #cvibe  summary::marker {
+    content: '';
+  }
+  
+  
+  #cvibe summary::-webkit-details-marker {
+    display: none;
+  }
+
+#cvibe main{
+    width: auto;
+    background: #fff9e3;
+    border-radius: 0px 50px 0px 50px;
+    margin: 50px auto;
+    padding: 16px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 10;
+     display: flex; 
+     justify-content: space-between; 
+     gap: 14px;
+}
+#cvibe .icon{
+    width: auto;
+    border-radius: 100px;
+    margin-top: 1vw;
+    aspect-ratio: 1/1; 
+}
+
+#cvibe .content {
+    width: 85%;
+    background: #e9e2c5;
+    border-radius: 50px;
+    margin: 10px;
+    color: black;
+    font: 16px Bai Jamjuree;
+}
+#cvibe .toppic{
+    font: 2.9vw Playfair Display; 
+    text-align: center; 
+    margin-top: 20px;
+}
+#cvibe .stoppic{
+    font: 1.3vw Taviraj; 
+    text-align: center;
+     margin: 10px;
+}
+#cvibe .cbox {
+    width: auto;
+    padding: 10px;
+    margin: 20px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    margin-top: 8px;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+#cvibe .cbox .cgrid {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(130px, 1fr));
+    gap: 14px;
+    margin: auto;
+}
+#cvibe .cbox .cgrid .vibe{
+    width: 100%;
+    aspect-ratio: 1/1; 
+    margin: auto;
+}
+#cvibe .cbox .cgrid .name{
+width: 100%; 
+font: 1.2vw Taviraj; 
+text-align: center; 
+margin: 10px; 
+font-weight: bold;
+}
+
+#cvibe .cbox .cgrid .name:hover {
+    color: #973131;
+    transition: all 0.3s ease;
+}
+
+#cvibe .dis {
+    position: absolute;
+     width: 9%; 
+     aspect-ratio: 1/1; 
+     background: url(https://i.imgur.com/ez2Bx7K.png) center/cover no-repeat;
+    top: 2.3vw; 
+    left: 10.9vw;
+
+}
+
+#cvibe .btf{
+    position: absolute; 
+    width: 10%; 
+    aspect-ratio: 1/1; 
+    background: url(https://i.imgur.com/3L5BVEK.png) center/cover no-repeat;
+     top: 1.9vw; 
+     right: 3vw;
+}
+#cvibe .flower{
+    position: absolute; 
+    width: 14%; 
+    aspect-ratio: 1/1; 
+    background: url(https://i.imgur.com/pBtcrg0.png) center/cover no-repeat; 
+    bottom: 0vw; 
+    right: -1vw
+}
+#cvibe .picd{
+    position: absolute; 
+    width: 15%; 
+    aspect-ratio: 3/2; 
+    background: url(https://i.imgur.com/7NxYHiS.png) center/cover no-repeat; 
+    top: 5.4vw; 
+    left: 0.5vw;
+}
+#cvibe .sign{
+    position: absolute; 
+    width: 28%; 
+    aspect-ratio: 3/2;
+     background: url(https://i.imgur.com/r7wlcxj.png) center/cover no-repeat; 
+     bottom: -2vw; left: -0.7vw;
+}
