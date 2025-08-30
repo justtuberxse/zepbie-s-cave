@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Sarabun:wght@400;700&display=swap');
+
+#ryx *::-webkit-scrollbar-thumb {background-color:var(--accent);}
+#ryx *::-webkit-scrollbar {background-color:transparent; width:1px; height:10px;}
+
+#justz { position: relative; }
+#justz * { box-sizing: border-box; }
+
+#justz a[href="https://discord.com/users/982510965335683134/"] {
+    height: 12px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#justz a[href="https://discord.com/users/982510965335683134/"] ~ div:first-child { position: relative; }
+  
+#justz::after {
+    display: block;
+    content: "tuberose";
+    font-family: 'Josefin Sans';
+    font-size: x-small;
+    color: #272727 !important;
+    width: fit-content;
+    margin: auto;
+}
+  
+#justz:hover::after { content: "justtuberose"; }
+
+#ryx {
+    max-width: 90%;
+    min-width: 480px;
+    height: auto;
+    background: var(--bgaac);
+    margin: auto;
+    position: relative;
+    color: var(--text);
+}
+#ryx i{
+    color: var(--accent);
+}
+#ryx .rtb{
+    width: 100%;
+    height: 50px;
+    background: var(--background);
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 4px #3333332b;
+    margin: auto;
+    z-index: 1;
+    position: absolute;
+}
+#ryx .rtb .iconb{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#ryx .rtb .rtbt{
+    font-family: var(--accent-font);
+    text-transform: uppercase;
+    font-size: small;
+}
+
+#ryx .content {
+    display: flex;
+    font-family: var(--body-font);
+    gap: 10%;
+}
+
+#ryx .content .leftb{
+    width: 70%;
+    position: relative;
+}
+
+#ryx .content .leftb .bio{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    background: var(--biobg);
+    padding: 80px 20px;
+    font-family: var(--accent-font);
+
+
+}
+#ryx .content .leftb .cat {
+    aspect-ratio: 1 / 1;
+    position: absolute;
+    bottom: 2vw;
+    right: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 8px black;
+}
+#ryx .content .leftb .cat img {
+    width: 200px;
+}
+#ryx .content .leftb .bioh{
+    font-size: 4rem;
+    margin-top: 50px;
+    text-transform: uppercase;
+    text-align: right;
+}
+#ryx .content .leftb .bios {
+    font-size: 2rem;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#ryx .content .leftb .hisb{
+    width: 90%;
+    padding: 20px;
+    height: 300px;
+    overflow-y: scroll;
+    text-align: justify;
+    line-height: 160%;
+    font-family: var(--body-font);
+    color: var(--text);
+    margin: 20px auto;
+    backdrop-filter: blur(3px);
+}
+
+#ryx .content .leftb .bpd{
+    width: 350px;
+    height: 250px;
+    background: var(--bpdbg);
+    margin: 50px auto;
+    box-shadow: -40px 20px 0px var(--accent2);
+}
+
+
+
+#ryx .content .rightb{
+    width: 30%;
+}
+
+#ryx .content .rightb .charp{
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+
+}
