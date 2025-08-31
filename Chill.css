@@ -70,7 +70,7 @@
       border-left: 2px solid var(--color_bg2);
       margin-top: -18px;
       font: 300 var(--size_text)/25px IBM Plex Sans Thai;
-      line-height: 1.5;
+      line-height: 2;
   }
   
   #chill .chill_content strong { color: var(--accent1); font-weight: 900; }
@@ -133,3 +133,4 @@
     left: 0;
   }
   #chill:hover::after { content: "justtuberose"; }
+
