@@ -122,7 +122,7 @@
   }
   
   #chill:after{
-    content: "\ff449";
+    content: "\f458";
     font-family: 'game-icons','Josefin Sans';
     font-size: x-small;
     color: #bfd8af9f !important;
@@ -133,5 +133,6 @@
     left: 0;
   }
   #chill:hover::after { content: "justtuberose"; }
+
 
 
