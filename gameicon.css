@@ -16,7 +16,7 @@ url("game-icons.ttf?817af6e52c83163eb30ece54d9f7d16d") format("truetype");
 	vertical-align: top;
 }
 
-.gi-3d-glasses:before {
+.game-icon-3d-glasses:before {
 	content: "\ff000";
 }
 .game-icon-3d-hammer:before {
