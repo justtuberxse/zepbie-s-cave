@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kirang+Haerang&family=Spicy+Rice&display=swap');
-@font-face {
-  font-family: "lemon";
-  src: url("https://dl.dropbox.com/scl/fi/1p0cp7mvzht6w1wsd4u5n/lemon.ttf?rlkey=ef0e6qc9fa77x96uyde1onguy&st=66hpt6tg&dl=0");
-}
+ @font-face {
+      font-family: 'lemon'; 
+      src: url('https://cdn.jsdelivr.net/gh/justtuberxse/zepbie-s-cave@main/lemon.ttf') format('truetype'); 
+    }
 
 #zbc{
     background: #D2DBEC;
@@ -216,4 +216,5 @@ grid-row-gap: 0px;
         flex-direction: column;
     }
 }
+
 #zbc:hover::after { content: "justtuberose"; }
