@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kirang+Haerang&family=Spicy+Rice&display=swap');
-@font-face {
-  font-family: "lemon";
-  src: url("https://dl.dropbox.com/scl/fi/1p0cp7mvzht6w1wsd4u5n/lemon.ttf?rlkey=ef0e6qc9fa77x96uyde1onguy&st=66hpt6tg&dl=0");
-}
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 #zbc{
     background: #D2DBEC;
@@ -10,7 +7,7 @@
     padding: 1rem;
     position: relative;
     margin: 20px auto;
-        font-family: "lemon";
+        font-family: "Mali";
         cursor: url(http://www.rw-designer.com/cursor-view/136554.png), default!important;
         color: #48678E;
 }
@@ -103,7 +100,7 @@ text-decoration: wavy;
     padding: 20px;
 color: #3777B7;}
 #zbc h3 {
-    font-family: "Kirang Haerang", "lemon";
+    font-family: "Kirang Haerang", "Mali";
     font-size: 5rem;
     text-align: center;
     color: #75beeb;
@@ -218,4 +215,5 @@ grid-row-gap: 0px;
 }
 
 #zbc:hover::after { content: "justtuberose"; }
+
 
