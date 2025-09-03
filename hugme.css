@@ -18,18 +18,20 @@
     letter-spacing: .5px;
     line-height: 16px;
     overflow: hidden;
+cursor: url(https://ani.cursors-4u.net/symbols/sym-8/sym757.ani), url(https://ani.cursors-4u.net/symbols/sym-8/sym757.png), auto !important;
 }
+
 .hugmebaby {
-    position: fixed;
+    position: relative;
     width: 540px;
     height: 425px;
     top: 0px;
     bottom: 0px;
     left: 0px;
     right: 0px;
-    margin: auto;
+    margin: 50vh auto;
     overflow: visible;
-       font-family: "Poppins", sans-serif !important;
+    font-family: "Poppins", sans-serif !important;
 }
 
 #hugme ::-webkit-scrollbar-thumb { display:none; }
@@ -210,6 +212,7 @@ background: var(--mainpc);
         color: var(--tabbg); 
     background: #F2C078;
         color: var(--tabcolor);
+cursor: url(https://ani.cursors-4u.net/symbols/sym-8/sym755.ani), url(https://ani.cursors-4u.net/symbols/sym-8/sym755.png), auto !important;
 }
 .pop{
         text-transform: uppercase;
@@ -235,6 +238,7 @@ font-size: 10px;
 .pop a{
     color: #FFFFFF;
     text-decoration: none;
+cursor: url(https://ani.cursors-4u.net/symbols/sym-8/sym755.ani), url(https://ani.cursors-4u.net/symbols/sym-8/sym755.png), auto !important;
 }
 .pop a:hover{
     background:#ffff;
