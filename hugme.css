@@ -37,7 +37,7 @@ cursor: url(https://ani.cursors-4u.net/symbols/sym-8/sym757.ani), url(https://an
 #hugme ::-webkit-scrollbar-thumb { display:none; }
 
 #hugme ::-webkit-scrollbar { display:none; }
-#hugme ::selection { background: #91dcf4;color: #19647c;}
+#hugme ::selection { background: var(--tabbg);color:var(--tabcolor);}
 #hugmeleft {
     position:absolute;
     width:320px; height:425px;
