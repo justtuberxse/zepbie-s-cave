@@ -213,7 +213,7 @@ background: var(--mainpc);
 
 .tab a:hover {
         color: var(--tabbg); 
-    background: #F2C078;
+    background:var(--tabhover);
         color: var(--tabcolor);
 cursor: url(https://ani.cursors-4u.net/symbols/sym-8/sym755.ani), url(https://ani.cursors-4u.net/symbols/sym-8/sym755.png), auto !important;
 }
