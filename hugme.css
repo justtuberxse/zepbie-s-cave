@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#hugme  {
+    width: 100%;
+    height: 100%;
+    background: #fcfcfc;
+    background-image: url(https://assets.tumblr.com/images/x.gif?v=1);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-size: 8.5px;
+    color: #aaa;
+    letter-spacing: .5px;
+    line-height: 16px;
+    overflow: hidden;
+}
+.hugmebaby {
+    position: fixed;
+    width: 540px;
+    height: 425px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    overflow: visible;
+       font-family: "Poppins", sans-serif !important;
+}
+
+#hugme ::-webkit-scrollbar-thumb { display:none; }
+
+#hugme ::-webkit-scrollbar { display:none; }
+#hugme ::selection { background: #91dcf4;color: #19647c;}
+#hugmeleft {
+    position:absolute;
+    width:320px; height:425px;
+    top:0px; left:0px;
+    margin:auto;
+    z-index:2;
+    }
+    
+.main-photo {
+    position: absolute;
+    width: 280px;
+    height: 300px;
+    margin: auto;
+    top: 0px;
+    left: 20px;
+    outline: 7px solid var(--hugmeborder);
+    border-radius: 10px;
+    padding: 10px;
+background: var(--mainpc);
+}
+.main-detail-1 {
+    color: #FFFFFF;
+    border: 1px solid var(--bdm1);
+    position: absolute;
+    width: auto;
+    height: 5px;
+    line-height: 5px;
+    padding: 10px;
+    margin: auto;
+    top: 30px;
+    left: 52px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 60%;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.main-detail-2 {
+    position: absolute;
+    width: 240px;
+    height: 20px;
+    margin: auto;
+    bottom: 130px;
+    left: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+.detail-text{
+    text-transform:uppercase;
+    position:absolute;
+    left:27px;
+    top:-1px;
+    margin:auto;
+    padding:5px;
+    height:10px;
+    width:170px;
+    border:1px solid #d8d8d8;
+    font-size:60%;
+    line-height:10px;
+    text-align:center;
+    color:#FFFFFF;
+    border-radius:50px;
+}
+
+.photo-1 {
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    padding: 10px;
+    border: 1px solid var(--pb1);
+    background: var(--p1);
+    border-radius: 10px;
+    height: 70px;
+    width: 70px;
+}
+.photo-2 {
+    position: absolute;
+    bottom: 0px;
+    left: 125px;
+    padding: 10px;
+    border: 1px solid var(--pb2);
+    background: var(--p2);
+    border-radius: 10px;
+    height: 70px;
+    width: 70px;
+}
+.photo-3 {
+    position: absolute;
+    bottom: 0px;
+    left: 230px;
+    padding: 10px;
+    border: 1px solid var(--pb3);
+    background: var(--p3);
+    border-radius: 10px;
+    height: 70px;
+    width: 70px;
+}
+.music {
+    padding: 10px;
+    position: absolute;
+    margin: auto;
+    top: 62px;
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    left: 335px;
+}
+.music img{
+    width: 90px;
+    aspect-ratio: 1/1;
+}
+.palette {
+    position: absolute;
+    height: 5px;
+    width: 220px;
+    left: 335px;
+    top: 150px;
+    margin: auto;
+    border-radius: 50px;
+}
+.description {
+    padding: 10px;
+    position: absolute;
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+    width: 200px;
+    height: 231px;
+    left: 335px;
+    top: 172px;
+    text-transform: uppercase;
+    font-size: 80%;
+        background: #F3F3E0;
+}
+.tab {
+    position: absolute;
+    margin: auto;
+    top: -6px;
+    left: 289px;
+    padding: 0px;
+    width: 305px;
+    height: 65px;
+    text-align: center;
+    display: flex
+;
+    justify-content: center;
+}
+.tab a {
+        text-decoration: none;
+    color: var(--tabcolor);
+    background: var(--tabbg);
+    width: 26px;
+    height: 26px;
+    font-size: 24px;
+    margin-left: 10px;
+    margin-top: 6px;
+    text-align: center;
+    border: 1px solid #d8d8d8;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    -webkit-transition: all .8s;
+    -moz-transition: all .8s;
+    -o-transition: all .8s;
+    -ms-transition: all .8s;
+    transition: all .8s;
+}
+
+.tab a:hover {
+        color: var(--tabbg); 
+    background: #F2C078;
+        color: var(--tabcolor);
+}
+.pop{
+        text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    top: -1px;
+    margin: auto;
+    padding: 5px;
+    height: 10px;
+    width: 10px;
+    border: 1px solid #d8d8d8;
+    background:var(--popcolor);
+    color: #FFFFFF;
+    border-radius: 100%;
+    font-size: 60%;
+    line-height: 10px;
+}
+
+.pop i {
+font-size: 10px;
+}
+.pop a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.pop a:hover{
+    background:#ffff;
+}
+ .iconpop{
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    margin: auto;
+    padding: 0px;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    font-size: 200%;
+    line-height: 22px;
+    color:var(--popcolor);
+ }
