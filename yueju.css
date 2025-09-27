@@ -5,7 +5,6 @@
 #yueju ::-webkit-scrollbar { display:none; }
 #yueju{
     width: auto;
-    min-height: 100vh;
    font-family: "Niramit", sans-serif;
        border-style: solid;
     border-image-source: linear-gradient(180deg, rgba(36, 16, 16, 0) 20%, rgb(102 0 0) 50%, rgb(45 3 1) 80%);
