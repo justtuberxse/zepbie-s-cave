@@ -18,14 +18,14 @@
 }
 
 #yueju .weinfo{
-width: 400px;
-    height: 300px;
+width: 500px;
+    height: 500px;
     overflow: auto;
     position: absolute;
     text-align: justify;
     text-indent: 5%;
-    bottom: 650px;
-    right: 100px;
+    top: 650px;
+    right: 50px;
     line-height: 1.5;
     color: #fafafa;
     backdrop-filter: blur(3px);
