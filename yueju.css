@@ -17,23 +17,41 @@
     position: relative;
 }
 
-#yueju .weinfo{
-width: 500px;
+#yueju .infobox{
+    width: 500px;
     height: 500px;
     overflow: auto;
     position: absolute;
-    text-align: justify;
-    text-indent: 5%;
-    top: 550px;
+    top: 650px;
     right: 50px;
-    line-height: 1.5;
+        line-height: 1.5;
     color: #fafafa;
     backdrop-filter: blur(3px);
     padding: 20px;
+}
+
+#yueju .read {
+    color: #ffffffb3;
+    position: absolute;
+    width: fit-content;
+    text-align: center;
+    right: 270px;
+    bottom: 1125px;
 }
 #yueju .logo {
     aspect-ratio: 1 / 1;
     width: 100%;
     margin: 20px auto;
     background: url(https://iili.io/K1qNpef.png) center / 150%;
+}
+
+#yueju p{
+    text-align: justify;
+    text-indent: 5%;
+}
+
+#yueju .line {
+    margin: 1rem auto;
+    text-align: center;
+    font-size: x-large;
 }
