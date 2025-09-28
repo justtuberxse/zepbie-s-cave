@@ -3,13 +3,15 @@
 #yueju ::-webkit-scrollbar-thumb { display:none; }
 
 #yueju ::-webkit-scrollbar { display:none; }
+
 #yueju{
     width: auto;
    font-family: "Niramit", sans-serif;
-       border-style: solid;
+    border-style: solid;
     border-image-source: linear-gradient(180deg, rgba(36, 16, 16, 0) 20%, rgb(102 0 0) 50%, rgb(45 3 1) 80%);
     border-image-slice: 1;
     border-width: 3px;
+    color: #fafafa;
 }
 .welcome{
     background: linear-gradient(52deg,rgba(51, 4, 4, 1) 0%, rgba(255, 255, 255, 0) 44%),var(--welcome);
@@ -73,4 +75,64 @@
 .line{margin: 0.5rem auto;font-size: small;}
 .read {right: 115px;bottom: 325px;}
 
+}
+
+ /*----shelf-----*/
+.shelf
+ {
+    background: linear-gradient(transparent, transparent, #000000, #000000, #000000, transparent, transparent), url(https://iili.io/K1sadCb.png) top / 100% no-repeat, url(https://iili.io/K1gDQgj.png) bottom center / 100% no-repeat;
+    position: relative;
+    padding: 4rem 3rem;
+}
+.shelfbox {
+    border: 2px solid #bf200f75;
+    min-height: 400px;
+    padding: 3rem;
+    position: relative;
+}
+.shelgrid{display: grid;
+grid-template-columns: 1.5fr repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;}
+
+.sp1 { grid-area: 1 / 1 / 3 / 2;    padding-top: 10rem; }
+.sp2 { grid-area: 1 / 2 / 2 / 3; }
+.sp3 { grid-area: 1 / 3 / 2 / 4; }
+.sp4 { grid-area: 1 / 4 / 2 / 5; }
+.sp5 { grid-area: 2 / 2 / 3 / 3; }
+.sp6 { grid-area: 2 / 3 / 3 / 4; }
+
+#yueju h3{     color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.7rem;
+    text-shadow: 0 0 7px white;
+
+}
+#yueju h4{
+    text-shadow: 0 0 15px white;
+    text-align: center;
+}
+.itembox{
+    width: 85%;
+    aspect-ratio: 1 / 1;
+    margin: auto;
+    line-height: 1.5;
+}
+.itembox img{
+    width: 100%;
+}
+.itemdetail{
+    text-align: justify;
+    text-indent: 5%;
+}
+
+.btrdec {
+    background: url(https://iili.io/K1r14un.png) center / cover;
+    width: 500px;
+    aspect-ratio: 4/3;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
