@@ -91,16 +91,17 @@
     padding: 3rem;
     position: relative;
     overflow: scroll;
-    height: 650px;
+    height: 600px;
         backdrop-filter: blur(2px);
+ -webkit-mask-image: linear-gradient(transparent, transparent, #000000, #000000, #000000, #000000, #000000, #000000, #000000,#000000,transparent,transparent 95%)
 }
-.colllabe{ text-align: center;margin: 6rem 0;
+.colllabe{ text-align: center;margin: 8rem 0;
 }
 .colllabe img{width: 300px;aspect-ratio: 1 / 1;}
 .previwe {
     display: flex;
     align-items: center;
-        margin: 2rem 0;
+        margin: 5rem 0 8rem;;
 }
 
 #yueju h3{     color: #fff;
@@ -141,10 +142,11 @@
     flex-wrap: wrap;
     flex-direction: column-reverse;
 }
-.colllabe{ text-align: center;margin: 8rem 0;}
+.colllabe{ text-align: center;margin: 1rem 0 8rem;}
 #yueju h3{    font-size: 1rem;}
 .itemdetail {width: 80%;padding: 20px;font-size: small;}
 .shelfbox{    height: 600px;}
-.itembox{width: 65%;}
+.itembox{width: 95%;}
+.shelfbox{-webkit-mask-image: linear-gradient(transparent, #000000, #000000, #000000, #000000, transparent 95%);}
 
 }
