@@ -95,13 +95,13 @@
         backdrop-filter: blur(2px);
  -webkit-mask-image: linear-gradient(transparent, transparent, #000000, #000000, #000000, #000000, #000000, #000000, #000000,#000000,transparent,transparent 95%)
 }
-.colllabe{ text-align: center;margin: 8rem 0;
+.colllabe{ text-align: center;margin: 5rem 0;
 }
 .colllabe img{width: 300px;aspect-ratio: 1 / 1;}
 .previwe {
-    display: flex;
-    align-items: center;
-        margin: 5rem 0 8rem;;
+display: flex;
+align-items: center;
+margin: 5rem 0 8rem;;
 }
 
 #yueju h3{     color: #fff;
