@@ -82,7 +82,7 @@
     background: var(--shelf);
     display: flex;
     justify-content: center;
-    padding: 5rem 2rem;
+    padding: 2rem;
     align-items: center;
 
 }
