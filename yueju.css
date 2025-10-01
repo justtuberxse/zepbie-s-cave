@@ -99,9 +99,9 @@
 }
 .colllabe img{width: 300px;aspect-ratio: 1 / 1;}
 .previwe {
-display: flex;
-align-items: center;
-margin: 5rem 0 8rem;;
+    display: flex;
+    align-items: center;
+        margin: 5rem 0 8rem;;
 }
 
 #yueju h3{     color: #fff;
@@ -136,6 +136,22 @@ margin: 5rem 0 8rem;;
 
 @media screen and (max-width: 1050px){
     .previwe {
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+.colllabe{ text-align: center;margin: 1rem 0 8rem;}
+#yueju h3{    font-size: 1rem;}
+.itemdetail {width: 80%;padding: 20px;font-size: small;}
+.shelfbox{    height: 600px;}
+.itembox{width: 95%;}
+.shelfbox{-webkit-mask-image: linear-gradient(transparent, #000000, #000000, #000000, #000000, transparent 95%);}
+
+}
+@media screen and(max-width: 1300px){
+        .previwe {
     display: flex;
     align-items: center;
     margin: 2rem 0;
