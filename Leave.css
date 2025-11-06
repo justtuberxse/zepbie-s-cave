@@ -12,6 +12,7 @@
     width: 100%;
     position: relative;
     padding: 30px 0 30px 50px;
+        backdrop-filter: grayscale(0.2);
 }
 .postc1 {
     width: 400px;
