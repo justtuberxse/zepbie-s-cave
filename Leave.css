@@ -19,7 +19,7 @@
     position: absolute;
     z-index: -2;
     background: rgba(208, 203, 190, 20) url(https://iili.io/KtCXahg.jpg) center / cover;
-    left: 400px;
+    left: 200px;
     top: 200px;
     rotate: 353deg;
     padding: 15px;
@@ -108,7 +108,7 @@ aspect-ratio: 18 / 25;
 }
 
 #leave:after {
-    content: "\ec41";
+    content: "\f458";
     font-family: 'game-icons', 'Josefin Sans';
     font-size: small;
     color: #ffffff82 !important;
