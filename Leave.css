@@ -9,7 +9,6 @@
 }
 .leave_body {
     width: 100%;
-    backdrop-filter: grayscale(0.4);
     position: relative;
     padding: 30px 0 30px 50px;
 }
@@ -62,6 +61,7 @@ aspect-ratio: 18 / 25;
     background: var(--fw) center / 90% no-repeat;
     rotate: 34deg;
     right: 150px;
+    top:50px;
 }
 
 .stamp{
@@ -125,14 +125,15 @@ aspect-ratio: 18 / 25;
     width: 100%;
     text-align: center;
     left: 0;
-    bottom: -25px;
+    bottom: -10px;
 }
 
 @media screen and (max-width: 1150px) {
-    .postc1{    width: 300px;height: 500px;    left: 20px;}
-    .postc1 .pp {aspect-ratio: 9 / 14;;}
-    .postc2{ max-width: 450px;}
+    .postc1{    width: 300px;height: 500px;    left: 30px;}
+    .postc1 .pp {aspect-ratio: 9 / 14;}
+    .postc2{ max-width: 450px;    padding: 20px 15px 30px;}
     .stamp {--radius: 5px;width: 170px;height: 200px;}
-    .stamp-pfp {width: 140px; height: 190px;}
+    .stamp-pfp {width: 140px; height: 170px;}
+    .decflower {width: 200px;aspect-ratio: 3 / 4; background: var(--fw) center / 70% no-repeat; rotate: 31deg;right: 15px;
 }
 #leave:hover::after { content: "justtuberose"; }
