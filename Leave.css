@@ -126,7 +126,6 @@ aspect-ratio: 18 / 25;
     width: 100%;
     text-align: center;
     left: 0;
-    bottom: -10px;
 }
 
 @media screen and (max-width: 1050px) {
@@ -137,6 +136,7 @@ aspect-ratio: 18 / 25;
     .stamp {--radius: 5px;width: 170px;height: 200px;}
     .stamp-pfp {width: 140px; height: 170px;}
     .decflower {width: 200px; aspect-ratio: 3 / 4;background: var(--fw) center / 80% no-repeat;rotate: 31deg;right: 25px;top: -80px;}
+    #leave:after {bottom: -10px; }
 }
 #leave:hover::after { content: "justtuberose"; }
 
