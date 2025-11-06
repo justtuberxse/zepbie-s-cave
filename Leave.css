@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&family=Lavishly+Yours&display=swap');
+@import "node_modules/rpg-awesome/scss/rpg-awesome";
+#leave {
+    width: auto;
+    min-height: 400px;
+    position: relative;
+    font-family: "Lavishly Yours","Anuphan";
+        color: #3f3225;
+}
+.leave_body {
+    width: 100%;
+    backdrop-filter: grayscale(0.4);
+    position: relative;
+    padding: 30px 0 30px 50px;
+}
+.postc1 {
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    z-index: -2;
+    background: rgba(208, 203, 190, 20) url(https://iili.io/KtCXahg.jpg) center / cover;
+    left: 400px;
+    top: 200px;
+    rotate: 353deg;
+    padding: 15px;
+    box-shadow: 0 0 15px #00000070;
+}
+
+.postc1 .pp{
+width: auto;
+background: var(--pp);
+aspect-ratio: 18 / 25;
+}
+
+.postc2 {
+    background: rgba(208, 203, 190, 20) url(https://iili.io/KtCXWvI.jpg) center / cover;
+    max-width: 550px;
+    aspect-ratio: 18 / 22;
+    margin: auto;
+    box-shadow: 0 0 15px #00000070;
+    padding: 40px 30px;
+    position: relative;
+}
+
+.postc2 h5{
+    font-size: small;
+    margin: 15px auto;
+    text-align: center;
+    font-family: "Anuphan";
+    text-transform: uppercase;
+}
+.postc2 h4 {
+    font-size: 3em;
+    text-align: center;
+    margin: 0.5em 0;
+}
+
+.stamp{
+  --radius: 5px;
+    width: 200px;
+    height: 230px;
+    inset: 0;
+    margin: auto;
+    position: relative;
+  background-image: 
+    radial-gradient(
+      var(--radius),
+      transparent 98%,
+      rgb(138, 115, 100)
+    ),
+    linear-gradient(rgb(138, 115, 100)0 0);
+  background-repeat: 
+    round, 
+    no-repeat;
+  background-position:
+    calc(var(--radius) * -1.5) calc(var(--radius) * -1.5),
+    50%;
+  background-size:
+    calc(var(--radius) * 3) calc(var(--radius) * 3),
+    calc(100% - var(--radius) * 3) calc(100% - var(--radius) * 3);
+}
+.stamp-pfp {
+    width: 170px;
+    height: 200px;
+    margin: auto;
+    background: var(--stmp);
+    top: 15px;
+    left: 15px;
+    position: absolute;
+}
+
+.leafbox {
+    line-height: 1.7;
+    width: 90%;
+    margin: 30px auto;
+    text-indent: 5%;
+    text-align: justify;
+}
+.leafnote {
+    font-size: small;
+    margin: auto;
+    text-align: center;
+    font-family: "Anuphan";
+    position: absolute;
+    bottom: 25px;
+    right: 40px;
+    font-weight: bold;
+}
+
+#leave:after {
+    content: "\ec41";
+    font-family: 'game-icons', 'Josefin Sans';
+    font-size: small;
+    color: #ffffff82 !important;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    bottom: -25px;
+}
+
+@media screen and (max-width: 1150px) {
+    .postc1{    width: 300px;height: 500px;    left: 20px;}
+    .postc1 .pp {aspect-ratio: 9 / 14;;}
+    .postc2{ max-width: 450px;}
+    .stamp {--radius: 5px;width: 170px;height: 200px;}
+    .stamp-pfp {width: 140px; height: 190px;}
+}
+#leave:hover::after { content: "justtuberose"; }
