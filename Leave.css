@@ -11,14 +11,13 @@
     width: 100%;
     position: relative;
     padding: 30px 0 30px 50px;
-    margin: 50px auto;
 }
 .postc1 {
     width: 400px;
     height: 600px;
     position: absolute;
     z-index: -2;
-    background: rgba(208, 203, 190, 20) url(https://iili.io/KtMB4Pn.png) center / cover;
+    background: rgba(208, 203, 190, 20) url(https://iili.io/KtCXahg.jpg) center / cover;
     left: 200px;
     top: 200px;
     rotate: 353deg;
@@ -33,7 +32,7 @@ aspect-ratio: 18 / 25;
 }
 
 .postc2 {
-    background: rgba(208, 203, 190, 20) url(https://iili.io/KtMB4Pn.png) center / cover;
+    background: rgba(208, 203, 190, 20) url(https://iili.io/KtCXWvI.jpg) center / cover;
     max-width: 550px;
     aspect-ratio: 18 / 22;
     margin: auto;
@@ -127,6 +126,3 @@ aspect-ratio: 18 / 25;
     left: 0;
     bottom: -25px;
 }
-
-
-#leave:hover::after { content: "justtuberose"; }
