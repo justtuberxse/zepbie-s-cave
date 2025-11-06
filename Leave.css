@@ -6,12 +6,12 @@
     position: relative;
     font-family: "Lavishly Yours","Anuphan";
         color: #3f3225;
+        margin: 50px auto;
 }
 .leave_body {
     width: 100%;
     position: relative;
     padding: 30px 0 30px 50px;
-    margin:50px auto;
 }
 .postc1 {
     width: 400px;
@@ -33,7 +33,7 @@ aspect-ratio: 18 / 25;
 }
 
 .postc2 {
-    background: rgba(208, 203, 190, 20) url(https://iili.io/KtCXWvI.jpg) center / cover;
+    background: rgba(208, 203, 190, 20) url(https://iili.io/KtMB4Pn.png) center / cover;
     max-width: 550px;
     aspect-ratio: 18 / 22;
     margin: auto;
@@ -127,3 +127,15 @@ aspect-ratio: 18 / 25;
     left: 0;
     bottom: -10px;
 }
+
+@media screen and (max-width: 1050px) {
+    .leave_body {padding: 30px 0;}
+    .postc1{width: 300px; height: 400px;top: -40px; left: 25px;}
+    .postc1 .pp {aspect-ratio: 9 / 11;}
+    .postc2{ max-width: 450px;    padding: 20px 15px 30px;}
+    .stamp {--radius: 5px;width: 170px;height: 200px;}
+    .stamp-pfp {width: 140px; height: 170px;}
+    .decflower {width: 200px; aspect-ratio: 3 / 4;background: var(--fw) center / 80% no-repeat;rotate: 31deg;right: 25px;top: -80px;}
+}
+#leave:hover::after { content: "justtuberose"; }
+
