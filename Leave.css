@@ -128,7 +128,7 @@ aspect-ratio: 18 / 25;
     bottom: -10px;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1050px) {
     .postc1{    width: 300px;height: 500px;    left: 30px;}
     .postc1 .pp {aspect-ratio: 9 / 14;}
     .postc2{ max-width: 450px;    padding: 20px 15px 30px;}
