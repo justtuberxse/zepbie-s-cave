@@ -54,6 +54,15 @@ aspect-ratio: 18 / 25;
     text-align: center;
     margin: 0.5em 0;
 }
+.flower {
+    width: 400px;
+    aspect-ratio: 18 / 22;
+    z-index: -3;
+    position: absolute;
+    background: var(--fw) center / 90% no-repeat;
+    rotate: 34deg;
+    right: 150px;
+}
 
 .stamp{
   --radius: 5px;
