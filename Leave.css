@@ -111,9 +111,6 @@ aspect-ratio: 18 / 25;
     margin: auto;
     text-align: center;
     font-family: "Anuphan";
-    position: absolute;
-    bottom: 25px;
-    right: 40px;
     font-weight: bold;
 }
 
