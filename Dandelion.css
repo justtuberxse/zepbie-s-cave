@@ -187,13 +187,14 @@
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.06);
     text-align: center;
-    padding-bottom:10px
+    padding-bottom: 50px;
 }
 .ememt{
     width: 100%;aspect-ratio: 1 / 1;object-fit:cover;
     background:url(https://iili.io/K0gXh2s.png)center 40%/cover;
     margin-bottom:10px;border-radius: 12px;
 }
+
 
 
 
