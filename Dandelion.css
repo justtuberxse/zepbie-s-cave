@@ -1,0 +1,93 @@
+#dandelion_pro{
+    max-width: 800px;
+    height: auto;
+    background: #F5F5DC;
+    border: 2px solid var(--ddborder);
+    color: #000;
+    font-family: 'Bai Jamjuree', serif;
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+#dandelion_pro .header {
+    max-width: 900px;
+    height: 350px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(245, 245, 220, 1) 100%), var(--ddheader);
+    border-radius: 18px;
+}
+#dandelion_pro .ddlogo{
+    max-width: 320px;
+    height: 320px;
+    background: url(https://i.imgur.com/k8azSya.png) center / cover;
+    transform: translate(-10px, 45px);
+}
+
+#dandelion_self{
+    max-width: 800px;
+    height: auto;
+    background: linear-gradient(180deg, rgba(245, 245, 220, 1) 70%, rgba(143, 130, 119, 1) 100%);
+    border: 2px solid #8B8000;
+    font-family: 'Bai Jamjuree', serif;
+    border-radius: 20px;
+    padding-bottom: 100px;
+    margin: auto;
+}
+
+#dandelion_self .header{
+    max-width: 800px;
+    height: 280px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(245 245 220) 100%),  var(--ddsheader);
+    border-radius: 18px 18px 0 0;}
+
+.selfname{
+    font-size: 60px;
+    color: #fff;
+    font-family: 'Kalnia', serif;
+    margin-top: 90px;
+    text-shadow: -1px 1px 3px rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+.selfbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 550px;
+    font-size: 16px;
+    margin: auto;
+}
+
+.selfcollum{
+    box-sizing: border-box;
+    width: 33.33%;
+    padding: 5px;
+    font-family: 'Kalnia', serif;
+    color: #000;
+}
+.selfitemsd{
+    width: 150px;
+    aspect-ratio: 1 / 1;
+    background: var(--dditsd);
+    border-radius: 100%;
+}
+.selfitem{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background: var(--dditem);
+    filter: drop-shadow(0px 0px 20px #b4cfdb);
+}
+.selfdes{
+    font-family: 'Bai Jamjuree', serif;
+    color:#80806c;
+    padding-top:20px;
+}
+.selfp{
+    font-size:18px;
+    width:110px;
+    height:auto;
+    border:2px solid var(--ddborder);
+    text-align: center;
+}
