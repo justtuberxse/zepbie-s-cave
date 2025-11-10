@@ -119,11 +119,11 @@
 #dandelion_em .logo{
         max-width: 80%;
     aspect-ratio: 1 / 1;
-    background: url(https://i.gifer.com/2iiB.gif) center / cover, url(https://iili.io/K0vS38u.png) center / cover, #fff;
+    background: url(https://i.gifer.com/2iiB.gif) center / cover, url(https://iili.io/K0vS38u.png) center / cover;
     border-radius: 100%;
     border: 3px solid #8B8000;
     position: relative;
-    top: 30%;
+    top: 40%;
     left: 8%;
 }
 
@@ -184,6 +184,7 @@
     border-radius: 12px;
     -webkit-mask-image: linear-gradient(#000000, #000000, #000000, #000000, transparent 95%);
 }
+
 
 
 
