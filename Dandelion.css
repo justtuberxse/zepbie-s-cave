@@ -9,6 +9,7 @@
     border-radius: 20px;
     margin: auto;
     padding-bottom: 30px;
+    
 }
 #dandelion_pro .header {
     max-width: 900px;
@@ -160,6 +161,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     text-align: center;
+    color:#000;
 }
 .embp {
     box-sizing: border-box;
@@ -179,5 +181,6 @@
     border-radius: 12px;
     -webkit-mask-image: linear-gradient(#000000, #000000, #000000, #000000, transparent 95%);
 }
+
 
 
