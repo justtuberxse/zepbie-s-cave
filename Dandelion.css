@@ -21,6 +21,7 @@
     height: 320px;
     background: url(https://i.imgur.com/k8azSya.png) center / cover;
     transform: translate(-10px, 45px);
+    margin: auto;
 }
 
 #dandelion_self{
@@ -88,6 +89,8 @@
     font-size:18px;
     width:110px;
     height:auto;
+    margin: auto;
     border:2px solid var(--ddborder);
     text-align: center;
+
 }
