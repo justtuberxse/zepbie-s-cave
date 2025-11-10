@@ -182,7 +182,7 @@
 }
 
 .ememtb{
-    box-sizing:border-box;width:33.33%;
+    box-sizing:border-box;
     background: url(https://i.gifer.com/2iiB.gif)center/cover,#A4B465;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.06);
@@ -194,6 +194,7 @@
     background:url(https://iili.io/K0gXh2s.png)center 40%/cover;
     margin-bottom:10px;border-radius: 12px;
 }
+
 
 
 
