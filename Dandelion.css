@@ -120,8 +120,6 @@
         max-width: 80%;
     aspect-ratio: 1 / 1;
     background: url(https://i.gifer.com/2iiB.gif) center / cover, url(https://iili.io/K0vS38u.png) center / cover;
-    border-radius: 100%;
-    border: 3px solid #8B8000;
     position: relative;
     top: 40%;
     left: 8%;
@@ -161,7 +159,6 @@
 #dandelion_em .emb {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     text-align: center;
     color: #000;
     gap: 10px;
@@ -173,7 +170,6 @@
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
     text-align: center;
-    padding-bottom: 20px;
 }
 .empfp{
     width: 100%;
@@ -184,6 +180,7 @@
     border-radius: 12px;
     -webkit-mask-image: linear-gradient(#000000, #000000, #000000, #000000, transparent 95%);
 }
+
 
 
 
