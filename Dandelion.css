@@ -158,13 +158,13 @@
     margin-top:30px;
     -webkit-mask-image: linear-gradient(#000000, #000000, #000000, #000000, transparent 95%);
 }
-#dandelion_em .emb{
+#dandelion_em .emb {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     text-align: center;
-
-    
+    color: #000;
+    gap: 10px;
 }
 .embp {
     box-sizing: border-box;
@@ -184,6 +184,7 @@
     border-radius: 12px;
     -webkit-mask-image: linear-gradient(#000000, #000000, #000000, #000000, transparent 95%);
 }
+
 
 
 
