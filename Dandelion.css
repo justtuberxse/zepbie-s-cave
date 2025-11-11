@@ -208,9 +208,10 @@
     .bsis{box-sizing:border-box;width: 80%;margin-left:0%;}
     #dandelion_em .detailsb{aspect-ratio: 1 / 1;font-size: small;padding: 5%;margin-top: 3%;}
     #dandelion_em .header{justify-content: center;}
-    #dandelion_em .emb {    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));font-size: x-small;}
+    #dandelion_em .emb {    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));font-size: x-small;}
     #dandelion_em .cont {display: flex;flex-direction: column;gap: 15px;align-items: center;}
 }
+
 
 
 
