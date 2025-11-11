@@ -28,7 +28,7 @@
 #dandelion_self {
     max-width: 800px;
     height: auto;
-    background: linear-gradient(180deg, #f5f5dc,#f5f5dc,#f5f5dc,#f5f5dc,#f5f5dc,#f5f5dc,var(--ddgra))
+    background: linear-gradient(180deg, #f5f5dc,#f5f5dc,#f5f5dc,#f5f5dc,#f5f5dc,#f5f5dc,var(--ddgra))ว
     border: 2px solid #8B8000;
     font-family: 'Bai Jamjuree', serif;
     border-radius: 20px;
@@ -218,6 +218,7 @@
     #dandelion_em .emb {    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));font-size: x-small;}
     #dandelion_em .cont {display: flex;flex-direction: column;gap: 15px;align-items: center;}
 }
+
 
 
 
