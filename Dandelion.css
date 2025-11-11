@@ -25,10 +25,10 @@
     margin: auto;
 }
 
-#dandelion_self{
+#dandelion_self {
     max-width: 800px;
     height: auto;
-    background: linear-gradient(180deg, rgba(245, 245, 220, 1) 70%, rgba(143, 130, 119, 1) 100%);
+    background: linear-gradient(180deg, #f5f5dc,#f5f5dc,#f5f5dc,#f5f5dc,#f5f5dc,#f5f5dc,var(--ddgra))
     border: 2px solid #8B8000;
     font-family: 'Bai Jamjuree', serif;
     border-radius: 20px;
@@ -50,7 +50,6 @@
     font-size: 60px;
     color: #fff;
     font-family: 'Kalnia', serif;
-
     text-shadow: -1px 1px 3px rgba(0, 0, 0, 1);
     text-align: center;
 }
@@ -66,12 +65,13 @@
     margin: auto;
 }
 
-.selfcollum{
+.selfcollum {
     box-sizing: border-box;
     width: 33.33%;
     padding: 5px;
     font-family: 'Kalnia', serif;
     color: #000;
+    text-align: center;
 }
 .selfitemsd{
     width: 150px;
@@ -89,6 +89,8 @@
     font-family: 'Bai Jamjuree', serif;
     color:#80806c;
     padding-top:20px;
+    text-align: justify;
+    height: 30%;
 }
 .selfp{
     font-size:18px;
@@ -215,6 +217,7 @@
     #dandelion_em .emb {    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));font-size: x-small;}
     #dandelion_em .cont {display: flex;flex-direction: column;gap: 15px;align-items: center;}
 }
+
 
 
 
