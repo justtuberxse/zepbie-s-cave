@@ -136,6 +136,13 @@
     padding: 2%;
 }
 
+.bsi{
+    box-sizing:border-box;width:30%;
+}
+.bsis{
+    box-sizing:border-box;width: 68%;margin-left:2%;
+}
+
 #dandelion_em .detailsb {
     height: auto;
     background: url(https://i.gifer.com/2iiB.gif) center / cover, #FEFEFB;
@@ -195,6 +202,15 @@
     margin-bottom:10px;border-radius: 12px;
 }
 
+@media screen and (max-width: 1050px) {
+    .bsi{box-sizing:border-box;width:80%;    text-align: justify;}
+    .scolb {height: auto;-webkit-mask-image: linear-gradient(#000000, #000000, #000000, #000000, transparent 100%);}
+    .bsis{box-sizing:border-box;width: 80%;margin-left:0%;}
+    #dandelion_em .detailsb{aspect-ratio: 1 / 1;font-size: small;padding: 2%;margin-top: 3%;}
+    #dandelion_em .header{justify-content: center;}
+    #dandelion_em .emb {    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));font-size: x-small;}
+    #dandelion_em .cont {display: flex;flex-direction: column;gap: 15px;align-items: center;}
+}
 
 
 
