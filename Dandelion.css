@@ -85,21 +85,22 @@
     background: var(--dditem);
     filter: drop-shadow(0px 0px 20px #b4cfdb);
 }
-.selfdes{
+.selfdes {
     font-family: 'Bai Jamjuree', serif;
-    color:#80806c;
-    padding-top:20px;
-    text-align: justify;
+    color: #80806c;
+    padding-top: 20px;
     height: 30%;
+    text-align: justify;
 }
 .selfp{
-    font-size:18px;
-    width:110px;
-    height:auto;
+    font-size: 18px;
+    width: 110px;
+    height: auto;
     margin: auto;
-    border:2px solid var(--ddborder);
+    border: 2px solid var(--ddborder);
     text-align: center;
-
+    background: var(--ddsold);
+    color: #fff;
 }
 
 #dandelion_em {
@@ -217,6 +218,7 @@
     #dandelion_em .emb {    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));font-size: x-small;}
     #dandelion_em .cont {display: flex;flex-direction: column;gap: 15px;align-items: center;}
 }
+
 
 
 
