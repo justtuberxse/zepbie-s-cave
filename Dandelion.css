@@ -57,10 +57,8 @@
                   margin-top:-20px;
                   font-family: 'Sacramento', cursive;}
 .selfbox {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
     box-sizing: border-box;
     font-size: 16px;
     margin: auto;
@@ -71,7 +69,6 @@
 
 .selfcollum {
     box-sizing: border-box;
-    width: 33.33%;
     padding: 5px;
     font-family: 'Kalnia', serif;
     color: #000;
@@ -231,6 +228,7 @@
     #dandelion_em .emb {    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));font-size: x-small;}
     #dandelion_em .cont {display: flex;flex-direction: column;gap: 15px;align-items: center;}
 }
+
 
 
 
