@@ -52,7 +52,9 @@
     text-shadow: -1px 1px 3px rgba(0, 0, 0, 1);
     text-align: center;
 }
-.selfnamecreator {font-size:25px;margin-top:-30px;font-family: 'Sacramento', cursive;}
+.selfnamecreator {font-size:25px;
+                  margin-top:-30px;
+                  font-family: 'Sacramento', cursive;}
 .selfbox {
     display: flex;
     flex-direction: row;
@@ -92,7 +94,7 @@
     height: 30%;
     text-align: justify;
 }
-.selfp{
+.selfp {
     font-size: 18px;
     width: 110px;
     height: auto;
@@ -102,7 +104,11 @@
     background: var(--ddsold);
     color: #fff;
 }
-.selftab{ max-width:800px;height:100px;background:var(--ddtab);margin-top:30px;border-top:2px solid #8B8000;}
+.selftab { max-width:800px;
+         height:100px;
+         background:var(--ddtab);
+         margin-top:30px;
+         border-top:2px solid #8B8000;}
 
 #dandelion_em {
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
@@ -219,6 +225,7 @@
     #dandelion_em .emb {    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));font-size: x-small;}
     #dandelion_em .cont {display: flex;flex-direction: column;gap: 15px;align-items: center;}
 }
+
 
 
 
