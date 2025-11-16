@@ -65,7 +65,7 @@
     font-size: 16px;
     margin: auto;
     box-shadow: #00000052 0 0 15px;
-    padding: 30px 100px;
+    padding: 50px 100px;
 }
 
 .selfcollum {
@@ -229,6 +229,7 @@
     #dandelion_em .emb {    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));font-size: x-small;}
     #dandelion_em .cont {display: flex;flex-direction: column;gap: 15px;align-items: center;}
 }
+
 
 
 
