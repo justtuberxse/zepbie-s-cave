@@ -49,7 +49,7 @@
 .selfname{
     font-size: 60px;
     color: #fff;
-    font-family: 'Kalnia', serif;
+    font-family: 'Kalnia', 'Bai Jamjuree',serif;
     text-shadow: -1px 1px 3px rgba(0, 0, 0, 1);
     text-align: center;
 }
@@ -232,6 +232,7 @@
     #dandelion_em .emb {    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));font-size: x-small;}
     #dandelion_em .cont {display: flex;flex-direction: column;gap: 15px;align-items: center;}
 }
+
 
 
 
