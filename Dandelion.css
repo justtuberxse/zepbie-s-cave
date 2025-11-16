@@ -39,7 +39,7 @@
 #dandelion_self .header {
     max-width: 800px;
     height: 280px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, var(--ddhshade), var(--ddsheader));
+    background: linear-gradient(180deg,rgba(255, 255, 255, 0) 16%, var(--ddhshade)),var(--ddsheader);
     border-radius: 18px 18px 0 0;
     display: flex;
     align-items: center;
@@ -229,6 +229,7 @@
     #dandelion_em .emb {    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));font-size: x-small;}
     #dandelion_em .cont {display: flex;flex-direction: column;gap: 15px;align-items: center;}
 }
+
 
 
 
