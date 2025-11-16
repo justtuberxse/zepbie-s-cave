@@ -83,7 +83,7 @@
 }
 .spedes{grid-area: 1 / 1 / 2 / 3;margin: auto;
     text-align: center;
-    width: 90%; }
+    width: 90%;}
 .spebox { grid-area: 1 / 3 / 2 / 4; }
 .selfitem{
     width: 100%;
@@ -95,6 +95,7 @@
     font-family: 'Bai Jamjuree', serif;
     color: #80806c;
     padding-top: 20px;
+        height: 30%;
         text-align: justify;
 }
 .selfp {
@@ -231,6 +232,7 @@
     #dandelion_em .emb {    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));font-size: x-small;}
     #dandelion_em .cont {display: flex;flex-direction: column;gap: 15px;align-items: center;}
 }
+
 
 
 
