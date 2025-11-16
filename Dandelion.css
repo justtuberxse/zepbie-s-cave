@@ -81,7 +81,9 @@
     border-radius: 100%;
        margin: auto;
 }
-.spedes{grid-area: 1 / 1 / 2 / 3; }
+.spedes{grid-area: 1 / 1 / 2 / 3;margin: auto;
+    text-align: center;
+    width: 90%; }
 .spebox { grid-area: 1 / 3 / 2 / 4; }
 .selfitem{
     width: 100%;
@@ -230,6 +232,7 @@
     #dandelion_em .emb {    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));font-size: x-small;}
     #dandelion_em .cont {display: flex;flex-direction: column;gap: 15px;align-items: center;}
 }
+
 
 
 
