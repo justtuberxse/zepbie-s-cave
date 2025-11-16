@@ -70,7 +70,7 @@
 .selfcollum {
     box-sizing: border-box;
     padding: 5px;
-    font-family: 'Kalnia', serif;
+    font-family: 'Kalnia', 'Bai Jamjuree',serif;
     color: #000;
     text-align: center;
 }
@@ -230,6 +230,7 @@
     #dandelion_em .emb {    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));font-size: x-small;}
     #dandelion_em .cont {display: flex;flex-direction: column;gap: 15px;align-items: center;}
 }
+
 
 
 
