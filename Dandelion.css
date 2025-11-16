@@ -65,7 +65,8 @@
     font-size: 16px;
     margin: auto;
     box-shadow: #00000052 0 0 15px;
-    padding: 50px 100px;
+    padding: 30px 90px;
+    gap: 15px;
 }
 
 .selfcollum {
@@ -81,6 +82,7 @@
     aspect-ratio: 1 / 1;
     background: var(--dditsd);
     border-radius: 100%;
+       margin: auto;
 }
 .selfitem{
     width: 100%;
@@ -93,7 +95,6 @@
     color: #80806c;
     padding-top: 20px;
     height: 30%;
-    text-align: justify;
 }
 .selfp {
     font-size: 18px;
@@ -229,6 +230,7 @@
     #dandelion_em .emb {    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));font-size: x-small;}
     #dandelion_em .cont {display: flex;flex-direction: column;gap: 15px;align-items: center;}
 }
+
 
 
 
