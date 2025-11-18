@@ -450,7 +450,7 @@
         transition-delay: 0s;
     }
 
-#candylishell{
+#candylishelf{
         background-color: #F0B5B9;
         font-family: var(--mfont);
         font-size: 12px;
@@ -584,7 +584,7 @@
             width: 90%;
             margin: auto;
         }
-#candylishell p:first-child {
+#candylishelf p:first-child {
             margin-top: 0;
         }
  .shentry-txt blockquote {
@@ -733,13 +733,13 @@ label[for]{
     font-size: 12px;
     margin: 0 0 0 10px;
 }
-dialog .popup-inner>:is(p,ol,ul,h1,h2,h3,h4,h5,h6):last-child {
+#candylishelf dialog .popup-inner>:is(p,ol,ul,h1,h2,h3,h4,h5,h6):last-child {
     text-align: justify;
     font-family: 'IBM Plex Sans Thai';
     font-size: medium;
 }
 /* example styling for popup boxes */
-dialog .popup-inner {
+#candylishelf dialog .popup-inner {
   border-radius:12px;
   box-shadow:0px 8px 36px 0px rgba(0,0,0,20%);
 
