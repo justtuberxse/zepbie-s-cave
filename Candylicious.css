@@ -742,6 +742,7 @@ dialog .popup-inner>:is(p,ol,ul,h1,h2,h3,h4,h5,h6):last-child {
  dialog .popup-inner {
   border-radius:12px;
   box-shadow:0px 8px 36px 0px rgba(0,0,0,20%);
+     color: #50453F;
 
 }
 .popup-img {
@@ -777,4 +778,5 @@ dialog .popup-inner>:is(p,ol,ul,h1,h2,h3,h4,h5,h6):last-child {
         padding: 25px 30px 25px 200px;}
                 
 }
+
 
