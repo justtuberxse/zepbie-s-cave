@@ -35,8 +35,8 @@
     background: var(--a-green);
     border-radius: 10px}
 
-#candylicious .koi-pond {
-    width: 80%;
+#candylicious .candy-pond {
+    width: 90%;
     max-width: 100%;
     margin: auto auto 0px auto;
 
@@ -796,6 +796,7 @@ dialog .popup-inner>:is(p,ol,ul,h1,h2,h3,h4,h5,h6):last-child {
     padding: 0 0px;
 }
 }
+
 
 
 
