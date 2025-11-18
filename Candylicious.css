@@ -746,6 +746,7 @@ label[for]{
      color: rgba(255, 255, 255, 0.3);
     font-size: 14px;
     margin: 0 0 0 10px;
+    cursor: url(https://iili.io/3jIkDiX.png), pointer !important;
 }
 dialog .popup-inner>:is(p,ol,ul,h1,h2,h3,h4,h5,h6):last-child {
     text-align: justify;
@@ -795,6 +796,7 @@ dialog .popup-inner>:is(p,ol,ul,h1,h2,h3,h4,h5,h6):last-child {
     padding: 0 0px;
 }
 }
+
 
 
 
