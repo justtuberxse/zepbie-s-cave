@@ -49,13 +49,19 @@
     aspect-ratio: 16 / 3;
     border-radius: 20px 20px 0 0;
 }
-#candylicious  a {
+#candylicious a {
     color: #bbb;
     text-decoration: none;
     transition: 0.3s all ease-in-out;
     cursor: url(https://iili.io/3jIkDiX.png), pointer !important;
 }
 
+#candylishelf a {
+    color: #bbb;
+    text-decoration: none;
+    transition: 0.3s all ease-in-out;
+    cursor: url(https://iili.io/3jIkDiX.png), pointer !important;
+}
 
 .header-sign {
     position: absolute;
@@ -789,6 +795,7 @@ dialog .popup-inner>:is(p,ol,ul,h1,h2,h3,h4,h5,h6):last-child {
     padding: 0 0px;
 }
 }
+
 
 
 
