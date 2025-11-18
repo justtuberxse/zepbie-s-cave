@@ -727,25 +727,8 @@
             margin-block-end: min(0.1vw, 0.1rem);
         }
 
-#candylishelf dialog input[type="radio"], label[for="close-popups"i] input[type="radio"] {
-    position: absolute;
-    margin: -1px;
-    width: 1px;
-    height: 1px;
-    clip: rect(0, 0, 0, 0);
-    clip-path: inset(50%);
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    overflow: hidden;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -ms-appearance: none;
-    -o-appearance: none;
-    appearance: none;
-    opacity: 0;
-}
-#candylishelf label[for]{
+        /* example styling for trigger buttons */
+label[for]{
      color: rgba(255, 255, 255, 0.3);
     font-size: 12px;
     margin: 0 0 0 10px;
@@ -755,22 +738,7 @@
     font-family: 'IBM Plex Sans Thai';
     font-size: medium;
 }
-#candylishelf dialog {
-    all: unset;
-    position: fixed;
-    margin: 0;
-    display: block;
-    top: 50%;
-    left: 50%;
-    transform: translate3D(-50%, -50%, 0);
-    width: var(--Popup-Width, 420px);
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity var(--Popup-Fade-Speed, 420ms) 
-ease-in-out, visibility 0s var(--Popup-Fade-Speed, 420ms) 
-ease-in-out;
-    z-index: calc(var(--Popup-Z-Index, 9) + 1);
-}
+/* example styling for popup boxes */
 #candylishelf dialog .popup-inner {
   border-radius:12px;
   box-shadow:0px 8px 36px 0px rgba(0,0,0,20%);
@@ -809,5 +777,3 @@ ease-in-out;
         padding: 25px 30px 25px 200px;}
                 
 }
-
-
