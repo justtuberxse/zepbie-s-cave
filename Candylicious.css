@@ -94,7 +94,14 @@
     border-radius: 0 0 20px 0;
     flex: 1;
 }
-
+.empgrid {
+    height: auto;
+    margin-top: 50px;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 0 20px;
+}
 .empb {
     padding: 20px;
     margin: 20px auto;
@@ -776,7 +783,11 @@ dialog .popup-inner>:is(p,ol,ul,h1,h2,h3,h4,h5,h6):last-child {
     .shmain-title {
        font-size: 3vw;
         padding: 25px 30px 25px 200px;}
-                
+.empgrid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    padding: 0 0px;
 }
+}
+
 
 
