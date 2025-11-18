@@ -464,7 +464,6 @@
     }
 
 #candylishelf{
-        background-color: #F0B5B9;
         font-family: var(--mfont);
         font-size: 12px;
         padding: 50px 0;
@@ -795,6 +794,7 @@ dialog .popup-inner>:is(p,ol,ul,h1,h2,h3,h4,h5,h6):last-child {
     padding: 0 0px;
 }
 }
+
 
 
 
