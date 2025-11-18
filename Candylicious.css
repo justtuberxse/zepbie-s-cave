@@ -505,11 +505,11 @@
         }
            
 .shitem {
-                    padding: 40px;
-                    margin: 20px auto;
-                    background-color: rgba(255, 255, 255, 0.07);
-                    border-radius: 10px;
-                    text-align: center;
+padding: 20px 40px;
+margin: 20px auto;
+background-color: rgba(255, 255, 255, 0.07);
+ border-radius: 10px;
+ text-align: center;
                 }
  .shitem-img {
             width: 150px;
@@ -795,6 +795,7 @@ dialog .popup-inner>:is(p,ol,ul,h1,h2,h3,h4,h5,h6):last-child {
     padding: 0 0px;
 }
 }
+
 
 
 
