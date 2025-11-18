@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
 :root{
     --post-width: 100%;
     --main-font:'IBM Plex Sans Thai';
@@ -78,24 +79,13 @@
     font-size: 16px;
     display: flex;
 }
-@media screen and (max-width: 1050px) {
-    .main {
-        flex-direction: column;
-    }
-}
 .main-left {
     width: 220px;
     background-color: #FBDEE0 ;
     padding: 30px 30px 0 30px;
     border-radius: 20px 0 0 20px;
 }
-@media screen and (max-width: 1050px) {
-    .main-left {
-        width: 95%;
-        border-radius: 20px 0 0 0;
-        padding: 20px 10px 0 15px;
-    }
-}
+
 
 
  .main-right {
@@ -104,17 +94,28 @@
     border-radius: 0 0 20px 0;
     flex: 1;
 }
-@media screen and (max-width: 1050px) {
-    .main-right{
-        border-radius: 0 0 20px 20px;
-    }
+
+.empb {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 10px;
+    text-align: center;
+}
+.empimg {
+    width: 180px;
+    aspect-ratio: 1 / 1;
+    border-radius: 10px;
 }
 
-@media screen and (max-width: 1050px) {
-    .left-sticky {
-        display: inline-flex;
-    }
+.empname {
+    text-align: center;
+    color: var(--a-pink);
+    margin-top: 10px;
+    line-height: 1.5;
 }
+
+
 .left-sticky {
     top: 0px;
     position: sticky;
@@ -189,11 +190,6 @@
         text-transform: uppercase;
         letter-spacing: 1px;
     } 
-@media screen and (max-width: 1050px) {
-        #candylicious .left-sect {
-            margin: 0 0 5vw 3vw;
-        }
-    }
 .left-sect {
         line-height: 18px;
         color: #999;
@@ -286,7 +282,7 @@
         line-height: 50px;
         position: sticky;
         top: 0px;
-        z-index: 100;
+        z-index: 2;
         text-align: center;
     }
 
@@ -480,15 +476,9 @@
 .shmain-logo {
             width: 180px;
             position: absolute;
-            z-index: 20;
+            z-index: 2;
             margin: -20px 0 0 40px;
-        }
-@media screen and (max-width: 1050px) {
-    .shmain-logo {
-        width: 120px;
-        margin: 10px 0 0 40px;
-            }
-        }        
+        }       
  .shmain-title {
             background-color: rgba(255, 255, 255, 0.05);
             padding: 25px 30px 25px 280px;
@@ -499,11 +489,7 @@
             text-align: left;
             letter-spacing: 2px;
         }
-        @media screen and (max-width: 1050px) {
-            .shmain-title {
-                font-size: 3vw;
-                padding: 25px 30px 25px 200px;}
-                } 
+           
 .shitem {
                     padding: 40px;
                     margin: 20px auto;
@@ -557,9 +543,9 @@
             height: 4px;
             background-color: var(--a-green);
             position: absolute;
-            margin: 15px 0 0 -60px;
+            margin: 10px 0 0 -60px;
         }  
- .shitem-name i, .shitem-name-pg i {
+ .shitem-name i, .shitem-name-pg i,.empname i {
             color: rgba(255, 255, 255, 0.3);
             font-size: 12px;
             margin: 0 0 0 10px;
@@ -740,3 +726,54 @@
             margin-inline-end: min(0.5vw, 0.5rem);
             margin-block-end: min(0.1vw, 0.1rem);
         }
+
+        /* example styling for trigger buttons */
+label[for]{
+     color: rgba(255, 255, 255, 0.3);
+    font-size: 12px;
+    margin: 0 0 0 10px;
+}
+dialog .popup-inner>:is(p,ol,ul,h1,h2,h3,h4,h5,h6):last-child {
+    text-align: justify;
+    font-family: 'IBM Plex Sans Thai';
+    font-size: medium;
+}
+/* example styling for popup boxes */
+dialog .popup-inner {
+  border-radius:12px;
+  box-shadow:0px 8px 36px 0px rgba(0,0,0,20%);
+
+}
+.popup-img {
+    width: 200px;
+    aspect-ratio: 1 / 1;
+}
+
+
+@media screen and (max-width: 1050px) {
+   .main {
+        flex-direction: column;
+    }
+    .main-left {
+        width: 95%;
+        border-radius: 20px 0 0 0;
+        padding: 20px 10px 0 15px;
+    }
+        .left-sticky {
+        display: inline-flex;
+    }
+     .main-right{
+        border-radius: 0 0 20px 20px;
+    }
+     #candylicious .left-sect {
+            margin: 0 0 5vw 3vw;
+        }
+    .shmain-logo {
+        width: 120px;
+        margin: 10px 0 0 40px;
+            }
+    .shmain-title {
+       font-size: 3vw;
+        padding: 25px 30px 25px 200px;}
+                
+}
