@@ -10,7 +10,6 @@
     --a-pink:#F0B5B9;
 }
 #candylicious {
-    background-color: #F0B5B9;
     font-family: var(--mfont);
     font-size: 12px;
     padding: 5vw 0;
@@ -43,7 +42,7 @@
 }
 .header-img {
     margin: 0 auto;
-    background-image: url(https://i.pinimg.com/736x/88/20/b3/8820b3c29afe86f249e29acb1d4547da.jpg);
+    background-image: var(--cdlheader);
     background-size: cover;
     background-position: center;
     aspect-ratio: 16 / 3;
@@ -65,11 +64,11 @@
 
 .header-sign {
     position: absolute;
-    margin: -40px -40px;
+    margin: -90px -80px;
     z-index: 1001;
-    aspect-ratio: 2 / 1;
-    max-height: 250px;
-    min-height: 85px;
+    aspect-ratio: 1 / 1;
+    height: 250px;
+    rotate: 174deg;
 }
 .header-content {
     height: 165px;
@@ -482,7 +481,7 @@
 .shmain-header {
             aspect-ratio: 16 / 3;
             border-radius: 20px 20px 0 0;
-            background-image:  url(https://i.pinimg.com/736x/88/20/b3/8820b3c29afe86f249e29acb1d4547da.jpg);
+            background-image:  var(--shlheader);
             background-size: cover;
             background-position: center;
         }
@@ -796,6 +795,7 @@ dialog .popup-inner>:is(p,ol,ul,h1,h2,h3,h4,h5,h6):last-child {
     padding: 0 0px;
 }
 }
+
 
 
 
