@@ -772,9 +772,10 @@ dialog .popup-inner>:is(p,ol,ul,h1,h2,h3,h4,h5,h6):last-child {
      #candylicious .left-sect {margin: 0 0 5vw 3vw;}
     .shmain-logo {width: 250px;margin: 30px 0 0 -20px;}
     .shmain-title {font-size: 3vw; padding: 25px 30px 25px 200px;}
-    .empgrid {grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));padding: 0 0px;
+    .empgrid {grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));padding: 0 0px;}
     .header-sign {position: absolute;margin: -20px 0 0 -30px;height: 100px;}
 }
+
 
 
 
