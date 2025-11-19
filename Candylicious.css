@@ -765,36 +765,17 @@ dialog .popup-inner>:is(p,ol,ul,h1,h2,h3,h4,h5,h6):last-child {
 
 
 @media screen and (max-width: 1050px) {
-   .main {
-        flex-direction: column;
-    }
-    .main-left {
-        width: 95%;
-        border-radius: 20px 0 0 0;
-        padding: 20px 10px 0 15px;
-    }
-        .left-sticky {
-        display: inline-flex;
-    }
-     .main-right{
-        border-radius: 0 0 20px 20px;
-    }
-     #candylicious .left-sect {
-            margin: 0 0 5vw 3vw;
-        }
-    .shmain-logo {
-        width: 250px;
-        margin: 30px 0 0 -20px;}
-            }
-    .shmain-title {
-       font-size: 3vw;
-        padding: 25px 30px 25px 200px;}
-.empgrid {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    padding: 0 0px;
-    .header-sign {
-    position: absolute;margin: -20px 0 0 -30px;height: 100px;}
+   .main {flex-direction: column;}
+    .main-left {width: 95%;border-radius: 20px 0 0 0;padding: 20px 10px 0 15px;}
+        .left-sticky { display: inline-flex; }
+     .main-right{ border-radius: 0 0 20px 20px;}
+     #candylicious .left-sect {margin: 0 0 5vw 3vw;}
+    .shmain-logo {width: 250px;margin: 30px 0 0 -20px;}
+    .shmain-title {font-size: 3vw; padding: 25px 30px 25px 200px;}
+    .empgrid {grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));padding: 0 0px;
+    .header-sign {position: absolute;margin: -20px 0 0 -30px;height: 100px;}
 }
+
 
 
 
