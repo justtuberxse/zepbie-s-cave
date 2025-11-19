@@ -783,8 +783,8 @@ dialog .popup-inner>:is(p,ol,ul,h1,h2,h3,h4,h5,h6):last-child {
             margin: 0 0 5vw 3vw;
         }
     .shmain-logo {
-        width: 120px;
-        margin: 10px 0 0 40px;
+        width: 250px;
+        margin: 30px 0 0 -20px;}
             }
     .shmain-title {
        font-size: 3vw;
@@ -794,6 +794,7 @@ dialog .popup-inner>:is(p,ol,ul,h1,h2,h3,h4,h5,h6):last-child {
     padding: 0 0px;
 }
 }
+
 
 
 
