@@ -91,6 +91,7 @@ min-height: 400px;
     text-align: justify;
     margin: 0 auto 3em auto;
     line-height: 1.7;
+    padding: 0 0.8em;
 }
 
 .ginnote {
@@ -165,6 +166,7 @@ width: 80%;
     .ginrole {margin: 1.5em auto;}
     .gndec1 {right: -200px;width: 200px;}
 }
+
 
 
 
