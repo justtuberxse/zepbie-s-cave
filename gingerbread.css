@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Meddon&display=swap');
 #gingerbread {
-    width: calc(100% - 230px);
+    width: calc(100% - 330px);
     margin: 7rem auto 3rem auto;
     min-height: 30%;
     font-family: "Bai Jamjuree", sans-serif;
@@ -8,7 +8,7 @@
     position: relative;
 }
 #gingerbread section {
-    margin: 0 20px 4em;
+    margin: 0 20px 2em;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -89,7 +89,6 @@ min-height: 400px;
 
 .ginrole {
     text-align: justify;
-    text-indent: 3%;
     width: 80%;
     margin: 0 auto 3em auto;
     line-height: 1.7;
@@ -167,6 +166,7 @@ width: 80%;
     .ginrole {margin: 1.5em auto;}
     .gndec1 {right: -200px;width: 200px;}
 }
+
 
 
 
