@@ -113,12 +113,12 @@ min-height: 400px;
 ease-in-out infinite;
 }
 .env {
-    width: 60%;
+width: 80%;
     background: var(--env);
     aspect-ratio: 1 / 1;
-    top: -120px;
-    right: -150px;
-    rotate: 42deg;
+    top: -150px;
+    right: -185px;
+    rotate: 32deg;
     position: absolute;
 }
 .gnline{
@@ -167,6 +167,7 @@ ease-in-out infinite;
     .ginrole {margin: 1.5em auto;}
     .gndec1 {right: -200px;width: 200px;}
 }
+
 
 
 
