@@ -91,7 +91,7 @@ min-height: 400px;
     text-align: justify;
     text-indent: 3%;
     width: 80%;
-    margin: 3em auto;
+    margin: 0 auto 3em auto;
     line-height: 1.7;
 }
 
@@ -167,6 +167,7 @@ ease-in-out infinite;
     .ginrole {margin: 1.5em auto;}
     .gndec1 {right: -200px;width: 200px;}
 }
+
 
 
 
