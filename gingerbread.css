@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Meddon&display=swap');
+#gingerbread {
+    width: calc(100% - 230px);
+    margin: 7rem auto 3rem auto;
+    min-height: 30%;
+    font-family: "Bai Jamjuree", sans-serif;
+    color: var(--gncolor);
+    position: relative;
+}
+#gingerbread section{
+    margin: 0 20px 4em;
+}
+.ginger{
+width: 90%;
+text-align: justify;
+padding: 40px;
+background: #eae7e4;
+position: relative;
+min-height: 400px;
+    margin: auto;
+        box-shadow: 0 0 15px #000000b3;
+}
+
+.ginpola {
+    width: 300px;
+    height: 320px;
+    background: var(--polabg);
+    position: absolute;
+    z-index: 2;
+    top: -50px;
+    left: 50px;
+    box-shadow: 0 0 15px #00000024;
+    rotate: 352deg;
+}
+.ginpola:hover{
+  rotate: 8deg;
+
+}
+.mng {
+    display: flex;
+    width: 60px;
+    flex-direction: column;
+    position: absolute;
+    bottom: 30px;
+    left: -25px;
+}
+.mnimg{
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+.ginpic {
+    width: 250px;
+    aspect-ratio: 1 / 1;
+    margin: 20px 20px 30px 25px;
+    position: relative;
+}
+#gingerbread h1 {
+    text-align: right;
+    font-family: var(--gnfont);
+    font-size: 3em;
+    margin-block-end: 0em;
+}
+#gingerbread h3 {
+    text-align: right;
+    font-family: var(--gnfont);
+    font-size: 1.3em;
+    margin-block-end: 0em;
+    margin-block-start: 0;
+}
+#gingerbread h5 {
+    text-align: right;
+    margin-block-start: 0.27em;
+    font-style: italic;
+    padding: 5px;
+}
+
+.ginrole {
+    text-align: justify;
+    text-indent: 3%;
+    width: 80%;
+    margin: 30px auto;
+    line-height: 1.7;
+}
+
+.ginnote {
+    margin: 1rem auto 1em auto;
+    font-size: small;
+    width: 80%;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.gndec1 {
+    position: absolute;
+    bottom: -50px;
+    right: -280px;
+    width: 270px;
+    background: var(--gnd);
+    aspect-ratio: 1 / 1;
+    animation: decfloat 5s 
+ease-in-out infinite;
+}
+.env {
+    z-index: -2;
+    width: 80%;
+    background: var(--env);
+    aspect-ratio: 1 / 1;
+    position: absolute;
+    top: -120px;
+    right: -180px;
+    rotate: 42deg;
+}
+.gnline{
+    background: url(https://64.media.tumblr.com/12d0e29067548cb2e74d74744eb7acb2/5b83c0ced1688a19-63/s2048x3072/40ae075c8a8f5f1aecf5a004ff035d0656b6404e.pnj) center/cover;
+    width: 80%;
+    max-width: auto;
+    height: 50px;
+    margin: 0.75em auto;
+}
+.gpin {
+    width: 100px;
+    aspect-ratio: 1 / 1;
+    position: absolute;
+    right: -50px;
+    top: 50px;
+}
+.gpc {
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    z-index: -2;
+    background: rgba(208, 203, 190, 20) url(https://iili.io/KtCXahg.jpg) center / cover;
+    left: -80px;
+    bottom: -60px;
+    rotate: 353deg;
+    padding: 25px 15px 15px 15px;
+    box-shadow: 0 0 15px #00000070;
+    background-blend-mode: soft-light;
+}
+.gpc .gnp {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+}
+
+@keyframes decfloat { 0%,100%{transform:translate(-50%,0);} 50%{transform:translate(-50%,-15px);} }
