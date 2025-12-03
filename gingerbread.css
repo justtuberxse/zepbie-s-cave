@@ -79,7 +79,7 @@ min-height: 400px;
 }
 #gingerbread h5 {
     text-align: right;
-    margin-block-start: 0.27em;
+    margin-block-start: 1em;
     font-style: italic;
     padding: 5px;
     border-bottom: 1.5px solid #042d20;
@@ -160,13 +160,14 @@ width: 80%;
      #gingerbread h5 {width: 58%;font-size: 0.7em;}
     #gingerbread section {margin: 0 20px 2em;}
     .env {width: 60%;    top: -60px;right: -90px;}
-    .ginpic {margin: 20px 20px 30px 20px;}
+    .ginpic {    width: 160px;margin: 20px 20px 30px 20px;}
     .ginpola {width: 200px;height: 210px;top: -30px;left: 20px;}
     .gpc {width: 200px;height: 250px;left: -50px;bottom: 60px;}
     .gpin {width: 80px;right: -40px;top: 50px;}
     .ginrole {margin: 1.5em auto;}
     .gndec1 {right: -200px;width: 200px;}
 }
+
 
 
 
