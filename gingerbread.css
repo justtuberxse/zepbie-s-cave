@@ -10,6 +10,11 @@
 #gingerbread section{
     margin: 0 20px 4em;
 }
+.ginger_body {
+    width: 100%;
+    position: relative;
+    padding: 30px 0 30px 50px;
+}
 .ginger{
 width: 90%;
 text-align: justify;
@@ -142,3 +147,4 @@ ease-in-out infinite;
 }
 
 @keyframes decfloat { 0%,100%{transform:translate(-50%,0);} 50%{transform:translate(-50%,-15px);} }
+
