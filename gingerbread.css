@@ -7,14 +7,13 @@
     color: var(--gncolor);
     position: relative;
 }
-#gingerbread section{
+#gingerbread section {
     margin: 0 20px 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
-.ginger_body {
-    width: 100%;
-    position: relative;
-    padding: 30px 0 30px 50px;
-}
+
 .ginger{
 width: 90%;
 text-align: justify;
@@ -64,26 +63,35 @@ min-height: 400px;
     font-family: var(--gnfont);
     font-size: 3em;
     margin-block-end: 0em;
+    line-break: normal;
+    border-bottom: 1.5px solid #042d20;
+    padding-bottom: 15px;
+    width: 60%;
 }
 #gingerbread h3 {
     text-align: right;
     font-family: var(--gnfont);
     font-size: 1.3em;
     margin-block-end: 0em;
-    margin-block-start: 0;
+    border-bottom: 1.5px solid #042d20;
+    padding-bottom: 10px;
+    width: 60%;
 }
 #gingerbread h5 {
     text-align: right;
     margin-block-start: 0.27em;
     font-style: italic;
     padding: 5px;
+    border-bottom: 1.5px solid #042d20;
+    padding-bottom: 10px;
+    width: 59%;
 }
 
 .ginrole {
     text-align: justify;
     text-indent: 3%;
     width: 80%;
-    margin: 30px auto;
+    margin: 3em auto;
     line-height: 1.7;
 }
 
@@ -105,14 +113,13 @@ min-height: 400px;
 ease-in-out infinite;
 }
 .env {
-    z-index: -2;
-    width: 80%;
+    width: 60%;
     background: var(--env);
     aspect-ratio: 1 / 1;
-    position: absolute;
     top: -120px;
-    right: -180px;
+    right: -150px;
     rotate: 42deg;
+    position: absolute;
 }
 .gnline{
     background: url(https://64.media.tumblr.com/12d0e29067548cb2e74d74744eb7acb2/5b83c0ced1688a19-63/s2048x3072/40ae075c8a8f5f1aecf5a004ff035d0656b6404e.pnj) center/cover;
@@ -131,8 +138,6 @@ ease-in-out infinite;
 .gpc {
     width: 400px;
     height: 500px;
-    position: absolute;
-    z-index: -2;
     background: rgba(208, 203, 190, 20) url(https://iili.io/KtCXahg.jpg) center / cover;
     left: -80px;
     bottom: -60px;
@@ -140,6 +145,7 @@ ease-in-out infinite;
     padding: 25px 15px 15px 15px;
     box-shadow: 0 0 15px #00000070;
     background-blend-mode: soft-light;
+    position: absolute;
 }
 .gpc .gnp {
     width: 100%;
@@ -147,4 +153,5 @@ ease-in-out infinite;
 }
 
 @keyframes decfloat { 0%,100%{transform:translate(-50%,0);} 50%{transform:translate(-50%,-15px);} }
+
 
