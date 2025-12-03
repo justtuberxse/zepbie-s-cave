@@ -26,13 +26,13 @@ min-height: 400px;
 }
 
 .ginpola {
-    width: 300px;
-    height: 320px;
+     width: 280px;
+    height: 300px;
     background: var(--polabg);
     position: absolute;
     z-index: 2;
-    top: -50px;
-    left: 50px;
+    left: 20px;
+    
     box-shadow: 0 0 15px #00000024;
     rotate: 352deg;
 }
@@ -55,7 +55,7 @@ min-height: 400px;
 .ginpic {
     width: 250px;
     aspect-ratio: 1 / 1;
-    margin: 20px 20px 30px 25px;
+    margin: 20px 20px 30px 15px;
     position: relative;
 }
 #gingerbread h1 {
@@ -89,7 +89,7 @@ min-height: 400px;
 
 .ginrole {
     text-align: justify;
-    width: 80%;
+width: 95%;
     margin: 0 auto 3em auto;
     line-height: 1.7;
 }
@@ -166,6 +166,7 @@ width: 80%;
     .ginrole {margin: 1.5em auto;}
     .gndec1 {right: -200px;width: 200px;}
 }
+
 
 
 
