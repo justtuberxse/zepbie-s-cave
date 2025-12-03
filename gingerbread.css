@@ -26,15 +26,16 @@ min-height: 400px;
 }
 
 .ginpola {
-     width: 260px;
+    width: 260px;
     height: 280px;
     background: var(--polabg);
     position: absolute;
     z-index: 2;
-    left: 20px;
-      top: -50px;
+    left: 10px;
+    top: -50px;
     box-shadow: 0 0 15px #00000024;
     rotate: 352deg;
+    outline: 10px solid var(--polabg);
 }
 .ginpola:hover{
   rotate: 8deg;
@@ -166,6 +167,7 @@ width: 80%;
     .ginrole {margin: 1.5em auto;}
     .gndec1 {right: -200px;width: 200px;}
 }
+
 
 
 
