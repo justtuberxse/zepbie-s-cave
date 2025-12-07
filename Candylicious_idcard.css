@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+
+#cadycard {
+width: 550px;
+ margin: auto;
+font-family: "Darumadrop One", sans-serif;     
+height: 330px;   
+--ac1: #50453F; 
+    
+position: relative;
+}
+
+.candycard-front, .candycard-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transition: transform 1.2s cubic-bezier(0.4, 0.0, 0.2, 1);
+	backface-visibility: hidden;
+	border-radius: 3mm;
+}
+
+.candycard-front {
+	box-shadow: 0 0 5px #faefdb;
+background: #FAEFDB;
+border-radius: 5px;      
+  border-radius: 3mm;
+}
+
+.candycard-back {
+	transform: rotateY(180deg);
+	background: url(https://iili.io/f2aLUkG.png)center/cover no-repeat;
+}
+#cadycard:hover .candycard-front {
+	transform: rotateY(180deg) translateY(-40px);
+}
+
+#cadycard:hover .candycard-back {
+	transform: rotateY(0) translateY(0px);
+}
+
+.cardtitle {
+    display: flex;
+    width: auto;
+    background: #50453F;
+    aspect-ratio: 55 / 9;
+    border-radius: 3mm 3mm 0 0;
+    justify-content: space-between;
+    align-items: center;
+    color: #FBFCFC;
+    padding: 0 20px;
+     box-shadow: 0px 6px 2px #e8d7b8;
+}
+.cardlg{width: 100px;}
+
+#cadycard h1 {
+    margin-block-end: 0.5em;
+    margin-block-start: 0.5em;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.card_bd{
+    margin: 20px ;
+    display:flex ;
+    gap: 15px;
+    color: var(--ac1) ;
+}
+.idp {
+    width: 120px;
+    aspect-ratio: 3 / 4;
+    margin: auto;
+    border: 2px solid var(--ac1);
+    border-radius: 5px;
+}
+
+.card_in{
+        width: 65%;
+         color: var(--ac1) ;
+         text-transform: uppercase;
+}
+#cadycard h2{
+    font-size: small;
+    
+}
+.qr{
+    width: 80px;
+    aspect-ratio: 1/1;
+}
+
+.cdnametag {
+    padding: 0.2em 0.7em;
+    background: #F0B5B9;
+    color: #FAEFDB;
+}
+#cadycard p{
+    
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0.5em;
+    margin-inline-end: 0.5em;
+    color: #F0B5B9;
+
+}
+
+.id_footer {
+    opacity: 0.25;
+    width: fit-content;
+    margin: auto;
+    font-size: small;
+}
+.candisign {
+    width: 180px;
+    aspect-ratio: 16 / 9;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    filter: grayscale(1) brightness(0);
+}
