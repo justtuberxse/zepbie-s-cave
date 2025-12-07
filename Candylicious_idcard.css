@@ -28,7 +28,7 @@ border-radius: 5px;
 
 .candycard-back {
 	transform: rotateY(180deg);
-	background: url(https://iili.io/f2aLUkG.png)center/cover no-repeat;
+	background: url(https://iili.io/fu5kHIn.png)center/cover no-repeat;
 }
 #cadycard:hover .candycard-front {
 	transform: rotateY(180deg) translateY(-40px);
@@ -114,7 +114,7 @@ border-radius: 5px;
     width: 180px;
     aspect-ratio: 16 / 9;
     position: absolute;
-    left: 100px;
+    left: 120px;
     top: 20px;
     filter: grayscale(1) brightness(0);
 }
