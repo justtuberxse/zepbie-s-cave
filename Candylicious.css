@@ -567,7 +567,7 @@ background-color: rgba(255, 255, 255, 0.07);
            margin-top: 50px;
            display: grid;
            gap: 0.5rem;
-           grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+           grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
            padding: 0 20px;
         }
 .shentry {
@@ -775,6 +775,7 @@ dialog .popup-inner>:is(p,ol,ul,h1,h2,h3,h4,h5,h6):last-child {
     .empgrid {grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));padding: 0 0px;}
     .header-sign {position: absolute;margin: -20px 0 0 -30px;height: 100px;}
 }
+
 
 
 
