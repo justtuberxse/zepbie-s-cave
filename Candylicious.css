@@ -543,20 +543,12 @@ background-color: rgba(255, 255, 255, 0.07);
             letter-spacing: 2px;
             color: var(--a-green);
             font-weight: 1000;
-            margin: 15px 0 5px 30px;
         }              
  .shitem-name-pg:before {
             background-color: var(--a-pink);
         }
         
- .shitem-name:before, .shitem-name-pg:before {
-            content: '';
-            width: 50px;
-            height: 4px;
-            background-color: var(--a-green);
-            position: absolute;
-            margin: 10px 0 0 -60px;
-        }  
+ 
  .shitem-name i, .shitem-name-pg i,.empname i {
             color: rgba(255, 255, 255, 0.3);
             font-size: 12px;
@@ -775,6 +767,7 @@ dialog .popup-inner>:is(p,ol,ul,h1,h2,h3,h4,h5,h6):last-child {
     .empgrid {grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));padding: 0 0px;}
     .header-sign {position: absolute;margin: -20px 0 0 -30px;height: 100px;}
 }
+
 
 
 
