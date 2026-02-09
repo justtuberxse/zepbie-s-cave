@@ -139,7 +139,7 @@ grid-column-gap: 2em;
 grid-row-gap: 2em;
     --tc-border: 1px solid var(--tcborder);
     margin: auto;
-    padding: 1.58em;
+    padding: 3em;
 
 }
 
