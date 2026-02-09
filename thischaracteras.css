@@ -160,29 +160,32 @@ grid-row-gap: 2em;
     position: relative;
     width: 100%;}
 
-.tcrpl_animal,.tcrpl_flower,.tcrpl_weather,.tcrpl_place,
-.tcrpl_color,.tcrpl_food,.tcrpl_beverage,.tcrpl_object{opacity: 0.8;
-  border: var(--tc-border);
-  border-radius: 15px;
-  align-items: flex-start;
+.tcrpl_animal, .tcrpl_flower, .tcrpl_weather, .tcrpl_place,
+.tcrpl_color, .tcrpl_food, .tcrpl_beverage, .tcrpl_object {
+    opacity: 0.8;
+    border: var(--tc-border);
+    border-radius: 15px;
+    background: #fff;
     position: relative;
-    }
+    overflow: hidden; /* กันเนื้อหาล้น */
+    transition: all 350ms ease;
+}
 
 .aspic {
-    width: 20%;
+    width: 80px;
     aspect-ratio: 1 / 1;
     overflow: hidden;
     background: var(--aspic) center / cover no-repeat;
     border-radius: 10px;
-    float: left;
-    margin-right: 20px;
+    float: left; 
+    margin-right: 15px;
+    margin-bottom: 5px;
 }
 
-.longdis
- {
+.longdis {
     padding: 20px;
-    align-items: center;
-    text-align: justify;
+    display: block;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 1050px){
