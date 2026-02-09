@@ -30,13 +30,14 @@
     grid-template-columns: repeat(4, 0.5fr);
     grid-template-rows: repeat(3, auto);
     grid-column-gap: 15px;
-    grid-row-gap: 1rem;
+    grid-row-gap: 2rem;
     --tc-border: 1px solid var(--tcborder);
     margin: auto;
     padding: 1.58em;
 }
 .tic_animal:hover,.tic_flower:hover,.tic_weather:hover,.tic_place:hover,
-.tic_color:hover,.tic_food:hover,.tic_beverage:hover,.tic_object:hover{
+.tic_color:hover,.tic_food:hover,.tic_beverage:hover,.tic_object:hover,.tcrpl_animal:hover,.tcrpl_flower:hover,.tcrpl_weather:hover,.tcrpl_place:hover,
+.tcrpl_color:hover,.tcrpl_food:hover,.tcrpl_beverage:hover,.tcrpl_object:hover{
 	transform: scale(1.05) ;
     opacity: 1;
     transition: transform 1.2s cubic-bezier(0.4, 0.0, 0.2, 1); 
@@ -81,7 +82,7 @@
     padding: 1.5rem;
     text-align: justify;
 }
-#tic_replys h4 {
+#tic_replys ,#tic_replyl  h4 {
     font-style: italic;
     margin-block-start: 0;
     margin-block-end: 1rem;
@@ -120,8 +121,72 @@
 .tic_beverage { grid-area: 3 / 3 / 4 / 4;}
 .tic_object { grid-area: 3 / 4 / 4 / 5;}
 
-@media screen and (max-width: 1050px) {
-    #tic_replys {
+
+
+
+#tic_replyl {
+display: grid;
+grid-template-columns: repeat(3, 0.5fr);
+grid-template-rows: repeat(8, 0.5fr);
+grid-column-gap: 2em;
+grid-row-gap: 2em;
+    --tc-border: 1px solid var(--tcborder);
+    margin: auto;
+    padding: 1.58em;
+
+}
+
+
+.tcrpl_charpic {
+    grid-area: 1 / 1 / 5 / 2;
+    background: var(--tichar);
+    border: var(--tc-border);
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+}
+.tcrpl_animal  { grid-area: 1 / 2 / 2 / 4; }
+.tcrpl_flower{ grid-area: 2 / 2 / 3 / 4; }
+.tcrpl_weather { grid-area: 3 / 2 / 4 / 4; }
+.tcrpl_place { grid-area: 4 / 2 / 5 / 4; }
+.tcrpl_color { grid-area: 5 / 1 / 6 / 3; }
+.tcrpl_food { grid-area: 6 / 1 / 7 / 3; }
+.tcrpl_beverage { grid-area: 7 / 1 / 8 / 3; }
+.tcrpl_object { grid-area: 8 / 1 / 9 / 3; }
+.tcrpl_charpic2 { grid-area: 5 / 3 / 9 / 4; 
+    background: var(--tichar);
+    border: var(--tc-border);
+    border-radius: 10px;
+    position: relative;
+    width: 100%;}
+
+.tcrpl_animal,.tcrpl_flower,.tcrpl_weather,.tcrpl_place,
+.tcrpl_color,.tcrpl_food,.tcrpl_beverage,.tcrpl_object{opacity: 0.8;
+  border: var(--tc-border);
+  border-radius: 15px;
+  align-items: flex-start;
+    position: relative;
+    }
+
+.aspic {
+    width: 20%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    background: var(--aspic) center / cover no-repeat;
+    border-radius: 10px;
+    float: left;
+    margin-right: 20px;
+}
+
+.longdis
+ {
+    padding: 20px;
+    align-items: center;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1050px){
+    #tic_replys, #tic_replyl {
         display: flex; 
         flex-wrap: wrap; 
         justify-content: center; 
@@ -132,4 +197,5 @@
     #tic_replys h4 { font-size: large; }
     .tic_des { font-size: medium; }
     .tic_picheader {aspect-ratio: 30 / 9;}
+.tcrpl_charpic, .tcrpl_charpic2 { width: 100%; aspect-ratio: 1 / 1; }
 }
