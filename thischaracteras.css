@@ -38,9 +38,9 @@
 .tic_animal:hover,.tic_flower:hover,.tic_weather:hover,.tic_place:hover,
 .tic_color:hover,.tic_food:hover,.tic_beverage:hover,.tic_object:hover,.tcrpl_animal:hover,.tcrpl_flower:hover,.tcrpl_weather:hover,.tcrpl_place:hover,
 .tcrpl_color:hover,.tcrpl_food:hover,.tcrpl_beverage:hover,.tcrpl_object:hover{
-	transform: scale(1.05) ;
-    opacity: 1;
-    transition: transform 1.2s cubic-bezier(0.4, 0.0, 0.2, 1); 
+transform: scale(1.05) ;
+opacity: 1;
+transition: transform 1.2s cubic-bezier(0.4, 0.0, 0.2, 1); 
      transition-property: box-shadow, transform;
   transition-duration: 350ms;
   transition-timing-function: ease;
@@ -49,13 +49,15 @@
    
 }
 .tic_animal,.tic_flower,.tic_weather,.tic_place,
-.tic_color,.tic_food,.tic_beverage,.tic_object{opacity: 0.8;
+.tic_color,.tic_food,.tic_beverage,.tic_object{
+    opacity: 0.8;
     border: var(--tc-border);
      border-radius: 10px;    
      padding-bottom: 45px;
      position: relative;
      box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.24);
-     z-index: 0;}
+     z-index: 0;
+        transition: all 350ms ease;}
 
 .tic-heading {
     position: absolute;
@@ -160,34 +162,46 @@ grid-row-gap: 2em;
     position: relative;
     width: 100%;}
 
-.tcrpl_animal, .tcrpl_flower, .tcrpl_weather, .tcrpl_place,
-.tcrpl_color, .tcrpl_food, .tcrpl_beverage, .tcrpl_object {
+.tcrpl_animal, .tcrpl_flower, .tcrpl_weather, .tcrpl_place, .tcrpl_color, .tcrpl_food, .tcrpl_beverage, .tcrpl_object {
     opacity: 0.8;
     border: var(--tc-border);
     border-radius: 15px;
-    background: #fff;
+    align-items: flex-start;
     position: relative;
-    overflow: hidden; /* กันเนื้อหาล้น */
     transition: all 350ms ease;
+    padding: 1.0rem;
 }
 
 .aspic {
-    width: 80px;
+    width: 20%;
     aspect-ratio: 1 / 1;
     overflow: hidden;
     background: var(--aspic) center / cover no-repeat;
     border-radius: 10px;
-    float: left; 
-    margin-right: 15px;
-    margin-bottom: 5px;
+    float: left;
+    margin-right: 20px;
 }
 
 .longdis {
-    padding: 20px;
-    display: block;
-    overflow: hidden;
+    align-items: center;
+    text-align: justify;
 }
 
+.tcrpl-heading {
+    position: absolute;
+    font-size: calc(0.925rem * 0.875);
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: calc(18px - calc(((0.925rem * 1.8) - 0.925rem) / 2) + 1px);
+    margin-top: -2rem;
+    right: 15px;
+    width: fit-content;
+    background: #24262b;
+    padding: 10px 25px;
+    border-radius: 5px;
+    z-index: 2;
+    text-transform: uppercase;
+}
 @media screen and (max-width: 1050px){
     #tic_replys, #tic_replyl {
         display: flex; 
