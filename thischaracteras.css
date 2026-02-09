@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'GlinDokya';
-  src: url('https://cdn.jsdelivr.net/gh/justtuberxse/zepbie-s-font/397PANIGlinDokyaDemo.woff2') format('woff2');
+  font-family: 'lemon';
+  src: url('https://cdn.jsdelivr.net/gh/justtuberxse/zepbie-s-font/lemon-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -11,7 +11,7 @@
     margin: auto;
     color: var(--tccolor);
     background: url(https://64.media.tumblr.com/8036d9d070eb543153919361c65d9d6f/5ef6deb46ee9e07a-7b/s2048x3072/4dcde989b42a8373190c9b48b50d3b25b1f57c75.png);
-    font-family: 'GlinDokya', sans-serif;
+    font-family: 'lemon', sans-serif;
     text-align: center;
     
 }
@@ -34,7 +34,6 @@
     --tc-border: 1px solid var(--tcborder);
     margin: auto;
     padding: 1.58em;
-    font-family: 'GlinDokya', sans-serif;
 }
 .tic_animal:hover,.tic_flower:hover,.tic_weather:hover,.tic_place:hover,
 .tic_color:hover,.tic_food:hover,.tic_beverage:hover,.tic_object:hover{
