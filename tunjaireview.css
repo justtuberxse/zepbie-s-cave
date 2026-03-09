@@ -84,7 +84,8 @@
 }
 
 @media screen and (max-width: 1050px) {
-    .tjoverall_flex {
-        flex-wrap: wrap;
-    }
+    .tjoverall_flex {flex-wrap: wrap;}
+    .tjoverall_text {width: auto;}
+    .tjoverall_left {width: auto;)
+        
 }
