@@ -43,7 +43,7 @@
 
 .polaroid-wrapper {
     position: absolute;
-    top: -15px;
+    top: 5px;
     right: -25px;
     z-index: 20;
 }
@@ -65,8 +65,8 @@
 
 .paperclip {
     position: absolute;
-    top: -105px;
-    left: -120px;
+    top: -100px;
+    left: -80px;
     width: 300px;
     z-index: 30;
     transform: rotate(5deg);
