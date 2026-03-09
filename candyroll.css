@@ -127,9 +127,11 @@
 
 @media screen and (max-width: 1050px) {
    .polaroid img {width: 90px;}
-   .polaroid-wrapper {top: 5px;}
+   .polaroid-wrapper {top: 5px;right:5px}
    .paperclip {top: -50px;left: -40px;width: 150px;}
    .canroll_Name {font-size: xx-large;}
    .candyr_deco { bottom: -20px; left: -60px; width: 150px;}
    .polaroid {padding: 10px 10px 5px 10px;}
+  #candyroll {padding: 1rem;}
+  .paper-stack {width: 85%;}
 }
