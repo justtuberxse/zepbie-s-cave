@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;600&family=Josefin+Sans&display=swap');
+
+#mimimalist{
+width: 70%;
+margin: auto;
+border-radius: 5px;
+padding: 20px;
+font-family: 'Josefin Sans', 'IBM Plex Sans Thai', sans-serif;
+border: 1px solid #504f4f;
+box-shadow: 0 0 15px #000000c2;;
+}
+.mini_title{width: 90%;display: flex;height: 100px;gap: 20px;align-items: center;}
+.mini_pic{aspect-ratio: 1/1;
+    width: 90px;
+    border-radius: 2px;
+    object-fit: cover;}
+.mini_title h2{font-size: 24px;text-align: justify;}
+.mini_role{width: 90%;text-align: justify;height: auto;text-indent: 50px;margin: 50px auto;}
