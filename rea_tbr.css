@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+  font-family: 'Brittany Signature';
+  src: url('https://cdn.jsdelivr.net/gh/justtuberxse/zepbie-s-font/BrittanySignatureRegular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+#rea_pf {
+    width: auto;
+    max-width: 1285px;
+    font-family: "Montserrat", sans-serif;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 0.7fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: auto;
+    background: #141414;
+}
+
+.rea_fstp {
+    grid-area:1 / 1 / 2 / 2;
+aspect-ratio: 4 / 5;
+    background-blend-mode: luminosity;
+    filter: saturate(0.5);
+    background: var(--fstp);
+}
+.rea_scd { 
+    grid-area: 1 / 2 / 2 / 3;
+    background: var(--reabg);
+    aspect-ratio: 4 / 5;
+    position: relative;
+    color: white;
+    text-align: justify;
+    line-height: 1.5;
+ }
+
+.rea_scd::before
+ {
+    content: "";
+    position: absolute;
+    right: 6px;
+    width: 250px;
+    background: var(--dec1);
+    z-index: 3;
+    aspect-ratio: 1 / 1;
+    bottom: -70;
+}
+
+#rea_pf h1 {
+    font-size: 4rem;
+    margin-block-start: 5rem;
+    margin-inline-start: 3rem;
+}
+#rea_pf h2 {
+margin-inline-start: 3rem;
+    margin-inline-end: 3rem;
+font-weight: normal;
+font-size: 1.25rem;}
+
+.rea_thd { grid-area: 2 / 1 / 3 / 3; 
+    background: var(--thdbg);
+    color: white;
+    position: relative;
+    background-blend-mode: luminosity;
+    filter: saturate(0.5);
+    -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 50%, transparent 100%)
+}
+.rea_thd::before {
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 25px;
+    background: var(--thdbe);
+    z-index: 1;
+    top: 50%;
+    left: 15%;
+}
+.rea_name {
+    font-family: "Brittany Signature", cursive;
+    text-align: center;
+    margin-block-start: 2rem;
+    position: absolute;
+    top: 30%;
+    left: 28%;
+    z-index: 2;
+    font-size: 5rem;
+}
+.rea_nsmall
+ {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-block-start: 1.5rem;
+    position: absolute;
+    bottom: 40%;
+    right: 15%;
+    font-weight: 600;
+    z-index: 2;
+}
+.rea_fth {
+    grid-area: 3 / 1 / 5 / 2;
+    background: var(--reabg);
+    position: relative;
+    margin: 1rem;
+    padding: 3rem;
+    color: white;
+    text-align: justify;
+}
+.rea_fth img {
+    position: absolute;
+    top: -4.5%;
+    left: 30%;
+    right: 0;
+    bottom: 0;
+    background: var(--dec2);
+    z-index: 3;
+    width: 150px;
+    transform: rotate(129deg);
+}
+.rea_fth_hd {
+    font-size: 5rem;
+    font-family: "Brittany Signature", cursive;
+    position: absolute;
+    left: 20%;
+    top: 7%;
+}
+.rea_fth_shd {
+    font-size: 2rem;
+    font-family: "DM Serif Display", serif;
+    position: absolute;
+    right: 25%;
+    z-index: 2;
+    top: 16%;
+}
+
+.rea_fth_tbt {
+    text-align: justify;
+    margin-top: 40%;
+    border-top: 2px solid white;
+    padding-top: 50px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.rea_fif { grid-area: 3 / 2 / 4 / 3;
+    background: var(--reafif);
+    margin: 1rem;
+    position: relative;
+    color: white;
+    text-align: center;
+    background-blend-mode: luminosity;
+    filter: saturate(0.3);
+    font-family: "DM Serif Display", serif;
+    line-height: 1;
+}
+
+#rea_pf h3 {
+    font-size: 5rem;
+    margin: 25% auto 0 auto;
+    font-weight: normal;
+}
+#rea_pf h4 {
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: normal;
+}
+
+.rea_six { grid-area: 4 / 2 / 5 / 3;
+    background: var(--sixbg);
+    margin: 1rem;
+    position: relative;
+    color: white;
+    text-align: justify;
+    line-height: 1.5;
+}
+.rea_six::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    aspect-ratio: 4 / 5;
+    background: var(--dec3);
+    z-index: 4;
+    top: -30%;
+    left: -20%;
+}
+.rea_six_hd {
+    font-size: 2rem;
+    font-weight: normal;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    margin: 4rem 3rem 0 3rem;
+     font-family: "DM Serif Display", serif;}
+.rea_six_stxt {
+    margin: 1rem 3rem 0 3rem;
+    font-size: 16px;
+    line-height: 1.5;
+         font-family: "DM Serif Display", serif;
+}
+.rea_six_tbt {
+    margin: 1rem 3rem 0 3rem;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.rea_sev { grid-area: 5 / 1 / 6 / 2;
+margin: 1rem;    background: var(--sevbg); }
+.rea_eig { grid-area: 6 / 1 / 7 / 2;margin: 1rem;    background: var(--eigbg); }
+.rea_nine { grid-area: 5 / 2 / 7 / 3;margin: 1rem;    background: var(--ninebg); }
