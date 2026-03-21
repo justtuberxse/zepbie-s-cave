@@ -47,7 +47,7 @@ aspect-ratio: 4 / 5;
     background: var(--dec1);
     z-index: 3;
     aspect-ratio: 1 / 1;
-    bottom: -70px;
+    bottom: -70;
 }
 
 #rhea_pf h1 {
@@ -67,7 +67,6 @@ font-size: 1.25rem;}
     position: relative;
     background-blend-mode: luminosity;
     filter: saturate(0.5);
-    -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
   mask-image: linear-gradient(to bottom, black 50%, transparent 100%)
 }
 .rhea_thd::before {
@@ -209,3 +208,39 @@ font-size: 1.25rem;}
 margin: 1rem;    background: var(--sevbg); }
 .rhea_eig { grid-area: 6 / 1 / 7 / 2;margin: 1rem;    background: var(--eigbg); }
 .rhea_nine { grid-area: 5 / 2 / 7 / 3;margin: 1rem;    background: var(--ninebg); }
+
+
+@media screen and (max-width: 1050px) {
+    #rhea_pf {
+    width: auto;
+    max-width: 685px;}
+    .rhea_fstp{max-width: 300px;}
+    .rhea_scd{max-width: 300px;}
+    #rhea_pf h1 {
+    font-size: 2rem;
+    margin-block-start: 3rem;
+    margin-inline-start: 3rem;}
+    #rhea_pf h2 {
+    margin-inline-start: 3rem;
+    margin-inline-end: 3rem;
+    font-weight: normal;
+    font-size: 0.7rem;}
+    .rhea_scd{width: 100%;aspect-ratio: auto;}
+    .rhea_scd::before {width: 150px;aspect-ratio: 1 / 1;bottom: -50px;}
+.rhea_thd{    aspect-ratio: 16 / 9;}
+.rhea_name {top: 35%;font-size: 3rem;}
+.rhea_nsmall {bottom: 35%;font-size: 0.7rem;}
+.rhea_fth{padding: 2rem;margin: 0.5rem;}
+.rhea_fth img{width: 70px;left: 35%;top: -3.5%;}
+.rhea_fth_hd {font-size: 3rem;}
+.rhea_fth_shd {font-size: 1rem;top: 15%;    right: 30%;}
+.rhea_fth_tbt {    margin-top: 45%;font-size: unset;}
+.rhea_fif{margin: 0.5rem;aspect-ratio: 4 / 3;}
+#rhea_pf h3 {font-size: 2rem;}
+#rhea_pf h4 {font-size: 0.7rem;}
+.rhea_six{margin: 0.5rem;aspect-ratio: 4 / 3;}
+.rhea_six::before { width: 100px;top: -30%;left: -12%;}
+.rhea_six_hd{font-size: 1.7rem;margin: 2rem 3rem 0 3rem;}
+.rhea_six_stxt{font-size: unset;}
+.rhea_sev,.rhea_eig,.rhea_nine{aspect-ratio: 4/5;margin: 0.5rem;}
+}
