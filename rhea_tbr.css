@@ -19,6 +19,7 @@
     grid-row-gap: 0px;
     margin: auto;
     background: #141414;
+    position: relative;
 }
 
 .rhea_fstp {
@@ -47,7 +48,7 @@ aspect-ratio: 4 / 5;
     background: var(--dec1);
     z-index: 3;
     aspect-ratio: 1 / 1;
-    bottom: -70;
+    bottom: -70px;
 }
 
 #rhea_pf h1 {
@@ -210,7 +211,7 @@ margin: 1rem;    background: var(--sevbg); }
 .rhea_nine { grid-area: 5 / 2 / 7 / 3;margin: 1rem;    background: var(--ninebg); }
 
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1080px) {
     #rhea_pf {
     width: auto;
     max-width: 685px;}
