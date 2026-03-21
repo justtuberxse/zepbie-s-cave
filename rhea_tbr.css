@@ -233,7 +233,7 @@ margin: 1rem;    background: var(--sevbg); }
         aspect-ratio: 1 / 1;
         bottom: -50px;
         right: 30px;}
-.rhea_thd{aspect-ratio: 16 / 9; max-width: 600px;}
+.rhea_thd{aspect-ratio: 16 / 9;}
 .rhea_name {top: 30%;font-size: 3rem;left: 20%;}
 .rhea_nsmall {bottom: 35%;font-size: 0.7rem;}
 .rhea_fth{padding: 2rem;margin: 0.5rem;}
