@@ -242,7 +242,7 @@ margin: 1rem;    background: var(--sevbg); }
 .rhea_fif{margin: 0.5rem;aspect-ratio: 4 / 3;}
 #rhea_pf h3 {font-size: 2rem;}
 #rhea_pf h4 {font-size: 0.7rem;}
-.rhea_six{margin: 0.5rem;aspect-ratio: 4 / 3;max-width: 400px;}
+.rhea_six{margin: 0.5rem;aspect-ratio: 4 / 3;}
 .rhea_six::before { width: 100px;top: -30%;left: -12%;}
 .rhea_six_hd{font-size: 1.7rem;margin: 2rem 3rem 0 3rem;}
 .rhea_six_stxt{font-size: unset;}
