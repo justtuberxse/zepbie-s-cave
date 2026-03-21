@@ -215,7 +215,7 @@ margin: 1rem;    background: var(--sevbg); }
     #rhea_pf {
     width: auto;max-width: 685px;
     grid-template-rows: repeat(6, 0.7fr);}
-    .rhea_scd{max-width: 385px;}
+    .rhea_scd{aspect-ratio: auto;}
     #rhea_pf h1 {
     font-size: 1.5rem;
     margin-block-start: 3rem;
@@ -239,7 +239,7 @@ margin: 1rem;    background: var(--sevbg); }
 .rhea_fth_hd {font-size: 3rem;}
 .rhea_fth_shd {font-size: 1rem;top: 15%;    right: 30%;}
 .rhea_fth_tbt {    margin-top: 45%;font-size: unset;}
-.rhea_fif{margin: 0.5rem;aspect-ratio: 4 / 3;max-width: 400px;}
+.rhea_fif{margin: 0.5rem;aspect-ratio: 4 / 3;}
 #rhea_pf h3 {font-size: 2rem;}
 #rhea_pf h4 {font-size: 0.7rem;}
 .rhea_six{margin: 0.5rem;aspect-ratio: 4 / 3;max-width: 400px;}
