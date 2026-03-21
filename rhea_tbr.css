@@ -169,13 +169,15 @@ font-size: 1.25rem;}
     font-weight: normal;
 }
 
-.rhea_six { grid-area: 4 / 2 / 5 / 3;
+.rhea_six {
+    grid-area: 4 / 2 / 5 / 3;
     background: var(--sixbg);
     margin: 1rem;
     position: relative;
     color: white;
     text-align: justify;
     line-height: 1.5;
+    padding-bottom: 1rem;
 }
 .rhea_six::before {
     content: "";
@@ -213,9 +215,9 @@ margin: 1rem;    background: var(--sevbg); }
 
 @media screen and (max-width: 1080px) {
     #rhea_pf {
-    width: auto;max-width: 685px;
+    width: auto;max-width: 600px;
     grid-template-rows: repeat(6, 0.7fr);}
-    .rhea_scd{aspect-ratio: auto;}
+    .rhea_scd{width: 300px;}
     #rhea_pf h1 {
     font-size: 1.5rem;
     margin-block-start: 3rem;
@@ -230,19 +232,19 @@ margin: 1rem;    background: var(--sevbg); }
         width: 170px;
         aspect-ratio: 1 / 1;
         bottom: -50px;
-        right: 50px;}
-.rhea_thd{aspect-ratio: 16 / 9; max-width: 685px;}
-.rhea_name {top: 35%;font-size: 3rem;}
+        right: 30px;}
+.rhea_thd{aspect-ratio: 16 / 9; max-width: 600px;}
+.rhea_name {top: 30%;font-size: 3rem;left: 20%;}
 .rhea_nsmall {bottom: 35%;font-size: 0.7rem;}
 .rhea_fth{padding: 2rem;margin: 0.5rem;}
 .rhea_fth img{width: 70px;left: 35%;top: -3.5%;}
 .rhea_fth_hd {font-size: 3rem;}
 .rhea_fth_shd {font-size: 1rem;top: 15%;    right: 30%;}
 .rhea_fth_tbt {    margin-top: 45%;font-size: unset;}
-.rhea_fif{margin: 0.5rem;aspect-ratio: 4 / 3;}
-#rhea_pf h3 {font-size: 2rem;}
+.rhea_fif{margin: 0.5rem;max-width: 300px;;aspect-ratio:none;}
+#rhea_pf h3 {font-size: 2rem;margin: 40% auto 0 auto;}
 #rhea_pf h4 {font-size: 0.7rem;}
-.rhea_six{margin: 0.5rem;aspect-ratio: 4 / 3;}
+.rhea_six{margin: 0.5rem;aspect-ratio: 4 / 3;max-width: 300px;}
 .rhea_six::before { width: 100px;top: -30%;left: -12%;}
 .rhea_six_hd{font-size: 1.7rem;margin: 2rem 3rem 0 3rem;}
 .rhea_six_stxt{font-size: unset;}
