@@ -1,0 +1,11 @@
+<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&family=Lexend:wght@400;700&display=swap" rel="stylesheet"><link href="https://justtuberxse.github.io/zepbie-s-cave/spotifymood.css" rel="stylesheet">
+<div style="--background: transparent;--cmbg: #fafafa;--cmtext: #202020;--container-width:589px;--accent: #fafafa;--body-font: 'Lexend', 'Sarabun', sans-serif;">
+<div id="sptfmb1"style="height: auto;"> <div class="b1h"style="background: url(-----รูปภาพพื้นหลังเฮด------)center / cover;"></div>
+<div class="b1nb"><div class="b1n"><text>ชื่อคาร์</text> <span style="color: #d0d0d0;">@---ชื่อแอค---</span><br>
+D-VEN HOSE CLUB</div>
+<div class="b1p"style="background: url(-----รูปภาพเมจ------)center/cover;"></div></div>
+
+[hr]
+
+ข้อความ
+</div>
