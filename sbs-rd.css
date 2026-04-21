@@ -68,7 +68,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
-.card-header { display: flex; background: #ede6de; margin-bottom: 10px; }
+.card-header { display: flex; background: var(--mainbg); margin-bottom: 10px; }
 .card-no { background:var(--acent1); color: white; padding: 8px 15px; font-weight: bold; font-family: "Bodoni Moda", serif; }
 .card-title { padding: 8px 15px; color: #333; }
 .card-img { width: 100%; height: 200px; object-fit: cover; }
