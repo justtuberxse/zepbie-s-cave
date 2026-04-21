@@ -28,7 +28,7 @@
         .hnsign span { display: block; font-size: 12px; }
         .hnsign strong { font-size: 32px; }
 
-        .title-room h1 {font-size: 48px;font-style: italic;border-bottom: 3px solid var(--acent1);display: inline-block;margin-right: 10px;margin-block-end: 0.47em;}
+        .title-room h1 {font-size: 48px;font-style: italic;border-bottom: 3px solid var(--acent1);display: inline-block;margin-right: 10px;margin-block-end: 0.47em;color:var(--acent1)}
         .title-room span { font-size: 24px; color: #333; }
         
         .room-description { margin: 20px 0; color: #555; line-height: 1.6; }
