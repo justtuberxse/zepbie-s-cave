@@ -72,7 +72,7 @@
         .card-img { width: 100%; height: 200px; object-fit: cover; }
 
      
-        @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px)
             .welcome-zone { grid-template-columns: 1fr;grid-template-rows: 1fr 0.5fr; }
                 .line-deco {width: 75%;}
                  .card-img   {aspect-ratio: 3 / 2;height: auto;}
