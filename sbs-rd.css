@@ -98,11 +98,20 @@
 }
 
 
-@media screen and (max-width: 1150px) {
-    .sbs-images { bottom: 20px; }
+@media screen and (max-width: 1150px) 
+{ .welcome-zone {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.5fr;
+}
+    .sbs-images { 
+        bottom: 20px;
+        right: 20px;
+        left: unset;
+    }
     .sbsimg-small, .sbscolor-block { height: 140px; }
     .title-room h1 { font-size: 36px; }
     .title-room span { font-size: 20px; }
     .room-description { font-size: small; margin-block-start: 0.67em; }
     .line-deco { width: 45%; }
+ .card-img {    aspect-ratio: 1 / 1;}
 }
