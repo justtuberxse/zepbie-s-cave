@@ -80,12 +80,3 @@
             .sbsimg-small, .sbscolor-block{ width: 100%; max-width: 250px; }
             .title-roomh1 { font-size: 36px; }
         }
-
-        @media screen and (max-width: 1050px){
-            .sbs-images{    bottom: 20px;}
-            .sbsimg-small , .sbscolor-block {height: 140px;}
-            .title-room h1{font-size: 36px;}
-            .title-room span{font-size: 20px;}
-            .room-description {font-size: small;    margin-block-start: 0.67em;}
-            .line-deco{width: 45%;}
-        }
