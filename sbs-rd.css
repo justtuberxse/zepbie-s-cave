@@ -22,13 +22,13 @@
         .hnsign {
             background: #2a2d2a; color: white;
             width: fit-content; padding: 10px 15px;
-            text-align: center; margin-bottom: 30px;
+            text-align: center; 
             font-family: "Bodoni Moda", serif;
         }
         .hnsign span { display: block; font-size: 12px; }
         .hnsign strong { font-size: 32px; }
 
-        .title-room h1 { font-size: 48px; font-style: italic; border-bottom: 3px solid #6b8e23; display: inline-block; margin-right: 10px; }
+        .title-room h1 {font-size: 48px;font-style: italic;border-bottom: 3px solid var(--acent1);display: inline-block;margin-right: 10px;margin-block-end: 0.47em;}
         .title-room span { font-size: 24px; color: #333; }
         
         .room-description { margin: 20px 0; color: #555; line-height: 1.6; }
@@ -53,7 +53,7 @@
         }
         .line-deco {
              margin-right: 0px;
-            width: 50%;
+            width: 45%;
             height: 1rem;
              background: var(--mainbg);
             position: absolute;
