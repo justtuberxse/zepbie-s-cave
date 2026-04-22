@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Poppins:wght@400;600&family=Sarabun:wght@400;700&display=swap');
+
+
+#lletter {
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Bodoni Moda', 'Sarabun', sans-serif;
+}
+
+.letter-paper {
+    width: 500px;
+    padding: 40px;
+    position: relative;
+    margin: auto;
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0,0.05);
+  --radius: 8px;
+  background-image: 
+    radial-gradient(
+      var(--radius),
+      transparent 98%,
+       var(--paper-bg)
+    ),
+    linear-gradient( var(--paper-bg) 0 0);
+  background-repeat: 
+    round, 
+    no-repeat;
+  background-position:
+    calc(var(--radius) * -1.5) calc(var(--radius) * -1.5),
+    50%;
+  background-size:
+    calc(var(--radius) * 3) calc(var(--radius) * 3),
+    calc(100% - var(--radius) * 3) calc(100% - var(--radius) * 3);
+}
+
+.header-box {
+    height: 120px;
+    margin-bottom: 20px;
+    position: relative;
+    background: var(--haderpic);
+}
+
+.header-box::before {
+    content: var(--content);
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    color: var(--ink-color);
+    background: var(--paper-bg);
+    padding: 0 5px;
+    border: solid 2px var(--ink-color);
+    border-radius: 50px;
+}
+
+.letter-content {
+    line-height: 30px;
+    margin: 20px 0px 40px 0px;
+    color: var(--text);
+}
+.stamps {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    display: flex;
+    gap: 5px;
+}
+.letter-header{
+    font-size: larger;
+    font-style: italic;
+    text-indent: 2%;
+}
+.stamp {
+    width: 100px;
+    transform: rotate(5deg);
+    --radius: 3px;
+  background-image: 
+    radial-gradient(
+      var(--radius),
+      transparent 98%,
+      var(--stamp-color)
+    ),
+    linear-gradient(var(--stamp-color) 0 0);
+  background-repeat: 
+    round, 
+    no-repeat;
+  background-position:
+    calc(var(--radius) * -1.5) calc(var(--radius) * -1.5),
+    50%;
+  background-size:
+    calc(var(--radius) * 3) calc(var(--radius) * 3),
+    calc(100% - var(--radius) * 3) calc(100% - var(--radius) * 3);
+}
+
+.stamp img {
+    width: 80%;
+    aspect-ratio: 4/5;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.letter-header p {
+    margin: 5px 0;
+    color: var(--ink-color);
+    font-weight: bold;
+}
+
+
+.letter-footer {
+    width: calc(100% - 80px);
+    color: var(--ink-color);
+    font-size: x-small;
+}
+
+.postmark {
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+}
+
+.postmark img{
+    aspect-ratio: 1/1;
+    width: 80px;
+    object-fit: cover;
+}
+.letter-paper:after {
+    content: "\f458";
+    font-family: 'game-icons', 'Poppins';
+    font-size: xx-small;
+    color: #8850509f !important;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: -25px;
+    left: 0px;
+}
+  .letter-paper:hover::after { content: "justtuberose";font-size: xx-small; }
