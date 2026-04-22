@@ -43,13 +43,14 @@
 .header-box::before {
     content: var(--content);
     position: absolute;
+    font-size: small;
     bottom: -10px;
     left: -10px;
     color: var(--ink-color);
     background: var(--paper-bg);
     padding: 0 5px;
     border: solid 2px var(--ink-color);
-    border-radius: 50px;
+    border-radius: 150px;
 }
 
 .letter-content {
