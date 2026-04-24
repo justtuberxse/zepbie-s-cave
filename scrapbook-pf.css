@@ -1,39 +1,200 @@
-<link rel="stylesheet" href="scrapbook-pf.css">
-<link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Mrs+Saint+Delafield&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-<div style="--deco-size: 100px;--accent-white: #ffffff;--accent1: #708b1c;--accent2: #d5bd95;--so: #5c6346;--stw: #6b5c43;--sth: #ffffff;--stamp-color:white;">
-<div id="scrapbook">
-    <div class="scrapbook-container">
-  <div class="canvas">
-    <div class="scb-header-text">
-      <p>. 010622 .</p>
-      <p>XV — ALL LOVE FROM HERMES.</p>
-    </div>
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
 
-    <div class="scb-main-frame">
-      <div class="stamp-border">
-        <img src="https://i.pinimg.com/736x/92/3c/f5/923cf5fed80eb7d1dc645a0530577079.jpg" alt="Profile Photo" class="scb-profile-img">
-      </div>
-      
-      <div class="torn-paper"></div>
-      
-      <div class="scb-title-overlay">
-        <h1 class="scb-script-font">Kiryu</h1>
-        <h2 class="scb-block-font">westwind</h2>
-      </div>
+#scrapbook {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'serif';
+}
 
-<div class="deco flower"style="--img-flower: url('https://cdn.imgchest.com/files/1cbf32d4a77b.png')"></div>
-      <div class="deco butterfly"style="--img-butterfly: url('https://iili.io/K9T3bbn.png');"></div>
-      <div class="deco letters"style="--img-letters: url('https://iili.io/K9T3OlV.png');"></div>
-    </div>
+.scrapbook-container {
+  width: 600px;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+    margin: auto;
+  color: var(--accent-white);
+  padding: 40px;
+}
 
-    <div class="scb-footer-content">
-      <div class="scb-palette">
-        <span class="swatch so"></span>
-        <span class="swatch stw"></span>
-        <span class="swatch sth"></span>
-      </div>
-      <p class="sub-text">Le vent d'est était autrefois chaud.</p>
-    </div>
-  </div>
-</div>
-  </div>
+.scb-header-text {
+  text-align: center;
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
+}
+
+.scb-main-frame {
+  position: relative;
+  width: 320px;
+  height: 350px;
+  transform: rotate(-2deg);
+      margin: auto;
+}
+
+.stamp-border {
+  padding: 15px;
+  width: 100%;
+  height: 100%;
+    --radius: 8px;
+  background-image: 
+    radial-gradient(
+      var(--radius),
+      transparent 98%,
+       var(--stamp-color)
+    ),
+    linear-gradient( var(--stamp-color) 0 0);
+  background-repeat: 
+    round, 
+    no-repeat;
+  background-position:
+    calc(var(--radius) * -1.5) calc(var(--radius) * -1.5),
+    50%;
+  background-size:
+    calc(var(--radius) * 3) calc(var(--radius) * 3),
+    calc(100% - var(--radius) * 3) calc(100% - var(--radius) * 3);
+}
+
+
+.scb-profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.scb-title-overlay {
+  position: absolute;
+  bottom: -20px;
+  left: -40px;
+  transform: rotate(2deg);
+  text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+}
+
+.scb-script-font {
+font-family: "Fleur De Leah", cursive;
+  font-size: 50px;
+  margin: 0;
+  color: var(--accent2);
+}
+
+.scb-block-font
+ {
+    font-size: 30px;
+    color: var(--accent1);
+    padding: 0 10px;
+    display: inline-block;
+    margin-top: -10px;
+    font-family: "Playfair Display", serif;
+}
+
+.scb-footer-content {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.scb-palette {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+}
+
+.swatch {
+  width: 30px;
+  height: 8px;
+}
+
+.so { background: var(--so); }
+.stw { background: var(--stw); }
+.sth { background: var(--sth); }
+
+.sub-text {
+  font-style: italic;
+  font-size: 9px;
+  opacity: 0.8;
+}
+
+/* การตกแต่งเพิ่มเติม */
+.deco {
+  position: absolute;
+  width: var(--deco-size);
+  height: var(--deco-size);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 5;
+  pointer-events: none; /* เพื่อให้ไม่บังการคลิกส่วนอื่น */
+  filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.3)); /* เพิ่มมิติให้ดูเหมือนสติกเกอร์ */
+}
+
+.flower {
+  background-image: var(--img-flower);
+  bottom: 20%;
+  left: -40px;
+  width: 120px; /* ดอกไม้อาจจะใหญ่หน่อย */
+  height: 120px;
+}
+
+.butterfly {
+    background-image: var(--img-butterfly);
+    top: -10px;
+    right: -50px;
+    transform: rotate(15deg);
+}
+
+.letters {
+  background-image: var(--img-letters);
+  bottom: -20px;
+  right: -30px;
+  transform: rotate(-10deg);
+  width: 100px;
+}
+
+@media (max-width: 600px) {
+  .scrapbook-container {
+    width: 100vw; 
+    height: auto; 
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .scb-main-frame {
+    width: 85%; 
+    height: auto;
+    aspect-ratio: 4 / 5; 
+    margin: 20px 0;
+  }
+
+  .scb-header-text {
+    font-size: 8px; 
+    margin-top: 10px;
+  }
+
+  .script-font {
+    font-size: 35px;
+    left: 20px;
+  }
+
+  .block-font {
+    font-size: 20px;
+  }
+
+  .scb-title-overlay {
+    left: -20px; 
+    bottom: -10px;
+  }
+
+  .scb-footer-content {
+    margin-top: 40px;
+    padding-bottom: 20px;
+  }
+
+.butterfly {
+    font-size: 20px;
+    top: -5px;
+    right: -5px;
+  }
+}
