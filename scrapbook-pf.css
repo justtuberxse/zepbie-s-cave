@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="scrapbook-pf.css">
+<link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Mrs+Saint+Delafield&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<div style="--deco-size: 100px;--accent-white: #ffffff;--accent1: #708b1c;--accent2: #d5bd95;--so: #5c6346;--stw: #6b5c43;--sth: #ffffff;--stamp-color:white;">
+<div id="scrapbook">
+    <div class="scrapbook-container">
+  <div class="canvas">
+    <div class="scb-header-text">
+      <p>. 010622 .</p>
+      <p>XV — ALL LOVE FROM HERMES.</p>
+    </div>
+
+    <div class="scb-main-frame">
+      <div class="stamp-border">
+        <img src="https://i.pinimg.com/736x/92/3c/f5/923cf5fed80eb7d1dc645a0530577079.jpg" alt="Profile Photo" class="scb-profile-img">
+      </div>
+      
+      <div class="torn-paper"></div>
+      
+      <div class="scb-title-overlay">
+        <h1 class="scb-script-font">Kiryu</h1>
+        <h2 class="scb-block-font">westwind</h2>
+      </div>
+
+<div class="deco flower"style="--img-flower: url('https://cdn.imgchest.com/files/1cbf32d4a77b.png')"></div>
+      <div class="deco butterfly"style="--img-butterfly: url('https://iili.io/K9T3bbn.png');"></div>
+      <div class="deco letters"style="--img-letters: url('https://iili.io/K9T3OlV.png');"></div>
+    </div>
+
+    <div class="scb-footer-content">
+      <div class="scb-palette">
+        <span class="swatch so"></span>
+        <span class="swatch stw"></span>
+        <span class="swatch sth"></span>
+      </div>
+      <p class="sub-text">Le vent d'est était autrefois chaud.</p>
+    </div>
+  </div>
+</div>
+  </div>
