@@ -156,7 +156,6 @@ font-family: "Fleur De Leah", cursive;
   .scrapbook-container {
     width: 100vw; 
     height: auto; 
-    min-height: 100vh;
     padding: 20px;
     box-sizing: border-box;
   }
