@@ -10,8 +10,6 @@
 }
 
 .scrapbook-container {
-  width: 600px;
-  height: 600px;
   position: relative;
   overflow: hidden;
     margin: auto;
@@ -153,7 +151,6 @@ font-family: "Fleur De Leah", cursive;
 
 @media (max-width: 600px) {
   .scrapbook-container {
-    width: 100vw; 
     height: auto; 
     padding: 20px;
     box-sizing: border-box;
