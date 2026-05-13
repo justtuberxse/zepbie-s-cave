@@ -46,7 +46,6 @@
     background-size: 110%;
     background-position: top center;
     background-repeat: no-repeat;
-    overflow-x: hidden;
 }
 #tennojibody {
     background-color: var(--dark);
@@ -220,6 +219,7 @@ avatarnavbar {
 #tennoji #content-container #container {
     margin-left: 5.5vw;
     margin-right: 0;
+     overflow-x: hidden;
 }
 #tennoji #content-container #content-main {
     width: 100%;
