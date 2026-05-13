@@ -964,7 +964,7 @@ transform: rotate(-90deg) translate(-70px, -60px);
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1050px) {
     /* ปรับส่วนหัว Header */
     .tnjhb {
         height: auto !important;
