@@ -944,3 +944,241 @@ transform: rotate(-90deg) translate(-70px, -60px);
             border-radius: 5px;
             background: linear-gradient(30deg, var(--dark2), var(--accent1));
         }
+        @media (max-width: 1200px) {
+    #tennoji #wrap, .tablon {
+       max-width: 100% !important;
+       height: auto;
+    }
+    .tnjhb .wrap, .tab-content{
+                max-width: 80% !important;
+        height: auto;
+    }
+
+    .cate1 li.header, .cate2 li.header {
+        height: 250px !important;
+    }
+
+    .cate1 li.header .table-title h2 b, 
+    .cate2 li.header .table-title h2 b {
+        font-size: 80px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    /* ปรับส่วนหัว Header */
+    .tnjhb {
+        height: auto !important;
+        padding-bottom: 50px;
+        aspect-ratio: 16 / 8;
+    }
+
+    .tnjhb .site-desc {
+        height: auto !important;
+                margin-top: 278px;
+    }
+
+    .tnjhb .site-desc .name-header {
+        font-size: 30px !important;
+    }
+
+    /* ปรับส่วน Tab และปุ่มต่างๆ */
+    .buttons-tab {
+        position: relative !important;
+        top: 0 !important;
+        height: auto !important;
+        gap: 20px;
+        flex-direction: row;
+    }
+
+    .line-tab {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .welcome-username {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .tabs {
+        justify-content: center;
+    }
+    .tab{width: 35px;
+        height: auto;
+        aspect-ratio: 1 / 1;
+        font-size: 20px;}
+
+
+    .cate1 .forum-1, .cate1 .forum-2, .cate1 .forum-3,
+    .cate2 .forum-1, .cate2 .forum-2, .cate2 .forum-3 {
+        width: 100% !important;
+        height: auto !important;
+        min-height: 150px;
+    }
+    .cate1 .forum-1 .forumname, .cate1 .forum-2 .forumname {
+        width: 100% !important;
+        box-sizing: border-box;
+    }
+
+    .forumname .forumtitle {
+        font-size: 28px !important;
+    }
+
+  
+
+    .Estadisticas {
+        grid-template-columns: 1fr !important;
+        grid-template-rows: auto !important;
+        height: auto !important;
+    }
+
+    .LastUser {
+        margin: 0 auto !important;
+    }
+
+    .StatData {
+        width: 100% !important;
+        margin-top: 20px !important;
+        padding-top: 20px !important;
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    .ConectUser {
+        margin-top: 20px !important;
+        height: auto !important;
+    }
+
+    .User-Top b {
+        font-size: 50px !important;
+    }
+
+    .Affiliates {
+        flex-direction: column;
+        height: auto !important;
+                padding: 20px 0;
+    }
+
+    .afiliados {
+        width: 100% !important;
+        justify-content: center;
+    }
+    
+    #tennoji #content-container #container {
+        margin-left: 0 !important;
+        padding: 10px;
+    }
+    .cate3 .table-title h2 b{
+            margin-right: 39px;
+    height: 100px;
+    width: auto;
+  font-size: 50px;
+    }
+    .cate3 .table-title{    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: normal;
+        margin-left: 100px;}
+    .cate3 .table-title h2 e{
+        font-size: 50px;
+    }
+    .cate3 .table-title h2 e m{
+        font-size: x-small;
+    }
+    .cate3 imi{
+            right: 0px;
+        height: 150px;
+        aspect-ratio: 1 / 1;
+        width: auto;
+         transform: translate(0px, 0px);
+    }
+     .cate3 .forumname {
+        padding-left: 20px !important;
+    }
+     .cate3 .forumdescri {
+        padding: 20px !important;
+        width: 140% !important;
+        margin-top: 20px !important;
+
+    }
+     .cate3 .forumblocklast {
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+     .cate3 .forumlastreply {
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-top: 10px !important;
+    }
+    .afiima{    width: auto;    flex-direction: row;}
+    .cate1, .cate2{
+        height: auto !important;
+        background-size: cover;
+    }
+    .cate1 {display: flex; }
+
+    .cate1 li.header .table-title h2 b, .cate2 li.header .table-title h2 b{
+        font-size: 80px !important;
+        height: 170px;
+    }
+    .cate1 li.header .table-title h2{
+            height: 100px;
+    }
+    .cate1 li.header imi{
+    width: 80px;
+    height: 80px;
+    transform: translate(-2px, 20px);
+}
+.cate1 li.header .table-title h2 e{font-size: 80px;
+    transform: rotate(90deg) translate(90px, -5px);}
+    .cate1 ul.forums{    display: flex;flex-wrap: wrap;}
+    .cate1 .forum-3 .forumtitle{transform: translateY(10px) translatex(-200px)}
+      .cate1 .forum-3 .forumicon{
+        transform: translate(-130px, 10px);
+        width: 100px;
+        aspect-ratio: 1 / 1;
+        height: auto;;
+    }
+    .cate1 .forum-3 .forumlastreply{transform: translateY(-70px) translateX(10px)}
+    .cate2 .forum-1 .forumlinks {width: auto;}
+    .cate2 .forum-1 .forumlinks a{    padding: 5px 100px;        font-size: medium;}
+    .cate2 .forum-1 .forumicon{transform: translate(370px, -120px);}
+    .cate2 {display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, 500px);}
+    .cate2 ul.forums{display: block;grid-area: 1 / 1 / 2 / 3;}
+    .cate2 .forum-1{    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    padding-bottom: 5px;
+    list-style: none;
+    flex-direction: column;
+        align-items: flex-start;}
+    .cate2 .forum-1 .forumname{font-size: 170px;}
+    .cate2 .forum-1 .forumtitle{    font-size: 50px !important;}
+    .cate2 .forum-1 .forumdescri{width: 50%;}
+    .cate2 .forum-1 .forumicon{    transform: translate(370px, -150px);}
+    .cate2 .forum-2{width: 70% !important;}
+    .cate2 li.header{grid-area: 2 / 2 / 3 / 3;transform: translate(0px, 0px);max-width: 200px;}
+    .cate2 li.header .table-title h2 b {
+        font-size: 80px !important;
+        transform: translate(0px, -225px);
+        height: 200px;
+    }
+    .cate2 .forum-2 .forumdescri{    padding: 0 30px 30px 30px;    line-height: 1.7;}
+    .cate1 li.header .table-title h2 b{        font-size: 80px !important;
+        transform: translate(0px, -35px);
+        height: 200px;}
+        .afiima h5{margin: 0;}
+        .cate3 .forumiconuser{transform: translate(90px, 10px);
+    width: 80px;
+    height: auto;
+    aspect-ratio: 1 / 1;}
+    .cate3 .forum-1{grid-template-columns: 400px 0px 270px;}
+    .table-title{    max-width: 200px;}
+    .cate3 .forum-1 .forumtitle{    font-size: 40px !important;}
+    .cate3 ul.forums{display: unset;}
+    .cate3 li.header { width: 100%; height: 180px; display: flex;
+        justify-content: normal; align-items: center;
+}
+}
