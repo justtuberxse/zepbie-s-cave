@@ -249,6 +249,7 @@
     object-fit: cover;
     filter: grayscale(100%);
 }
+ .q-star {left: 0px;}          
 .qpolaroid {
         width: 200px;
     height: 280px;
