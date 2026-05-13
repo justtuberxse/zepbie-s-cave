@@ -22,7 +22,7 @@
 }
 
 #teddyreen ::-webkit-scrollbar {
-    width: 5px;
+    width: 3px;
     height: 1px;
     border-radius: 6px
 }
@@ -34,6 +34,7 @@
 #teddyreen ::-webkit-scrollbar-thumb {
     background: var(--accent1);
     border-radius: 10px
+    opacity:50%
 }
 /* Header Styles */
 .teddyheader {
@@ -185,7 +186,7 @@
     margin: 10% auto;
     backdrop-filter: blur(5px);
     width: 80%;
-    padding: 40px;
+    padding: 20px 40px;
     border-radius: 5px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
@@ -219,11 +220,11 @@
      transition: 1s;;
 }
 .info{   
-    max-width: 700px;
+    max-width: 600px;
     height: 800px;
     overflow-y: scroll;
     overflow-x: hidden;
-    padding: 0 50px 0 0;}
+    }
 
     @media screen and (max-width: 1080px) {
 #teddyreen{
