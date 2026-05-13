@@ -946,7 +946,7 @@ transform: rotate(-90deg) translate(-70px, -60px);
         }
 
 
-@media (max-width: 1050px) {
+@media screen and(max-width: 1050px) {
  #tennoji #wrap, .tablon {
        max-width: 100% !important;
        height: auto;
