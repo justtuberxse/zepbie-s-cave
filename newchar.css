@@ -944,8 +944,10 @@ transform: rotate(-90deg) translate(-70px, -60px);
             border-radius: 5px;
             background: linear-gradient(30deg, var(--dark2), var(--accent1));
         }
-        @media (max-width: 1200px) {
-    #tennoji #wrap, .tablon {
+
+
+@media (max-width: 1050px) {
+ #tennoji #wrap, .tablon {
        max-width: 100% !important;
        height: auto;
     }
@@ -962,10 +964,6 @@ transform: rotate(-90deg) translate(-70px, -60px);
     .cate2 li.header .table-title h2 b {
         font-size: 80px !important;
     }
-}
-
-@media (max-width: 1050px) {
-    /* ปรับส่วนหัว Header */
     .tnjhb {
         height: auto !important;
         padding-bottom: 50px;
