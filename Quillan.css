@@ -261,5 +261,5 @@
 .stickers{right: 10px;}
 .s1 {bottom: 80px;}
 .s2 {transform: rotate(-10deg) translatey(-25%);}
-.qinfo {width: auto;}
+.qinfo {width: auto;min-width: 100px;}
     }
