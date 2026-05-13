@@ -33,19 +33,19 @@
     border-radius: 50px;
     font-style: italic;
 }
-.heart-icon {
+.qheart-icon {
     font-size: 0.8rem;
     margin-bottom: 10px;
         text-align: center;
         color: var(--text-color);
 }
 /* Main Title */
-.main-title {
+.qmain-title {
     text-align: center;
     margin-bottom: 30px;
 }
 
-.main-title h1 {
+.qmain-title h1 {
    font-family: "WindSong", cursive;
     font-weight: 400;
     font-style: italic;
@@ -53,14 +53,14 @@
     line-height: 0.9;
 }
 
-.main-title h1 span {
+.qmain-title h1 span {
     font-style: normal;
     font-size: 3rem;
     display: block;
 }
 
 /* Collage Layout */
-.collage-area {
+.qcollage-area {
     position: relative;
     height: 600px;
 }
@@ -178,7 +178,7 @@
 }
 
 /* Footer */
-.footer {
+.qfooter {
     text-align: center;
     margin-top: 20px;
 }
@@ -191,12 +191,12 @@
     color: var(--accent2);
 }
 
-.footer p {
+.qfooter p {
     font-size: 11px;
     letter-spacing: 2px;
     margin-top: -10px;
 }
-.paper_info {
+.qpaper_info {
     font-family: "Sarabun", sans-serif;
     margin: 2rem auto;
     backdrop-filter: blur(5px);
@@ -209,18 +209,18 @@
     color: #444;
     transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
-.paper_info p {
+.qpaper_info p {
     font-size: 0.95rem;
     line-height: 1.6;
     color: #666;
 }
-.paper_info:hover {
+.qpaper_info:hover {
     transform: translateY(-5px);
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
          background: #fafafa;
 }
 
-.paper_info h1{
+.qpaper_info h1{
     font-size: 1.5rem;
     margin-bottom: 15px;
         font-family: 'Cormorant SC', serif;
@@ -228,13 +228,13 @@
     text-transform: uppercase;
     letter-spacing: 3px;
 }
-.paper_info h1:hover {
+.qpaper_info h1:hover {
    text-decoration: none;
      filter: blur(7px); 
      color: var(--accent1);
      transition: 1s;;
 }
-.info{   
+.qinfo{   
     min-width: 700px;}
 
     @media screen and (max-width: 1080px) {
