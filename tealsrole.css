@@ -42,9 +42,9 @@
 
 .caption {
     font-size: medium;
-    color: #334d6e;
+color: var(--tsaccent1);
     text-align: right;
-     font-family: "Gaegu", sans-serif;
+     font-family: "Gaegu", "Sarabun", sans-serif;
 }
 
 .polaroid-wrapper {
