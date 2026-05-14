@@ -112,7 +112,6 @@ color: var(--tsaccent1);
     padding: calc(4.2 * var(--r));
     background: #fafafa;
     mask: linear-gradient(#000 0 0) no-repeat 50% / calc(100% - 2 * var(--r)) calc(100% - 2 * var(--r)), radial-gradient(farthest-side, #000 97%, #0000) 0 0 / calc(2 * var(--r)) calc(2 * var(--r)) round;
-    line-height: 1.7;
     text-align: justify;
 }
 
