@@ -104,12 +104,11 @@ color: var(--tsaccent1);
 .scalloped-box-container {
     position: relative;
     width: 100%;
-    max-width: 500px;
+    max-width: 720px;
 }
 
 .scalloped-box {
     --r: 8px;
-    aspect-ratio: 16 / 9;
     padding: calc(4.2 * var(--r));
     background: #fafafa;
     mask: linear-gradient(#000 0 0) no-repeat 50% / calc(100% - 2 * var(--r)) calc(100% - 2 * var(--r)), radial-gradient(farthest-side, #000 97%, #0000) 0 0 / calc(2 * var(--r)) calc(2 * var(--r)) round;
