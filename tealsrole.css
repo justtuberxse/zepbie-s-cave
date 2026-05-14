@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&family=Sarabun&display=swap');
+
+#tealsrole {
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Sarabun", sans-serif;
+    position: relative;
+}
+
+.ts_container {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.collage-section {
+    position: relative;
+    width: 350px;
+    height: 400px;
+}
+
+.polaroid-frame {
+    background-color: #f2f2f2;
+    padding: 15px 15px 5px 15px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    width: 180px;
+}
+
+.photo-area {
+    background-color: #fff;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+.caption {
+    font-size: medium;
+    color: #334d6e;
+    text-align: right;
+     font-family: "Gaegu", sans-serif;
+}
+
+.polaroid-wrapper {
+    position: absolute;
+    z-index: 2;
+}
+.polaroid-frame .picture {
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    width: 100%;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+    transform: rotate(2deg);
+}
+
+.bottom-left {
+    top: 120px;
+    left: 0;
+    transform: rotate(-3deg);
+    z-index: 3;
+}
+
+.decoration-box {
+    position: absolute;
+    overflow: hidden;
+}
+
+.decoration-box img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.cd-disk {
+    width: 150px;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.cat-sticker {
+    width: 80px;
+    bottom: -120px;
+    left: 100px;
+}
+
+.bottom-left-deco {
+    width: 110px;
+    bottom: -20px;
+    left: -30px;
+}
+
+.scalloped-box-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+}
+
+.scalloped-box {
+    --r: 8px;
+    aspect-ratio: 16 / 9;
+    padding: calc(4.2 * var(--r));
+    background: #fafafa;
+    mask: linear-gradient(#000 0 0) no-repeat 50% / calc(100% - 2 * var(--r)) calc(100% - 2 * var(--r)), radial-gradient(farthest-side, #000 97%, #0000) 0 0 / calc(2 * var(--r)) calc(2 * var(--r)) round;
+    line-height: 1.7;
+
+}
+
+.safety-pin {
+    width: 200px;
+    top: -10px;
+    left: 10px;
+    z-index: 10;
+    transform: translate(-92px, -30px) rotate(15deg);
+}
+note{
+    font-size: xx-small;
+    color: #999;
+    text-align: left;
+margin-top: 5px;
+}
+
+/* --- Media Query สำหรับหน้าจอต่ำกว่า 1080px --- */
+@media screen and (max-width: 1080px) {
+    .ts_container {
+        transform: scale(0.9); /* ย่อขนาดภาพรวม */
+    }
+    
+    .collage-section {
+        width: 300px;
+        height: 350px;
+    }
+
+    .polaroid-frame {
+        width: 150px;
+    }
+
+    .scalloped-box-container {
+        width: 90%;
+    }
+}
+#tealsrole:after {
+    content: "\f458";
+    font-family: 'game-icons', 'Poppins';
+    font-size: xx-small;
+    color: #8850509f !important;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0px;
+    left: 0px;
+}
+  #tealsrole:hover::after { content: "justtuberose";font-size: xx-small; }
