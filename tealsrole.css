@@ -114,6 +114,12 @@ color: var(--tsaccent1);
     background: #fafafa;
     mask: linear-gradient(#000 0 0) no-repeat 50% / calc(100% - 2 * var(--r)) calc(100% - 2 * var(--r)), radial-gradient(farthest-side, #000 97%, #0000) 0 0 / calc(2 * var(--r)) calc(2 * var(--r)) round;
     line-height: 1.7;
+    text-align: justify;
+}
+
+.mini-box {
+    color: #fff;
+    text-align: justify;
 
 }
 
@@ -125,10 +131,10 @@ color: var(--tsaccent1);
     transform: translate(-92px, -30px) rotate(15deg);
 }
 note{
-    font-size: xx-small;
+    font-size: x-small;
     color: #999;
     text-align: left;
-margin-top: 5px;
+margin-top: 15px;
 }
 
 /* --- Media Query สำหรับหน้าจอต่ำกว่า 1080px --- */
