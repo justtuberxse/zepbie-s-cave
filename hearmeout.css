@@ -253,10 +253,3 @@
     text-align: justify;
 }
 
-  @media screen and (max-width: 1080px) {
-      #hmo-re .mixchar{
-          display:flex;
-    flex-direction: column;
-    align-items: center;
-      }
-  }
