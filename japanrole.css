@@ -87,7 +87,7 @@ color:#bbbbbb;
         color:#161616;
     }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1050px) {
        #__drown{width: 80%;}
       #__drown .__dtext {padding: 20px;}
 }
