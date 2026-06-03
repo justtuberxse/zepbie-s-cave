@@ -1,25 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Sarabun&display=swap');
 #__drown{
-    width: 650px;
-    background: #1e1e1e;
+    width: 70%;
     padding:4px;
-    border:1px solid #161616;
     border-radius: 5px;
 color:#bbbbbb;
     margin: 0 auto;
     font-family:"Playfair","Sarabun","Noto Serif JP", serif;
 }
 #__drown .__dbg{
-    background:#161616;
     padding:10px;
-    border:1px solid #161616;
     border-radius: 5px;
 }
     #__drown .__dbg2{
-        background:#1e1e1e;
-        padding:10px;
-        border:1px solid #161616;
-        border-radius: 5px;
         padding:20px;
     }
     #__drown .__dkanji{
@@ -51,14 +43,15 @@ color:#bbbbbb;
         word-spacing: 5px;
         line-height: 175%;
     }
-    #__drown .__dtext{
-        font-family: times;
-        font-size:15px;
-        text-align:justify;
-        padding: 80px;
-        line-height: 130%;
-        hyphens: auto;
-    }
+  #__drown .__dtext {
+    font-family: 'Sarabun';
+    font-size: medium;
+    text-align: justify;
+    padding: 40px;
+    line-height: 1.7;
+    hyphens: auto;
+    text-indent: 5%;
+}
     #__drown .__dtext accent{
         color: #d18448;
     }
