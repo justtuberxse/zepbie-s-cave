@@ -27,12 +27,9 @@
     margin: 3rem auto;
       font-family: "Cloud Loop", cursive;
     color: var(--lg-color);
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
     align-items: center;
     padding: 20px;
-    flex-direction: column;
+      position: relative;
 }
 .ztn-header {
     width: 100%;
