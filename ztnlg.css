@@ -21,13 +21,6 @@
   font-style: normal;
   font-display: swap;
 }
-
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #131313;
-}
 #ztnlg {
     width: 800px;
     max-width: 90%;
@@ -179,7 +172,7 @@ body {
     position: absolute;
     width: 100%;
     text-align: center;
-    bottom: -25px;
+    bottom: -150px;
     left: 0px;
 }
 #ztnlg:hover::after { content: "justtuberose";font-size: xx-small; }
@@ -203,7 +196,8 @@ body {
         font-size: 0.85rem;
     }
     #ztnlg:after {
-        bottom: 43px;
+        bottom: 190px;
     }
 }
+
 
