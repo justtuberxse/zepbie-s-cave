@@ -1,0 +1,120 @@
+@import url('https://fonts.cdnfonts.com/css/flower-show');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap');
+.Pranakon {
+    width: 70%;
+    margin: 3rem auto;
+    display: flex;
+    background-color: var(--accent1);
+    border: 1px solid var(--accent2);
+    outline: 2px solid var(--accent1);
+    font-family: "Sarabun", sans-serif;
+}
+
+
+.Pranakon-bg {
+    width: 96.5%;
+    margin: 8px auto;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient( rgba(241, 237, 226, 0.9), rgba(241, 237, 226, 1));
+    border: 2px solid var(--accent1);
+    outline: 5px solid var(--accent2);
+}
+
+.header{
+  margin: 100px auto 0;
+  width: 90%;
+}
+
+.pheaderpic {
+    width: 550px;
+    height: 450px;
+    margin: 0 auto 10px;
+    position: relative;
+    z-index: 2;
+}
+.pheaderpic img {
+    width: 100%;
+}
+.pheaderpic2{
+    width: 104px;
+    height: 135px;
+    transform: translate(315px, 133px) rotate(7.6deg);
+    position: relative;
+
+}
+.namehead {
+  margin: auto auto 0 auto;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #181818;
+  letter-spacing: 3px;
+}
+
+.namecha {
+font-family: "Pattaya", sans-serif;
+  margin: 0 auto;
+  color: var(--accent4);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 35px;
+  line-height: 1.5em;
+  letter-spacing: 2px;
+}
+
+.place {
+  margin: 15px auto auto auto;
+  font-size: 10px;
+  text-align: center;
+  line-height: 1em;
+  letter-spacing: 1px;
+  color: var(--txtcolor);
+  font-style: italic;
+}
+
+.ptextbox {
+  width: 75%;
+  margin: 50px auto;
+  border: 1px solid #9c81af;
+}
+
+#ptextboxa {
+    font-family: "Bai Jamjuree", sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 2;
+    padding: 50px;
+    color: var(--txtcolor);
+}
+#ptextboxa section text{color: var(--accent4);}
+
+.flower{
+  margin: 0 auto 100px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.flowera {
+  font-size: 9px;
+  text-align: center;
+  font-family: "Bai Jamjuree", sans-serif;
+  text-transform: uppercase;
+  color: var(--txtcolor);
+  line-height: 1em;
+}
+
+.flowera span {
+    font-family: "Bai Jamjuree", sans-serif;
+  letter-spacing: 3px;
+  color: var(--accent4);
+  font-style: italic;
+}
+
+.flowericon {
+    font-family: 'Flower Show', sans-serif;
+  text-align: center;
+  margin: 10px auto 0;
+  color: var(--accent4);
+  font-size: 70px;
+}
