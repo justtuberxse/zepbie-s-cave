@@ -1,9 +1,8 @@
 @font-face {
-  font-family: 'Flower Show';
-  src: url('https://cdn.jsdelivr.net/gh/justtuberxse/zepbie-s-font/FlowerShow.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'Flower Show';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Flower Show'), url('https://fonts.cdnfonts.com/s/11041/Fleurs_6.woff') format('woff');
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Sarabun:wght@400;700&display=swap');
