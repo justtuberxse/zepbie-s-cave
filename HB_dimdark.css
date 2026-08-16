@@ -1,0 +1,198 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+        #hb_dimdark {
+            background: #000;
+            color: #fff;
+            min-height: 450px;
+            font-family: "Google Sans", sans-serif;
+            position: relative;
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 55px 5vw;
+            overflow: hidden;
+        }
+
+#hb_dimdark .image-box {
+    position: absolute;
+    top: 55px;
+    left: 5vw;
+    width: 200px;
+    aspect-ratio: 3 / 5;
+    overflow: hidden;
+    z-index: 5;
+}
+
+   #hb_dimdark .image-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
+#hb_dimdark .circle {
+    position: absolute;
+    top: 12px;
+    left: 238px;
+    width: 200px;
+    aspect-ratio: 1 / 1;
+    border: 2px solid rgba(255, 255, 255, .45);
+    border-radius: 50%;
+    z-index: 1;
+    background: var(--avtimg);
+}
+
+#hb_dimdark .title-area {
+    position: absolute;
+    top: 150px;
+    left: 205px;
+    right: 5vw;
+    z-index: 1;
+}
+
+        #hb_dimdark .title-line {
+            width: 100%;
+            height: 1px;
+
+            background: rgba(255,255,255,.5);
+
+            margin-bottom: 11px;
+        }
+
+      #hb_dimdark  .title {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+
+            padding-right: 48px;
+
+            font-family: "Cormorant Garamond", serif;
+            font-size: 20px;
+            font-weight: 400;
+
+            line-height: 1;
+            letter-spacing: .5px;
+        }
+
+    #hb_dimdark    .title span:last-child {
+            margin-top: 3px;
+             font-size: 2.25rem;
+        }
+
+
+      #hb_dimdark  .label {
+            position: absolute;
+            top: 129px;
+            left: 205px;
+            font-size: 5px;
+            letter-spacing: 1px;
+            opacity: .8;
+        }
+
+#hb_dimdark .description {
+    position: absolute;
+    top: 275px;
+    width: auto;
+    padding: 0 7.5rem 0 2rem;
+    font-size: 16px;
+    line-height: 1.75;
+    text-align: justify;
+}
+
+#hb_dimdark .description-insv {
+    float: left;
+    width: 175px;
+    aspect-ratio: 4 / 3;
+    margin-right: 1rem;
+}
+       #hb_dimdark .bottom-line {
+            position: absolute;
+
+            top: 174px;
+            left: 38px;
+
+            width: 165px;
+            height: 1px;
+
+            background: rgba(255,255,255,.45);
+        }
+
+        /* --------------------------------
+           RESPONSIVE
+        -------------------------------- */
+
+@media screen and (max-width: 1050px){
+
+        #hb_dimdark {
+            min-height: 600px;
+            padding: 20px 0;
+    }
+
+       #hb_dimdark .image-box {
+            width: 150px;
+            left: 60px;
+            top: 70px;
+        }
+
+
+           #hb_dimdark .circle {
+                width: 150px;
+                position: absolute;
+                left: 157px;
+                top: 31px;
+            }
+
+            #hb_dimdark .monogram {
+                top: 42px;
+                left: 55px;
+
+                font-size: 75px;
+            }
+
+          #hb_dimdark  .title-area {
+            top: 135px;
+            left: 35px;
+             right: 25px;
+             }
+
+         #hb_dimdark   .title {
+                padding-right: 15px;
+            }
+
+        #hb_dimdark    .label {
+                top: 112px;
+                left: 135px;
+            }
+
+           #hb_dimdark .description {
+                top: 259px;
+                width: calc(100% - 60px);
+                font-size: small;
+            }
+
+           #hb_dimdark .bottom-text {
+                top: 190px;
+                left: 25px;
+                right: 25px;
+
+                font-size: 7px;
+            }
+
+           #hb_dimdark .bottom-line {
+                left: 25px;
+                top: 187px;
+            }
+           #hb_dimdark .description-insv {
+                width: 175px;
+                aspect-ratio: 4 / 2;
+                margin-right: 1rem;
+}
+        }
+#hb_dimdark .cd {
+    margin:auto;
+    text-align: center; 
+    font-size: x-small;
+    margin-top: 5px;
+    color: transparent;
+}
