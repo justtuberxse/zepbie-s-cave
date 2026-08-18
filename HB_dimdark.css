@@ -15,7 +15,7 @@
 
 #hb_dimdark .image-box {
     position: absolute;
-    top: 55px;
+    top: 75px;
     left: 3vw;
     width: 220px;
     aspect-ratio: 3 / 5;
@@ -32,7 +32,7 @@
 
  #hb_dimdark .circle {
     position: absolute;
-    top: 12px;
+    top: 20px;
     left: 250px;
     width: 200px;
     aspect-ratio: 1 / 1;
