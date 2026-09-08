@@ -135,10 +135,10 @@ note{
 margin-top: 15px;
 }
 
-/* --- Media Query สำหรับหน้าจอต่ำกว่า 1080px --- */
+
 @media screen and (max-width: 1080px) {
     .ts_container {
-        transform: scale(0.9); /* ย่อขนาดภาพรวม */
+        transform: scale(0.9); 
     }
     
     .collage-section {
@@ -153,6 +153,7 @@ margin-top: 15px;
     .scalloped-box-container {
         width: 90%;
     }
+    #tealsrole:after {    bottom: 35px;}
 }
 #tealsrole:after {
     content: "\f458";
