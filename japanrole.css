@@ -33,7 +33,7 @@ color:#bbbbbb;
     }
     #__drown .__dqt{
         width: 40%;
-        font-family: playfair display;
+        font-family: 'playfair display','Sarabun';
         font-size: smaller;
         text-align: center;
         letter-spacing: 1.5px;
@@ -72,7 +72,7 @@ color:#bbbbbb;
         font-style:normal;
         font-size:9px;
         letter-spacing:2px;
-        font-family: playfair display;
+        font-family: 'playfair display','Sarabun';
     }
     #__drown .__dplc{
         text-transform:uppercase;
