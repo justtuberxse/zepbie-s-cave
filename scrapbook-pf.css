@@ -58,7 +58,7 @@
 
 .scb-profile-img {
   width: 100%;
-  height: 100%;
+  height: 100% !Important ;
   object-fit: cover;
 }
 
